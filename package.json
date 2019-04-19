@@ -1,8 +1,8 @@
 {
-  "name": "test-feathers",
-  "description": "",
-  "version": "0.0.0",
-  "homepage": "",
+  "name": "feathersjs-boilerplate",
+  "description": "Feathers JS Boilerplate",
+  "version": "0.0.1",
+  "homepage": "https://github.com/berviantoleo/FeathersJS-Boilerplate",
   "main": "src",
   "keywords": [
     "feathers"
@@ -12,7 +12,10 @@
     "email": "bervianto.leo@gmail.com"
   },
   "contributors": [],
-  "bugs": {},
+  "bugs": {
+    "email": "bervianto.leo@gmail.com",
+    "url": "https://github.com/berviantoleo/FeathersJS-Boilerplate/issues"
+  },
   "directories": {
     "lib": "src",
     "test": "test/",
@@ -27,7 +30,8 @@
     "eslint": "eslint src/. test/. --config .eslintrc.json",
     "dev": "nodemon src/",
     "start": "node src/",
-    "jest": "jest"
+    "jest": "jest",
+    "fix-lint": "eslint src/. test/. --config .eslintrc.json --fix"
   },
   "dependencies": {
     "@feathersjs/configuration": "^2.0.4",

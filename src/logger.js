@@ -3,7 +3,9 @@ const getNamespace = require('cls-hooked').getNamespace;
 
 const myFormat = format.printf(({level, message, timestamp}) => {
   const loggerNamespace = getNamespace('logger');
-  return `[${timestamp}] [${level}] [${loggerNamespace.get('correlationId')}]: ${message}`;
+  let correlationId = loggerNamespace ? loggerNamespace.get('correlationId') : '';
+  correlationId = correlationId ? correlationId : '';
+  return `[${timestamp}] [${level}] [${correlationId}]: ${message}`;
 });
 
 // Configure the Winston logger. For the complete documentation see https://github.com/winstonjs/winston

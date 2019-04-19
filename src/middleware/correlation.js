@@ -8,7 +8,7 @@ function correlation(namespace) {
       namespace.set('correlationId', correlationId);
       next();
     });
-  }
+  };
 }
 
 module.exports = correlation;
