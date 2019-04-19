@@ -1,5 +1,7 @@
 # FeathersJS-Boilerplate
 
+[![Build Status](https://travis-ci.org/berviantoleo/FeathersJS-Boilerplate.svg?branch=master)](https://travis-ci.org/berviantoleo/FeathersJS-Boilerplate)
+
 FeathersJS Boilerplate for my own project
 
 ## About
