@@ -1,6 +1,6 @@
-# test-feathers
+# FeathersJS-Boilerplate
 
-> 
+FeathersJS Boilerplate for my own project
 
 ## About
 
@@ -13,13 +13,13 @@ Getting up and running is as easy as 1, 2, 3.
 1. Make sure you have [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
 2. Install your dependencies
 
-    ```
+    ```bash
     cd path/to/test-feathers; npm install
     ```
 
 3. Start your app
 
-    ```
+    ```bash
     npm start
     ```
 
@@ -31,7 +31,7 @@ Simply run `npm test` and all your tests in the `test/` directory will be run.
 
 Feathers has a powerful command line interface. Here are a few things it can do:
 
-```
+```bash
 $ npm install -g @feathersjs/cli          # Install Feathers CLI
 
 $ feathers generate service               # Generate a new Service
