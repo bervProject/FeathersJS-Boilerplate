@@ -8,6 +8,11 @@ FeathersJS Boilerplate for my own project
 
 This project uses [Feathers](http://feathersjs.com). An open source web framework for building modern real-time applications.
 
+## Features
+
+* Log with correlation id
+* Upload into Google Cloud Storage
+
 ## Getting Started
 
 Getting up and running is as easy as 1, 2, 3.
