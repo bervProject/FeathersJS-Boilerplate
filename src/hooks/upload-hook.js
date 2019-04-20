@@ -10,6 +10,9 @@ module.exports = function (options = {}) {
   return async context => {
     return new Promise((resolve, reject) => {
       const file = context.params.file;
+      if (!file) {
+        reject('File not found');
+      }
       logger.debug(file);
 
       const type = mime.lookup(file.originalname);
