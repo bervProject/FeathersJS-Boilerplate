@@ -44,7 +44,7 @@
     "compression": "^1.7.3",
     "cors": "^2.8.5",
     "feathers-nedb": "^4.0.0",
-    "helmet": "^3.15.0",
+    "helmet": "^3.18.0",
     "multer": "^1.4.1",
     "nedb": "^1.8.0",
     "serve-favicon": "^2.5.0",
