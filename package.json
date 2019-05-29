@@ -53,7 +53,7 @@
   },
   "devDependencies": {
     "eslint": "^5.9.0",
-    "jest": "^24.7.1",
+    "jest": "^24.8.0",
     "nodemon": "^1.19.1",
     "request": "^2.88.0",
     "request-promise": "^4.2.2"
