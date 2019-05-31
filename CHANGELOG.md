@@ -1,9 +1,9 @@
 ## Changelog
 
-__0.1.1__
+__0.0.2__
 
 - Migrate to PostgreSQL
 
-__0.1.0__
+__0.0.1__
 
 - Initial release
