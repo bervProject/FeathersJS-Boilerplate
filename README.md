@@ -4,49 +4,16 @@
 [![Build Status](https://dev.azure.com/berviantoleo/FeathersJS%20Boilerplate/_apis/build/status/bervProject.FeathersJS-Boilerplate?branchName=master)](https://dev.azure.com/berviantoleo/FeathersJS%20Boilerplate/_build/latest?definitionId=2&branchName=master)
 [![codecov](https://codecov.io/gh/bervProject/FeathersJS-Boilerplate/branch/master/graph/badge.svg)](https://codecov.io/gh/bervProject/FeathersJS-Boilerplate)
 
-FeathersJS Boilerplate for my own project
-
 ## About
 
 This project uses [Feathers](http://feathersjs.com). An open source web framework for building modern real-time applications.
+
+FeathersJS Boilerplate for my own project
 
 ## Features
 
 * Log with correlation id
 * Upload into Google Cloud Storage
-
-## Getting Started
-
-Getting up and running is as easy as 1, 2, 3.
-
-1. Make sure you have [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
-2. Install your dependencies
-
-    ```bash
-    cd path/to/test-feathers; npm install
-    ```
-
-3. Start your app
-
-    ```bash
-    npm start
-    ```
-
-## Testing
-
-Simply run `npm test` and all your tests in the `test/` directory will be run.
-
-## Scaffolding
-
-Feathers has a powerful command line interface. Here are a few things it can do:
-
-```bash
-$ npm install -g @feathersjs/cli          # Install Feathers CLI
-
-$ feathers generate service               # Generate a new Service
-$ feathers generate hook                  # Generate a new Hook
-$ feathers help                           # Show all commands
-```
 
 ## Help
 
@@ -54,12 +21,32 @@ For more information on all the things you can do with Feathers visit [docs.feat
 
 ## Changelog
 
-__0.1.0__
-
-- Initial release
+Changelog see [here](CHANGELOG.md)
 
 ## License
 
-Copyright (c) 2018
-
 Licensed under the [MIT license](LICENSE).
+
+```markdown
+MIT License
+
+Copyright (c) 2019 Bervianto Leo Pratama
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
