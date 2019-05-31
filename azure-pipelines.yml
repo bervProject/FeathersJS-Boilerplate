@@ -17,5 +17,6 @@ steps:
 
 - script: |
     yarn
+    yarn global add codecov
     yarn test
   displayName: 'npm install and test'
