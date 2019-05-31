@@ -1,5 +1,5 @@
 // Initializes the `masters` service on path `/masters`
-const createService = require('feathers-nedb');
+const createService = require('feathers-sequelize');
 const createModel = require('../../models/masters.model');
 const hooks = require('./masters.hooks');
 

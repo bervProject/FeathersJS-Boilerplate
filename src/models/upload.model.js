@@ -5,8 +5,8 @@ const DataTypes = Sequelize.DataTypes;
 
 module.exports = function (app) {
   const sequelizeClient = app.get('sequelizeClient');
-  const masters = sequelizeClient.define('masters', {
-    text: {
+  const upload = sequelizeClient.define('upload', {
+    url: {
       type: DataTypes.STRING,
       allowNull: false
     }
@@ -19,10 +19,10 @@ module.exports = function (app) {
   });
 
   // eslint-disable-next-line no-unused-vars
-  masters.associate = function (models) {
+  upload.associate = function (models) {
     // Define associations here
     // See http://docs.sequelizejs.com/en/latest/docs/associations/
   };
 
-  return masters;
+  return upload;
 };

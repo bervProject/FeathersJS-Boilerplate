@@ -7,5 +7,6 @@
     "max": 50
   },
   "bucketName": "<<bucketName>>",
-  "nedb": "../data"
+  "nedb": "../data",
+  "postgres": "postgres://postgres:@localhost:5432/feathersjs_boilerplate"
 }
