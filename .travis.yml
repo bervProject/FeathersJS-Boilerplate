@@ -5,6 +5,8 @@ node_js:
 
 before_script:
   - yarn
+  - yarn add -g codecov
 
 script:
   - yarn test
+  - codecov
