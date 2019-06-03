@@ -34,6 +34,9 @@
     "fix-lint": "eslint src/. test/. --config .eslintrc.json --fix"
   },
   "dependencies": {
+    "@feathersjs/authentication": "^2.1.13",
+    "@feathersjs/authentication-jwt": "^2.0.7",
+    "@feathersjs/authentication-local": "^1.2.7",
     "@feathersjs/configuration": "^2.0.6",
     "@feathersjs/errors": "^3.3.6",
     "@feathersjs/express": "^1.3.1",
@@ -43,6 +46,7 @@
     "cls-hooked": "^4.2.2",
     "compression": "^1.7.4",
     "cors": "^2.8.5",
+    "feathers-hooks-common": "^4.20.7",
     "feathers-logger": "^0.3.2",
     "feathers-sequelize": "^5.1.3",
     "helmet": "^3.18.0",

@@ -5,14 +5,19 @@ const DataTypes = Sequelize.DataTypes;
 
 module.exports = function (app) {
   const sequelizeClient = app.get('sequelizeClient');
-  const upload = sequelizeClient.define('upload', {
-    url: {
+  const users = sequelizeClient.define('users', {
+  
+    email: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      unique: true
+    },
+    password: {
       type: DataTypes.STRING,
       allowNull: false
     },
-    deletedAt: {
-      type: DataTypes.DATE
-    }
+  
+  
   }, {
     hooks: {
       beforeCount(options) {
@@ -22,10 +27,10 @@ module.exports = function (app) {
   });
 
   // eslint-disable-next-line no-unused-vars
-  upload.associate = function (models) {
+  users.associate = function (models) {
     // Define associations here
     // See http://docs.sequelizejs.com/en/latest/docs/associations/
   };
 
-  return upload;
+  return users;
 };

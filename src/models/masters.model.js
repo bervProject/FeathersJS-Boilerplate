@@ -9,6 +9,9 @@ module.exports = function (app) {
     text: {
       type: DataTypes.STRING,
       allowNull: false
+    },
+    deletedAt: {
+      type: DataTypes.DATE
     }
   }, {
     hooks: {
