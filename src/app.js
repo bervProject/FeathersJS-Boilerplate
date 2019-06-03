@@ -10,6 +10,7 @@ const configuration = require('@feathersjs/configuration');
 const express = require('@feathersjs/express');
 const socketio = require('@feathersjs/socketio');
 
+const feathersLogger = require('feathers-logger');
 
 const middleware = require('./middleware');
 const services = require('./services');
@@ -22,6 +23,7 @@ const app = express(feathers());
 
 // Load app configuration
 app.configure(configuration());
+app.configure(feathersLogger(logger));
 // Enable security, CORS, compression, favicon and body parsing
 app.use(helmet());
 app.use(cors());

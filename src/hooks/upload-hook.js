@@ -3,17 +3,17 @@
 const uuid = require('uuid/v4');
 const mime = require('mime-types');
 const Storage = require('@google-cloud/storage').Storage;
-const logger = require('../logger');
 
 // eslint-disable-next-line no-unused-vars
 module.exports = function (options = {}) {
   return async context => {
+    const { app } = context;
     return new Promise((resolve, reject) => {
       const file = context.params.file;
       if (!file) {
         reject('File not found');
       }
-      logger.debug(file);
+      app.debug(file);
 
       const type = mime.lookup(file.originalname);
 
@@ -31,13 +31,13 @@ module.exports = function (options = {}) {
       });
 
       stream.on('error', err => {
-        logger.error('Error Upload');
-        logger.error(err);
+        app.error('Error Upload');
+        app.error(err);
         reject(err);
       });
 
       stream.on('finish', () => {
-        logger.info('finish upload');
+        app.info('finish upload');
         context.data.url = `https://storage.googleapis.com/${bucket.name}/${blob.name}`;
         resolve(context);
       });
