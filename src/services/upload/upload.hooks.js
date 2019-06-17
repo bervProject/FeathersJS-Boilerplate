@@ -15,11 +15,15 @@ module.exports = {
     all: [
       iff(
         isProvider('external'),
-        authenticate('jwt'))
+        authenticate('jwt')
+      )
     ],
     find: [softDelete2()],
     get: [softDelete2()],
-    create: [uploadHook(), softDelete2()],
+    create: [
+      uploadHook(),
+      softDelete2()
+    ],
     update: [softDelete2()],
     patch: [softDelete2()],
     remove: [softDelete2()]
