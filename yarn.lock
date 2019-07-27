@@ -2235,10 +2235,10 @@ feathers-logger@^0.3.2:
   dependencies:
     uberproto "^2.0.0"
 
-feathers-sequelize@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/feathers-sequelize/-/feathers-sequelize-6.0.0.tgz#a9e2f42e5b8d0b9d1c1e3b0124c20cab82e7dd5e"
-  integrity sha512-QVvbbctLpm8uYQzzdoT5v94gw5F43I5AfqK+ICxIDzcKOjz5poBG9SEevF1svLhNcpfsGztsg05Rx9DySpisWw==
+feathers-sequelize@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/feathers-sequelize/-/feathers-sequelize-6.0.1.tgz#ecc57bb0ccff145d4f496b5490ae8c115143a841"
+  integrity sha512-Cf8x0m+OYU2ei80NWDXWYUZy1K27ODKLHdXoHI2v7eSqLrnhHEumJnUbC3uQwc30w9mMuPHSFSp8LsblblDv1w==
   dependencies:
     "@feathersjs/adapter-commons" "^4.0.0-pre.4"
     "@feathersjs/commons" "^4.0.0"
