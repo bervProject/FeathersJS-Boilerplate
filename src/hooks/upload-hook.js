@@ -10,7 +10,11 @@ module.exports = function (options = {}) {
     const { app, method, type } = context;
     if (method === 'create' && type === 'after') {
       return new Promise((resolve, reject) => {
-        const file = context.params.file;
+        const { params } = context;
+        if (!params) {
+          reject('Params Can\'t Null');
+        }        
+        const file = params.file;
         if (!file) {
           reject('File not found');
         }
