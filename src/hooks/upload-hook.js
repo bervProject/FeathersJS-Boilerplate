@@ -13,10 +13,12 @@ module.exports = function (options = {}) {
         const { params } = context;
         if (!params) {
           reject('Params Can\'t Null');
+          return;
         }        
         const file = params.file;
         if (!file) {
           reject('File not found');
+          return;
         }
         app.debug(file);
 
