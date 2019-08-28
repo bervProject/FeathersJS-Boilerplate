@@ -10,25 +10,23 @@
   "nedb": "../data",
   "postgres": "postgres://postgres:@localhost:5432/feathersjs_boilerplate",
   "authentication": {
-    "secret": "4aab9bfdea707a26c7e4f27c85e6894b587d1ef9800391173c8f5fdcd7fa830252629a942a7a2dded5efdc61d65d0d933bfcf5ae4ce2a514d0154bba2440b25dd43b708de983b5a3f7c882888d14d6e95f7d8342e6e1b539a09d90be46f830ee5b2ad31b53cdaa8b1096e07fab8d6b880b2f88eb85f3936f0d914ff74c8432eea620a218edf0a9f03e026d9a4ae3d2c583c677956e8ed0acdf5643cc5a1eaf9764760c04e48d6b9b869fefb0058f67a5f2598a03d9dd768394fc836e793324561609497d4b6040b70f893fddc836511115d26cb7d1a7256b61960461c13e84b88d9959436fe9e7c79f2f88b4be6a732ba2f9edf81e9bd7f32c9aa094116d0397",
-    "strategies": [
+    "entity": "user",
+    "service": "users",
+    "secret": "Tfjcj0pdba0mNdlJINEYspTLefY=",
+    "authStrategies": [
       "jwt",
       "local"
     ],
-    "path": "/authentication",
-    "service": "users",
-    "jwt": {
+    "jwtOptions": {
       "header": {
         "typ": "access"
       },
       "audience": "https://yourdomain.com",
-      "subject": "anonymous",
       "issuer": "feathers",
       "algorithm": "HS256",
       "expiresIn": "1d"
     },
     "local": {
-      "entity": "user",
       "usernameField": "email",
       "passwordField": "password"
     }
