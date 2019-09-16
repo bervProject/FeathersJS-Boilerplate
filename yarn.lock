@@ -278,17 +278,6 @@
     socket.io "^2.2.0"
     uberproto "^2.0.4"
 
-"@feathersjs/transport-commons@^4.3.0", "@feathersjs/transport-commons@^4.3.1":
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-4.3.1.tgz#05ea6b866884100ebd917851b945f685c4146f53"
-  integrity sha512-86SlV5s5lzpwpyvC7y3z990vt5RW7o8BHFDq2WdF6rzDvgh7Jx88h+O1Tc7TCuJvYROQXxI85zM+n4V1r+hIPQ==
-  dependencies:
-    "@feathersjs/commons" "^4.3.0"
-    "@feathersjs/errors" "^4.3.1"
-    debug "^4.1.1"
-    lodash "^4.17.15"
-    radix-router "^3.0.1"
-
 "@feathersjs/transport-commons@^4.3.1":
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-4.3.1.tgz#05ea6b866884100ebd917851b945f685c4146f53"
@@ -2032,10 +2021,10 @@ eslint-visitor-keys@^1.0.0, eslint-visitor-keys@^1.1.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.1.0.tgz#e2a82cea84ff246ad6fb57f9bde5b46621459ec2"
   integrity sha512-8y9YjtM1JBJU/A9Kc+SbaOV4y29sSWckBwMHa+FGtVj5gN/sbnKDf6xJUl+8g7FAij9LVaP8C24DUiH/f/2Z9A==
 
-eslint@^6.3.0:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-6.3.0.tgz#1f1a902f67bfd4c354e7288b81e40654d927eb6a"
-  integrity sha512-ZvZTKaqDue+N8Y9g0kp6UPZtS4FSY3qARxBs7p4f0H0iof381XHduqVerFWtK8DPtKmemqbqCFENWSQgPR/Gow==
+eslint@^6.4.0:
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-6.4.0.tgz#5aa9227c3fbe921982b2eda94ba0d7fae858611a"
+  integrity sha512-WTVEzK3lSFoXUovDHEbkJqCVPEPwbhCq4trDktNI6ygs7aO41d4cDT0JFAT5MivzZeVLWlg7vHL+bgrQv/t3vA==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     ajv "^6.10.0"
