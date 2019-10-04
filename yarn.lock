@@ -239,7 +239,7 @@
   dependencies:
     debug "^4.1.1"
 
-"@feathersjs/express@^4.3.3", "@feathersjs/express@^4.3.4":
+"@feathersjs/express@^4.3.4":
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/@feathersjs/express/-/express-4.3.4.tgz#27ce1f9dba15b39a66353d409678ddfcce266b5c"
   integrity sha512-t30iklJsgXqiOpzDGJ0UjcLHQlJC7YBqOdrx/qyYDS496urlsg4jY5gXU8JZZhnZig2m67cKDL3sbWeSpfhhJA==
