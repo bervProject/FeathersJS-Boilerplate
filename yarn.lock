@@ -144,14 +144,14 @@
   resolved "https://registry.yarnpkg.com/@feathers-plus/batch-loader/-/batch-loader-0.3.6.tgz#1e096e95fcdffb83fb1a65468e6ef80b416f7d98"
   integrity sha512-r+n31iZ/B5Rl1mLkC9/S20UI445MdkZvE3VBmjupep2t8OuyTYHPkFEgR25HY6khH+RothK1VL3B5eumk9N2QQ==
 
-"@feathersjs/adapter-commons@^4.0.0-pre.4":
-  version "4.0.0-pre.5"
-  resolved "https://registry.yarnpkg.com/@feathersjs/adapter-commons/-/adapter-commons-4.0.0-pre.5.tgz#ebb7a862e087da96e9ab4300fe7280d93eeb0416"
-  integrity sha512-ppfiKhV9gOpQye9LpoQ5zdMwO8/49EGLcQMGZR3SRz1lNQmVj/d1q3/6B9hKiAFJkP1EX2JMZbMNFPyTisP6ww==
+"@feathersjs/adapter-commons@^4.3.3":
+  version "4.3.4"
+  resolved "https://registry.yarnpkg.com/@feathersjs/adapter-commons/-/adapter-commons-4.3.4.tgz#7973e7acf8adc8c823ca6c63c641f44982603a92"
+  integrity sha512-8e1TAsHPPsyVHabNGU2pNhgJON/xaiVGPytnPuaylQKs4uOr+JJDqGLQMx9r/ep9g5xGCS0RbwkGNPs7tkPM+w==
   dependencies:
-    "@feathersjs/commons" "^4.0.0-pre.5"
-    "@feathersjs/errors" "^4.0.0-pre.5"
-    "@feathersjs/feathers" "^4.0.0-pre.5"
+    "@feathersjs/commons" "^4.3.0"
+    "@feathersjs/errors" "^4.3.4"
+    "@feathersjs/feathers" "^4.3.4"
 
 "@feathersjs/authentication-jwt@^2.0.10":
   version "2.0.10"
@@ -211,7 +211,7 @@
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-1.4.4.tgz#cd8c0a4dfc7ba1027d359ae80542381241564728"
   integrity sha512-ZPpzyZA3CPfoa9AuFv3BJUI/ubzaaXixp8T/pqeMFPT6DOaU/6oF7lz1RxwimzfJNna4gy/HByt0EoLSI3BKWg==
 
-"@feathersjs/commons@^4.0.0", "@feathersjs/commons@^4.0.0-pre.5", "@feathersjs/commons@^4.3.0":
+"@feathersjs/commons@^4.0.0", "@feathersjs/commons@^4.3.0":
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-4.3.0.tgz#6b0993ac790382aa28ec8a138f3e91501973b418"
   integrity sha512-N3CDavCNRp+usgyfDSFXCwETnp4nIEevl5v1nqULGhPYco0SjF15zu4hYyd3GCn0aAwzaIehYyaMcdee9Eo1KQ==
@@ -232,7 +232,7 @@
   dependencies:
     debug "^4.0.0"
 
-"@feathersjs/errors@^4.0.0-pre.4", "@feathersjs/errors@^4.0.0-pre.5", "@feathersjs/errors@^4.3.3", "@feathersjs/errors@^4.3.4":
+"@feathersjs/errors@^4.3.3", "@feathersjs/errors@^4.3.4":
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-4.3.4.tgz#8c2a9a64b9ae8e1bf8c173497258979dad1c4e6d"
   integrity sha512-x4QfpBbMHrsY7ktMxYDVfYsJf7YVjVOFWThwJ3LgKFC6WNu9YojRJmxRDGftWTQA2MalaJPmOAYCapdp50mwKw==
@@ -262,7 +262,7 @@
     events "^3.0.0"
     uberproto "^2.0.2"
 
-"@feathersjs/feathers@^4.0.0-pre.5", "@feathersjs/feathers@^4.3.3", "@feathersjs/feathers@^4.3.4":
+"@feathersjs/feathers@^4.3.3", "@feathersjs/feathers@^4.3.4":
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-4.3.4.tgz#06791dd39408d8dd7948d54c5596f2f91aa8eb09"
   integrity sha512-2qe8+rkTn7YGFKv7vU0uh367F7SfyYUJuQh+BBmWjupCSH3xsCD5U+sACMZ16442fugWhcIo+41aUnj7e1IQAA==
@@ -2358,14 +2358,14 @@ feathers-logger@^0.3.2:
   dependencies:
     uberproto "^2.0.0"
 
-feathers-sequelize@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/feathers-sequelize/-/feathers-sequelize-6.0.1.tgz#ecc57bb0ccff145d4f496b5490ae8c115143a841"
-  integrity sha512-Cf8x0m+OYU2ei80NWDXWYUZy1K27ODKLHdXoHI2v7eSqLrnhHEumJnUbC3uQwc30w9mMuPHSFSp8LsblblDv1w==
+feathers-sequelize@^6.0.2:
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/feathers-sequelize/-/feathers-sequelize-6.0.2.tgz#f44f03b83d60850b7f4bc799588423ce0f8d5246"
+  integrity sha512-/IbrKbhzVYDFbmOU5r9lCHtTWaZnzt4tsDGnkikqPgYblJSpBwT8oLfeLO3hHbUMOXjJjx8RMMVRggrjHYRTeA==
   dependencies:
-    "@feathersjs/adapter-commons" "^4.0.0-pre.4"
-    "@feathersjs/commons" "^4.0.0"
-    "@feathersjs/errors" "^4.0.0-pre.4"
+    "@feathersjs/adapter-commons" "^4.3.3"
+    "@feathersjs/commons" "^4.3.0"
+    "@feathersjs/errors" "^4.3.3"
 
 feature-policy@0.3.0:
   version "0.3.0"
