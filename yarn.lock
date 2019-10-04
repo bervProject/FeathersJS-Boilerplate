@@ -192,14 +192,14 @@
     grant-profile "^0.0.5"
     lodash "^4.17.15"
 
-"@feathersjs/authentication@^4.3.3":
-  version "4.3.3"
-  resolved "https://registry.yarnpkg.com/@feathersjs/authentication/-/authentication-4.3.3.tgz#66f59fb6082646087d4c186d5cbae8131b2d5fb0"
-  integrity sha512-r2UvjP53lCwjYsvdhLR+qKMqhSRdbTi8EGdi8DQKPBHRjyo4lIW9jZIgHdMWH8nH5+1wjJ1dcRJhG968MI9TOg==
+"@feathersjs/authentication@^4.3.3", "@feathersjs/authentication@^4.3.4":
+  version "4.3.4"
+  resolved "https://registry.yarnpkg.com/@feathersjs/authentication/-/authentication-4.3.4.tgz#6810da5f41b82c84bbea0f16a85030ad893878fd"
+  integrity sha512-RtJeLAAoPu+bWxH7zNvAkYQzPmbvKFHjLSmmdhi9Yjtf7udDqBlg2uhtsUeK4v64xRpS+6tsOmXZOfdWqSrW5w==
   dependencies:
-    "@feathersjs/errors" "^4.3.3"
-    "@feathersjs/feathers" "^4.3.3"
-    "@feathersjs/transport-commons" "^4.3.3"
+    "@feathersjs/errors" "^4.3.4"
+    "@feathersjs/feathers" "^4.3.4"
+    "@feathersjs/transport-commons" "^4.3.4"
     debug "^4.1.1"
     jsonwebtoken "^8.5.1"
     lodash "^4.17.15"
@@ -283,13 +283,13 @@
     socket.io "^2.2.0"
     uberproto "^2.0.4"
 
-"@feathersjs/transport-commons@^4.3.3":
-  version "4.3.3"
-  resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-4.3.3.tgz#1244cff4a0c5a72832e300b2f1985c2d6784db99"
-  integrity sha512-jSH0v4Twg1y9vBkHzeOVHzjHYv5ahaZQVathRmoiHWi/f5JZqwx01+lEBhHkDFJU9tH3BpnjctAdb8BVOz2FFQ==
+"@feathersjs/transport-commons@^4.3.3", "@feathersjs/transport-commons@^4.3.4":
+  version "4.3.4"
+  resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-4.3.4.tgz#fa60262665d54575ef2cd0272c55e0115adbec9f"
+  integrity sha512-94ijldtdPm0s4ZlOutk2mLGiUj4QWOIaj/g3XFQRIe8GM+MzKLrpY4ldLiHMAEleVOjyo2qH5Ar8qN4QLUcF5g==
   dependencies:
     "@feathersjs/commons" "^4.3.0"
-    "@feathersjs/errors" "^4.3.3"
+    "@feathersjs/errors" "^4.3.4"
     debug "^4.1.1"
     lodash "^4.17.15"
     radix-router "^3.0.1"
