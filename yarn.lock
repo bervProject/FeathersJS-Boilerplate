@@ -144,10 +144,10 @@
   resolved "https://registry.yarnpkg.com/@feathers-plus/batch-loader/-/batch-loader-0.3.6.tgz#1e096e95fcdffb83fb1a65468e6ef80b416f7d98"
   integrity sha512-r+n31iZ/B5Rl1mLkC9/S20UI445MdkZvE3VBmjupep2t8OuyTYHPkFEgR25HY6khH+RothK1VL3B5eumk9N2QQ==
 
-"@feathersjs/adapter-commons@^4.3.3":
-  version "4.3.4"
-  resolved "https://registry.yarnpkg.com/@feathersjs/adapter-commons/-/adapter-commons-4.3.4.tgz#7973e7acf8adc8c823ca6c63c641f44982603a92"
-  integrity sha512-8e1TAsHPPsyVHabNGU2pNhgJON/xaiVGPytnPuaylQKs4uOr+JJDqGLQMx9r/ep9g5xGCS0RbwkGNPs7tkPM+w==
+"@feathersjs/adapter-commons@^4.3.6":
+  version "4.3.6"
+  resolved "https://registry.yarnpkg.com/@feathersjs/adapter-commons/-/adapter-commons-4.3.6.tgz#5cdc56718b0fa0dad81405d5edf01f15c6c198ef"
+  integrity sha512-k2Pz9YiR5qHA4MxAGrHPjJkT+R5TrPy6os+r5+A4eFnEQkgvWSDURNGOi1j2KaFbITwto2OkH2eI55NLcxwq0g==
   dependencies:
     "@feathersjs/commons" "^4.3.0"
     "@feathersjs/errors" "^4.3.4"
@@ -232,7 +232,7 @@
   dependencies:
     debug "^4.0.0"
 
-"@feathersjs/errors@^4.3.3", "@feathersjs/errors@^4.3.4":
+"@feathersjs/errors@^4.3.4":
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-4.3.4.tgz#8c2a9a64b9ae8e1bf8c173497258979dad1c4e6d"
   integrity sha512-x4QfpBbMHrsY7ktMxYDVfYsJf7YVjVOFWThwJ3LgKFC6WNu9YojRJmxRDGftWTQA2MalaJPmOAYCapdp50mwKw==
@@ -2358,14 +2358,14 @@ feathers-logger@^0.3.2:
   dependencies:
     uberproto "^2.0.0"
 
-feathers-sequelize@^6.0.2:
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/feathers-sequelize/-/feathers-sequelize-6.0.2.tgz#f44f03b83d60850b7f4bc799588423ce0f8d5246"
-  integrity sha512-/IbrKbhzVYDFbmOU5r9lCHtTWaZnzt4tsDGnkikqPgYblJSpBwT8oLfeLO3hHbUMOXjJjx8RMMVRggrjHYRTeA==
+feathers-sequelize@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/feathers-sequelize/-/feathers-sequelize-6.1.0.tgz#060aed18baf7c063cab2934af6b5f2b430d86e79"
+  integrity sha512-zuqA27SOdQuloLi38aBYT+OgvIClK2VNpH+WkyFfhhfE8pWvCj/6/tWeGapl67lflAwlvRDjO82NLDcH+BE/bQ==
   dependencies:
-    "@feathersjs/adapter-commons" "^4.3.3"
+    "@feathersjs/adapter-commons" "^4.3.6"
     "@feathersjs/commons" "^4.3.0"
-    "@feathersjs/errors" "^4.3.3"
+    "@feathersjs/errors" "^4.3.4"
 
 feature-policy@0.3.0:
   version "0.3.0"
