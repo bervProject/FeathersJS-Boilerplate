@@ -34,7 +34,7 @@
     "fix-lint": "eslint src/. test/. --config .eslintrc.json --fix"
   },
   "dependencies": {
-    "@feathersjs/authentication": "^4.3.7",
+    "@feathersjs/authentication": "^4.3.10",
     "@feathersjs/authentication-jwt": "^2.0.10",
     "@feathersjs/authentication-local": "^4.3.7",
     "@feathersjs/authentication-oauth": "^4.3.7",
