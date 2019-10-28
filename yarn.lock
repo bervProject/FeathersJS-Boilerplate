@@ -222,12 +222,12 @@
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-4.3.7.tgz#7f85d32d96d250a8a6d4a74f60cc7050b0be80df"
   integrity sha512-AX7fh88MUW3d5T+Zb0lVvwrWqioOhtsCwk9LJtQvexS3CTK6E/xzf6qKFfOv3IQ8x82/6OtMW+F2Yjc3clMFiw==
 
-"@feathersjs/configuration@^4.3.7":
-  version "4.3.7"
-  resolved "https://registry.yarnpkg.com/@feathersjs/configuration/-/configuration-4.3.7.tgz#8d3a18715086e5702524d28edf65dc60ef0ef90b"
-  integrity sha512-O7O1tzzxUIk7Dm80L6+8FZ0J+FRo1qx5GUFTs7rmpwSR/tKfdrE7yR1tBMVofrFBlrCUHNi5IdarW+MwpZcDsw==
+"@feathersjs/configuration@^4.3.10":
+  version "4.3.10"
+  resolved "https://registry.yarnpkg.com/@feathersjs/configuration/-/configuration-4.3.10.tgz#4abea6af6b6de1fc6ff39bddd8e211fcf6f405bf"
+  integrity sha512-5s4nCq57CU1sS54m/TZlTyaqIVwY4voMsJdqK5g+WsCvw02imlrlSYgx2aJqiaYcp4ExF2sMXxbkJwc18dpBIw==
   dependencies:
-    "@feathersjs/feathers" "^4.3.7"
+    "@feathersjs/feathers" "^4.3.10"
     config "^3.2.3"
     debug "^4.1.1"
 
