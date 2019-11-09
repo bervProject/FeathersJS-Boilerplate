@@ -63,6 +63,6 @@
     "jest": "^24.9.0",
     "nodemon": "^1.19.4",
     "request": "^2.88.0",
-    "request-promise": "^4.2.4"
+    "request-promise": "^4.2.5"
   }
 }
