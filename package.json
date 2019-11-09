@@ -43,7 +43,7 @@
     "@feathersjs/express": "^4.3.10",
     "@feathersjs/feathers": "^4.3.10",
     "@feathersjs/socketio": "^4.3.10",
-    "@google-cloud/storage": "^4.1.0",
+    "@google-cloud/storage": "^4.1.1",
     "cls-hooked": "^4.2.2",
     "compression": "^1.7.4",
     "cors": "^2.8.5",
