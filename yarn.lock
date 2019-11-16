@@ -192,14 +192,14 @@
     grant-profile "^0.0.6"
     lodash "^4.17.15"
 
-"@feathersjs/authentication@^4.3.10":
-  version "4.3.10"
-  resolved "https://registry.yarnpkg.com/@feathersjs/authentication/-/authentication-4.3.10.tgz#509a2c565dc2bd3fec7dbe4f27ff97154812fffc"
-  integrity sha512-Ucqy4uAnNQ6zueP3gqrNcCw5/BMsNj0gMbCsTLZMvjZ2ua+oxF6ibX7CLiFYCxJoTqTPwo9e5ykmQxlsrv2Orw==
+"@feathersjs/authentication@^4.3.10", "@feathersjs/authentication@^4.3.11":
+  version "4.3.11"
+  resolved "https://registry.yarnpkg.com/@feathersjs/authentication/-/authentication-4.3.11.tgz#448c5935d0c370b869b2013a1e8377f9611fa411"
+  integrity sha512-3CQvj3WO/HVHsKUZqPrD1uoHOi4vwpuSc1crBvXkc10Mt+S/toG5QjQB3LHmFejnlLEiV+ElScYQoduaKDhUaQ==
   dependencies:
-    "@feathersjs/errors" "^4.3.10"
-    "@feathersjs/feathers" "^4.3.10"
-    "@feathersjs/transport-commons" "^4.3.10"
+    "@feathersjs/errors" "^4.3.11"
+    "@feathersjs/feathers" "^4.3.11"
+    "@feathersjs/transport-commons" "^4.3.11"
     "@types/jsonwebtoken" "8.3.4"
     debug "^4.1.1"
     jsonwebtoken "^8.5.1"
@@ -238,10 +238,10 @@
   dependencies:
     debug "^4.0.0"
 
-"@feathersjs/errors@^4.3.10", "@feathersjs/errors@^4.3.4":
-  version "4.3.10"
-  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-4.3.10.tgz#f109633a593515849e040123b5992adaad479aaf"
-  integrity sha512-OWPCfXcife8DRkdP4u1aC4ZZgaov5vfowEtacFX+/l91YsMlvIeI6mEmhK/tcVyF5TK/kuzkai5KJtZlp+R4KQ==
+"@feathersjs/errors@^4.3.10", "@feathersjs/errors@^4.3.11", "@feathersjs/errors@^4.3.4":
+  version "4.3.11"
+  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-4.3.11.tgz#3aff48fc54ca47ca3873c42f043dd69f4c4f6894"
+  integrity sha512-bnfFUUCykgF4ZgjFhDOL4rS9YT9N1GxYgNGwWs6otKCnj0jr9/iXTnda/cjqryTr9fqB/62qkDG/G/FtYqPxvA==
   dependencies:
     debug "^4.1.1"
 
