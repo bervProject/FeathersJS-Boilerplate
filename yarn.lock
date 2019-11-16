@@ -212,12 +212,7 @@
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-1.4.4.tgz#cd8c0a4dfc7ba1027d359ae80542381241564728"
   integrity sha512-ZPpzyZA3CPfoa9AuFv3BJUI/ubzaaXixp8T/pqeMFPT6DOaU/6oF7lz1RxwimzfJNna4gy/HByt0EoLSI3BKWg==
 
-"@feathersjs/commons@^4.0.0", "@feathersjs/commons@^4.3.0":
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-4.3.0.tgz#6b0993ac790382aa28ec8a138f3e91501973b418"
-  integrity sha512-N3CDavCNRp+usgyfDSFXCwETnp4nIEevl5v1nqULGhPYco0SjF15zu4hYyd3GCn0aAwzaIehYyaMcdee9Eo1KQ==
-
-"@feathersjs/commons@^4.3.7":
+"@feathersjs/commons@^4.0.0", "@feathersjs/commons@^4.3.0", "@feathersjs/commons@^4.3.7":
   version "4.3.7"
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-4.3.7.tgz#7f85d32d96d250a8a6d4a74f60cc7050b0be80df"
   integrity sha512-AX7fh88MUW3d5T+Zb0lVvwrWqioOhtsCwk9LJtQvexS3CTK6E/xzf6qKFfOv3IQ8x82/6OtMW+F2Yjc3clMFiw==
@@ -245,20 +240,13 @@
   dependencies:
     debug "^4.1.1"
 
-"@feathersjs/errors@^4.3.11":
+"@feathersjs/express@^4.3.10", "@feathersjs/express@^4.3.11":
   version "4.3.11"
-  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-4.3.11.tgz#3aff48fc54ca47ca3873c42f043dd69f4c4f6894"
-  integrity sha512-bnfFUUCykgF4ZgjFhDOL4rS9YT9N1GxYgNGwWs6otKCnj0jr9/iXTnda/cjqryTr9fqB/62qkDG/G/FtYqPxvA==
-  dependencies:
-    debug "^4.1.1"
-
-"@feathersjs/express@^4.3.10":
-  version "4.3.10"
-  resolved "https://registry.yarnpkg.com/@feathersjs/express/-/express-4.3.10.tgz#5f2a046d6b8d2162042dffa5b98f6476cc76f26c"
-  integrity sha512-B1TcVjn6glFQNIWmuHusk5I1oo+DYls9wZ9OyI4nUlQSBucCFYKSuexyPInVdQdd57iY8cjBGqclI6W1YwqL0Q==
+  resolved "https://registry.yarnpkg.com/@feathersjs/express/-/express-4.3.11.tgz#809ca92efe591f3d09dfce6464e6ad9b95642f02"
+  integrity sha512-/g42a1JK7WXM4+sBfvz9yfAMAf5TwB5PrQqc43gdj5RuJzyZs+OoDTSxnR+fFnbmVhofyRd6PCjzpzp4YWNZ5Q==
   dependencies:
     "@feathersjs/commons" "^4.3.7"
-    "@feathersjs/errors" "^4.3.10"
+    "@feathersjs/errors" "^4.3.11"
     "@types/express" "^4.17.1"
     debug "^4.1.1"
     express "^4.17.1"
@@ -296,7 +284,7 @@
     socket.io "^2.3.0"
     uberproto "^2.0.4"
 
-"@feathersjs/transport-commons@^4.3.10", "@feathersjs/transport-commons@^4.3.11":
+"@feathersjs/transport-commons@^4.3.11":
   version "4.3.11"
   resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-4.3.11.tgz#627cd409c3400e78b4395da5c9e67c59ae2287eb"
   integrity sha512-lDoMO9GZbf5+shGMyAcP7HOaftVjQ4twsHHEzXAYOYiqS6nTosfCivTtNbNr5m0KQfTkREquiDBcV8moVKSKmQ==
