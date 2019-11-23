@@ -61,7 +61,7 @@
   "devDependencies": {
     "eslint": "^6.6.0",
     "jest": "^24.9.0",
-    "nodemon": "^2.0.0",
+    "nodemon": "^2.0.1",
     "request": "^2.88.0",
     "request-promise": "^4.2.5"
   }
