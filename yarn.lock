@@ -165,14 +165,14 @@
     lodash.pick "^4.4.0"
     passport-jwt "^4.0.0"
 
-"@feathersjs/authentication-local@^4.3.11":
-  version "4.3.11"
-  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-local/-/authentication-local-4.3.11.tgz#a04114f9ddc705fed479dcc0a515f7ac41333133"
-  integrity sha512-jggF0Vpl4Gq95McCj0eu626SWxT80cmsq562MDaprRkbJv+TwUPXT1UySJopP/IJjgrjzh014CcPZhK3p3T68w==
+"@feathersjs/authentication-local@^4.4.1":
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-local/-/authentication-local-4.4.1.tgz#328378509e6cb1f114bd9b7c116caa13b424e319"
+  integrity sha512-AnR6dykuTXS4ejTzYptZxsZe0dGn2HtcSSMafOpRhrdg1O6VMEsxJdICclOxZNKTTyiWLh1+C1sNdeJVT5h76w==
   dependencies:
-    "@feathersjs/authentication" "^4.3.11"
-    "@feathersjs/errors" "^4.3.11"
-    "@feathersjs/feathers" "^4.3.11"
+    "@feathersjs/authentication" "^4.4.1"
+    "@feathersjs/errors" "^4.4.1"
+    "@feathersjs/feathers" "^4.4.1"
     bcryptjs "^2.4.3"
     debug "^4.1.1"
     lodash "^4.17.15"
@@ -250,13 +250,6 @@
   dependencies:
     debug "^4.1.1"
 
-"@feathersjs/errors@^4.4.1":
-  version "4.4.1"
-  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-4.4.1.tgz#b8b1e6a9fb4947b98f8a82314728bbc446691bac"
-  integrity sha512-HHITmPnvjms49qzEcjUNSX/udigcLyhqLR0Gkd8U5A4VJEL+LEK9zQRfQ+nx8NQhKuEGn0dBWzgxt2xfxTWocQ==
-  dependencies:
-    debug "^4.1.1"
-
 "@feathersjs/express@^4.3.11":
   version "4.3.11"
   resolved "https://registry.yarnpkg.com/@feathersjs/express/-/express-4.3.11.tgz#809ca92efe591f3d09dfce6464e6ad9b95642f02"
@@ -301,7 +294,7 @@
     socket.io "^2.3.0"
     uberproto "^2.0.4"
 
-"@feathersjs/transport-commons@^4.3.11", "@feathersjs/transport-commons@^4.4.1":
+"@feathersjs/transport-commons@^4.4.1":
   version "4.4.1"
   resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-4.4.1.tgz#5866fde5e3441e9a93953e298a5d7c4b0049c7e6"
   integrity sha512-GprDsVgJRWPR1NYEB3FVVoDWwMLYyl/KIeLZw+6yE1q9fjsImNGznILQX2qKmyk9pL3EU1zrtmXhBBhoArxbaQ==
