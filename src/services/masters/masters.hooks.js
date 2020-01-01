@@ -1,28 +1,28 @@
 const {
-  softDelete2
+  softDelete
 } = require('feathers-hooks-common');
 
 const masterHook = require('../../hooks/master-hook');
 
 module.exports = {
   before: {
-    all: [],
+    all: [
+      softDelete()
+    ],
     find: [
-      masterHook(),
-      softDelete2()
+      masterHook()
     ],
     get: [
-      masterHook(),
-      softDelete2()
+      masterHook()
     ],
-    create: [softDelete2()],
-    update: [softDelete2()],
-    patch: [softDelete2()],
-    remove: [softDelete2()]
+    create: [],
+    update: [],
+    patch: [],
+    remove: []
   },
 
   after: {
-    all: [softDelete2()],
+    all: [],
     find: [],
     get: [],
     create: [],

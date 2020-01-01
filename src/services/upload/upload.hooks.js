@@ -1,5 +1,5 @@
 const {
-  softDelete2,
+  softDelete,
   isProvider,
   iff
 } = require('feathers-hooks-common');
@@ -16,17 +16,17 @@ module.exports = {
       iff(
         isProvider('external'),
         authenticate('jwt')
-      )
+      ),
+      softDelete()
     ],
-    find: [softDelete2()],
-    get: [softDelete2()],
+    find: [],
+    get: [],
     create: [
-      uploadHook(),
-      softDelete2()
+      uploadHook()
     ],
-    update: [softDelete2()],
-    patch: [softDelete2()],
-    remove: [softDelete2()]
+    update: [],
+    patch: [],
+    remove: []
   },
 
   after: {
