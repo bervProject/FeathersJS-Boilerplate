@@ -30,7 +30,7 @@ module.exports = {
   },
 
   after: {
-    all: [softDelete2()],
+    all: [],
     find: [],
     get: [],
     create: [],
