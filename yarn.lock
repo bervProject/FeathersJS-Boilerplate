@@ -207,12 +207,7 @@
     long-timeout "^0.1.1"
     uuid "^3.3.3"
 
-"@feathersjs/commons@^4.3.0", "@feathersjs/commons@^4.4.1", "@feathersjs/commons@^4.4.3", "@feathersjs/commons@^4.5.0":
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-4.5.0.tgz#955c3aa234559cf4c9e172c131032b7f8d48830f"
-  integrity sha512-B3wyBath21RozzC9jmUXJjgt4kSdfzmcdNFsKoL+0W6sv6dIBPzOddIb+NI97CEBSRVpJmv4NUjh32OzkPIrGw==
-
-"@feathersjs/commons@^4.5.0":
+"@feathersjs/commons@^4.3.0", "@feathersjs/commons@^4.4.1", "@feathersjs/commons@^4.5.0":
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-4.5.0.tgz#955c3aa234559cf4c9e172c131032b7f8d48830f"
   integrity sha512-B3wyBath21RozzC9jmUXJjgt4kSdfzmcdNFsKoL+0W6sv6dIBPzOddIb+NI97CEBSRVpJmv4NUjh32OzkPIrGw==
@@ -263,18 +258,18 @@
     events "^3.0.0"
     uberproto "^2.0.4"
 
-"@feathersjs/socketio@^4.4.3":
-  version "4.4.3"
-  resolved "https://registry.yarnpkg.com/@feathersjs/socketio/-/socketio-4.4.3.tgz#4bdd4fd281443ddb493988f178f1182bdd41bbd8"
-  integrity sha512-Wcdx/dKDS/3t7MO/WRegUFBVAmSpGUpAvcIhDCNf9KOpBgkBDEn5KeFiggK9vP1Y8+CeKdJ798eBTrLdjbLIeA==
+"@feathersjs/socketio@^4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@feathersjs/socketio/-/socketio-4.5.0.tgz#399bbb4424ee8f2c56ea714a028d3f5c72690e4a"
+  integrity sha512-8vdznyVPb+xhv3t6LH0/Um9i0KE/v9VquBYvPgOnhWaOdtjONctDqnFMleWCpH696SYvObKBBWO8qU5WvAJhhA==
   dependencies:
-    "@feathersjs/transport-commons" "^4.4.3"
+    "@feathersjs/transport-commons" "^4.5.0"
     "@types/socket.io" "^2.1.4"
     debug "^4.1.1"
     socket.io "^2.3.0"
     uberproto "^2.0.4"
 
-"@feathersjs/transport-commons@^4.4.3", "@feathersjs/transport-commons@^4.5.0":
+"@feathersjs/transport-commons@^4.5.0":
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-4.5.0.tgz#64d226ce569f41da2ae3bc0d77b8f9098df75702"
   integrity sha512-GDwVFtlGCtuMRYPtir8QHOdMEpLnDvL1D0Swi774wwPCbVWse7iJKX65zre+eTymh47+kb3ZKoKZJTMTZeEbEw==
