@@ -212,13 +212,13 @@
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-4.5.0.tgz#955c3aa234559cf4c9e172c131032b7f8d48830f"
   integrity sha512-B3wyBath21RozzC9jmUXJjgt4kSdfzmcdNFsKoL+0W6sv6dIBPzOddIb+NI97CEBSRVpJmv4NUjh32OzkPIrGw==
 
-"@feathersjs/configuration@^4.4.3":
-  version "4.4.3"
-  resolved "https://registry.yarnpkg.com/@feathersjs/configuration/-/configuration-4.4.3.tgz#1db7af2ea7f55e069cf5b648fb7d9ec35a68e43e"
-  integrity sha512-OrWRffsM+GenVrlZJSYtxp+e7LZHCp3ihl2ITPzvsSTAZ4AZCgWKdCylrTQ2fBkeU5xHC4VjArQcLD6Kyx8EYg==
+"@feathersjs/configuration@^4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@feathersjs/configuration/-/configuration-4.5.0.tgz#ab90e985f4dfa2d6f2ee18ed9fcced636384671d"
+  integrity sha512-WXSPvkyWB9A5nvgwjIWLf3fcL3XbpxMpPxSs0PNi5I7e7NH8fHl2zQkNneK/ill/0GkHnzXT/6pSJrWxP89rBg==
   dependencies:
-    "@feathersjs/feathers" "^4.4.3"
-    config "^3.2.3"
+    "@feathersjs/feathers" "^4.5.0"
+    config "^3.2.4"
     debug "^4.1.1"
 
 "@feathersjs/errors@^3.3.6":
@@ -1473,10 +1473,10 @@ concat-stream@^2.0.0:
     readable-stream "^3.0.2"
     typedarray "^0.0.6"
 
-config@^3.2.3:
-  version "3.2.3"
-  resolved "https://registry.yarnpkg.com/config/-/config-3.2.3.tgz#147a30f9eb235ecc46516f767e211335dbcbf3cc"
-  integrity sha512-pditxQzO+SkKX/2gs99YnUGEjmBVkTj2o/hGOgC0oYEU7QgLnVVDYmcSL6HiGels/8QtFJpFzi5iKYv4D0dalg==
+config@^3.2.4:
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/config/-/config-3.2.5.tgz#ab10ab88b61a873fbf9a5f0c6b4a22750422f243"
+  integrity sha512-8itpjyR01lAJanhAlPncBngYRZez/LoRLW8wnGi+6SEcsUyA1wvHvbpIrAJYDJT+W9BScnj4mYoUgbtp9I+0+Q==
   dependencies:
     json5 "^1.0.1"
 
