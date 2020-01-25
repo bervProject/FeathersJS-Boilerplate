@@ -177,22 +177,22 @@
     debug "^4.1.1"
     lodash "^4.17.15"
 
-"@feathersjs/authentication-oauth@^4.5.0":
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-oauth/-/authentication-oauth-4.5.0.tgz#aed258afc188130f1a2c81073cafe26b40b33454"
-  integrity sha512-wwq1hNw3/VY927JrFntUrT2kiZ33LszWQRZc1PXnweiIpAObpMj/zs2UvkuFs3NK4/AD6C2fZ1iV7C9YDJl9oQ==
+"@feathersjs/authentication-oauth@^4.5.1":
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-oauth/-/authentication-oauth-4.5.1.tgz#906c21a8d1fc018f8ca26e79698d9b9c23f5d833"
+  integrity sha512-mycPWy/c500jNj6Os5FgFgJhiTSdBlGes6gQHoHFbfTmfMUyComW8KkKLjMM9ClEGITOApmombCG8lDU42WYwg==
   dependencies:
-    "@feathersjs/authentication" "^4.5.0"
-    "@feathersjs/errors" "^4.5.0"
-    "@feathersjs/express" "^4.5.0"
-    "@feathersjs/feathers" "^4.5.0"
+    "@feathersjs/authentication" "^4.5.1"
+    "@feathersjs/errors" "^4.5.1"
+    "@feathersjs/express" "^4.5.1"
+    "@feathersjs/feathers" "^4.5.1"
     debug "^4.1.1"
     express-session "^1.17.0"
-    grant "^4.6.5"
-    grant-profile "^0.0.9"
+    grant "^4.6.6"
+    grant-profile "^0.0.10"
     lodash "^4.17.15"
 
-"@feathersjs/authentication@^4.5.0", "@feathersjs/authentication@^4.5.1":
+"@feathersjs/authentication@^4.5.1":
   version "4.5.1"
   resolved "https://registry.yarnpkg.com/@feathersjs/authentication/-/authentication-4.5.1.tgz#5e3cc7044399f9aa4c5f50c82d2d448278218d49"
   integrity sha512-Z9YxsMd86lNol/C2zPFtQTfzidvQeT8y0ds/dJagSuswbb5NoRnn7BFoOWlJSa7QiiI+KZ6h7JIOPfLmU+T0DA==
@@ -235,7 +235,7 @@
   dependencies:
     debug "^4.1.1"
 
-"@feathersjs/express@^4.5.0", "@feathersjs/express@^4.5.1":
+"@feathersjs/express@^4.5.1":
   version "4.5.1"
   resolved "https://registry.yarnpkg.com/@feathersjs/express/-/express-4.5.1.tgz#d505836792a17bf7cd1a6019e78a2137c36c8d18"
   integrity sha512-qpJp7GzW0PKBQy0dUtj+Gf2vj+uAoKTgXl9P3Pc566LhBT5fy5HifUvS3bONdYY6Is5VtL1Gx2lMgpuEI7UVEg==
@@ -2660,16 +2660,16 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.15.tgz#ffb703e1066e8a0eeaa4c8b80ba9253eeefbfb00"
   integrity sha512-6uHUhOPEBgQ24HM+r6b/QwWfZq+yiFcipKFrOFiBEnWdy5sdzYoi+pJeQaPI5qOLRFqWmAXUPQNsielzdLoecA==
 
-grant-profile@^0.0.9:
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/grant-profile/-/grant-profile-0.0.9.tgz#dbcbfd83651cc90ec7ba2dce82cf0f9df8cdff90"
-  integrity sha512-e2hkS7CX8hUsHy56zWQWkLVUTbcdAcZP/ZtvrgDqdt5Dt6NkXJ9lJJ9eR3sP3xetjHLiCCvyy5YC4nsMWtXb3g==
+grant-profile@^0.0.10:
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/grant-profile/-/grant-profile-0.0.10.tgz#53699c539126adc567e69f1ad8644b86f32f6e01"
+  integrity sha512-97DTfpw/NZhfG/LIz4DXaHOrwvFPycPWfaRwI/byRLZdCt9h5PGqlsws4kMV5pSmRBFZUVyzd0IRtJ2F2Z5cFQ==
   dependencies:
     qs "^6.9.1"
     request-compose "^1.2.1"
     request-oauth "0.0.3"
 
-grant@^4.6.5:
+grant@^4.6.6:
   version "4.6.6"
   resolved "https://registry.yarnpkg.com/grant/-/grant-4.6.6.tgz#da58aa4d99c0515cfd7466d4a1f1e3ac37cad09a"
   integrity sha512-YpylEOxM0ElPm+HCNEFLvqSA0xL8zo1dOllU0xutAAYbpYxMM4ZDgujYTmWEIIf1z9xn2zWavBgHRpYBtFa+Pw==
