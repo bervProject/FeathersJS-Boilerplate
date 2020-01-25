@@ -41,7 +41,7 @@
     "@feathersjs/configuration": "^4.5.0",
     "@feathersjs/errors": "^4.5.0",
     "@feathersjs/express": "^4.5.0",
-    "@feathersjs/feathers": "^4.5.0",
+    "@feathersjs/feathers": "^4.5.1",
     "@feathersjs/socketio": "^4.5.0",
     "@google-cloud/storage": "^4.2.0",
     "cls-hooked": "^4.2.2",
