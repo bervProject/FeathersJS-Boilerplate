@@ -734,17 +734,7 @@ agent-base@4, agent-base@^4.3.0:
   dependencies:
     es6-promisify "^5.0.0"
 
-ajv@^6.10.0, ajv@^6.5.5, ajv@^6.9.1:
-  version "6.10.0"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.10.0.tgz#90d0d54439da587cd7e843bfb7045f50bd22bdf1"
-  integrity sha512-nffhOpkymDECQyR0mnsUtoCE8RlX38G0rYP+wgLWFyZuUyuuojSSvi/+euOiQBIn63whYwYVIIH1TvE3tu4OEg==
-  dependencies:
-    fast-deep-equal "^2.0.1"
-    fast-json-stable-stringify "^2.0.0"
-    json-schema-traverse "^0.4.1"
-    uri-js "^4.2.2"
-
-ajv@^6.10.2:
+ajv@^6.10.0, ajv@^6.10.2, ajv@^6.5.5, ajv@^6.9.1:
   version "6.10.2"
   resolved "https://registry.npmjs.org/ajv/-/ajv-6.10.2.tgz#d3cea04d6b017b2894ad69040fec8b623eb4bd52"
   integrity sha512-TXtUUEYHuaTEbLZWIKUr5pmBuhDLy+8KYtPYdcV8qC+pOZL+NKqYwvWSRrVXHn+ZmRRAu8vJTAznH7Oag6RVRw==
@@ -2338,10 +2328,10 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "^2.0.0"
 
-feathers-hooks-common@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.npmjs.org/feathers-hooks-common/-/feathers-hooks-common-5.0.1.tgz#91896ef46c7731b119c696e4e98bbc30f85c1796"
-  integrity sha512-Q6HJedORTgfA77vhhRGyY9xFa09ExaJvxPppPkIwGH8yQ4BFGaitlzBe4jKVWcUstBVyaclWS/7k8VKYjqEFpg==
+feathers-hooks-common@^5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/feathers-hooks-common/-/feathers-hooks-common-5.0.2.tgz#b5b96697f35c6be66ad5ba5815acda9c59063108"
+  integrity sha512-SJGjdJaF7xtkxuU67z7eGT2DtiHA7r8DLGYnO/N0EcZMdE30bRHk26mNVd9Kae4Nw5mWLbUa2yXGruLE0CH6Sw==
   dependencies:
     "@feathers-plus/batch-loader" "^0.3.6"
     "@feathersjs/commons" "^4.4.1"
