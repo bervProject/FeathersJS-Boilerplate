@@ -1,4 +1,5 @@
 const Sequelize = require('sequelize');
+const logger = require('./logger');
 
 module.exports = function (app) {
   const connectionString = app.get('postgres');
@@ -26,7 +27,9 @@ module.exports = function (app) {
     });
 
     // Sync to the database
-    sequelize.sync();
+    sequelize.sync().catch(err => {
+      logger.info(JSON.stringify(err));
+    });
 
     return result;
   };
