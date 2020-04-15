@@ -1,4 +1,4 @@
-# FeathersJS-Boilerplate
+# FeathersJS Boilerplate
 
 ## Build Status
 
