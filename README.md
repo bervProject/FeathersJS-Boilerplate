@@ -1,8 +1,10 @@
 # FeathersJS-Boilerplate
 
-[![Build Status](https://travis-ci.org/bervProject/FeathersJS-Boilerplate.svg?branch=master)](https://travis-ci.org/bervProject/FeathersJS-Boilerplate)
-[![Build Status](https://dev.azure.com/berviantoleo/FeathersJS%20Boilerplate/_apis/build/status/bervProject.FeathersJS-Boilerplate?branchName=master)](https://dev.azure.com/berviantoleo/FeathersJS%20Boilerplate/_build/latest?definitionId=2&branchName=master)
-[![codecov](https://codecov.io/gh/bervProject/FeathersJS-Boilerplate/branch/master/graph/badge.svg)](https://codecov.io/gh/bervProject/FeathersJS-Boilerplate)
+## Build Status
+
+| Travis | Azure Pipelines | Codecov |
+|:------:|:---------------:|:-------:|
+| [![Build Status](https://travis-ci.org/bervProject/FeathersJS-Boilerplate.svg?branch=master)](https://travis-ci.org/bervProject/FeathersJS-Boilerplate) | [![Build Status](https://dev.azure.com/berviantoleo/FeathersJS%20Boilerplate/_apis/build/status/bervProject.FeathersJS-Boilerplate?branchName=master)](https://dev.azure.com/berviantoleo/FeathersJS%20Boilerplate/_build/latest?definitionId=2&branchName=master) | [![codecov](https://codecov.io/gh/bervProject/FeathersJS-Boilerplate/branch/master/graph/badge.svg)](https://codecov.io/gh/bervProject/FeathersJS-Boilerplate) |
 
 ## About
 
