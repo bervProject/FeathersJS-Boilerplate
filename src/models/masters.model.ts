@@ -1,12 +1,12 @@
 // See http://docs.sequelizejs.com/en/latest/docs/models-definition/
 // for more of what you can do here.
-const Sequelize = require('sequelize');
-const DataTypes = Sequelize.DataTypes;
+import { Sequelize, DataTypes } from 'sequelize';
+import { Application } from '../declarations';
 
-module.exports = function (app) {
-  const sequelizeClient = app.get('sequelizeClient');
-  const upload = sequelizeClient.define('upload', {
-    url: {
+export default function (app: Application) {
+  const sequelizeClient: Sequelize = app.get('sequelizeClient');
+  const masters = sequelizeClient.define('masters', {
+    text: {
       type: DataTypes.STRING,
       allowNull: false
     },
@@ -15,17 +15,17 @@ module.exports = function (app) {
     }
   }, {
     hooks: {
-      beforeCount(options) {
+      beforeCount(options: any) {
         options.raw = true;
       }
     }
   });
 
   // eslint-disable-next-line no-unused-vars
-  upload.associate = function (models) {
+  (masters as any).associate = function (models: any) {
     // Define associations here
     // See http://docs.sequelizejs.com/en/latest/docs/associations/
   };
 
-  return upload;
+  return masters;
 };

@@ -1,7 +1,7 @@
 {
   "name": "feathersjs-boilerplate",
   "description": "Feathers JS Boilerplate",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "homepage": "https://github.com/berviantoleo/FeathersJS-Boilerplate",
   "main": "src",
   "keywords": [
@@ -26,13 +26,19 @@
     "yarn": ">= 0.18.0"
   },
   "scripts": {
-    "test": "yarn run eslint && yarn run jest",
-    "eslint": "eslint src/. test/. --config .eslintrc.json",
-    "dev": "nodemon src/",
-    "start": "node src/",
-    "jest": "jest",
-    "fix-lint": "eslint src/. test/. --config .eslintrc.json --fix"
+    "test": "yarn run compile && yarn run jest",
+    "dev": "ts-node-dev --no-notify src/",
+    "start": "yarn run compile && node lib/",
+    "jest": "jest  --forceExit",
+    "compile": "shx rm -rf lib/ && tsc"
   },
+  "standard": {
+    "env": [
+      "jest"
+    ],
+    "ignore": []
+  },
+  "types": "lib/",
   "dependencies": {
     "@feathersjs/authentication": "^4.5.2",
     "@feathersjs/authentication-jwt": "^2.0.10",
@@ -48,9 +54,9 @@
     "compression": "^1.7.4",
     "cors": "^2.8.5",
     "feathers-hooks-common": "^5.0.2",
-    "feathers-logger": "^0.3.2",
     "feathers-sequelize": "^6.1.0",
     "helmet": "^3.22.0",
+    "mime-types": "^2.1.26",
     "multer": "^1.4.2",
     "pg": "^8.0.2",
     "sequelize": "^5.21.6",
@@ -59,10 +65,25 @@
     "winston": "^3.2.1"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
+    "@types/bluebird": "^3.5.30",
+    "@types/cls-hooked": "^4.3.0",
+    "@types/compression": "^1.7.0",
+    "@types/cors": "^2.8.6",
+    "@types/helmet": "^0.0.45",
+    "@types/jest": "^25.2.1",
+    "@types/jsonwebtoken": "^8.3.9",
+    "@types/mime-types": "^2.1.0",
+    "@types/multer": "^1.4.2",
+    "@types/serve-favicon": "^2.5.0",
+    "@types/uuid": "^7.0.2",
+    "@types/validator": "^13.0.0",
+    "axios": "^0.19.2",
     "jest": "^25.3.0",
     "nodemon": "^2.0.3",
-    "request": "^2.88.2",
-    "request-promise": "^4.2.5"
+    "shx": "^0.3.2",
+    "ts-jest": "^25.3.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "tslint": "^6.1.1",
+    "typescript": "^3.8.3"
   }
 }

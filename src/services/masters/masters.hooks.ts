@@ -1,13 +1,20 @@
-const {
-  softDelete
-} = require('feathers-hooks-common');
+import {
+  softDelete,
+} from 'feathers-hooks-common';
+import masterHook from '../../hooks/master-hook';
 
-const masterHook = require('../../hooks/master-hook');
-
-module.exports = {
+export default {
   before: {
     all: [
-      softDelete()
+      softDelete({
+        // context is the normal hook context
+        deletedQuery: async context => {
+          return { deletedAt: null };
+        },
+        removeData: async context => {
+          return { deletedAt: new Date() };
+        }
+      })
     ],
     find: [
       masterHook()

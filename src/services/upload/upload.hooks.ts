@@ -1,23 +1,28 @@
-const {
+import {
   softDelete,
   isProvider,
   iff
-} = require('feathers-hooks-common');
+} from 'feathers-hooks-common';
+import uploadHook from '../../hooks/upload-hook';
+import * as feathersAuthentication from '@feathersjs/authentication';
+const { authenticate } = feathersAuthentication.hooks;
 
-const {
-  authenticate
-} = require('@feathersjs/authentication').hooks;
-
-const uploadHook = require('../../hooks/upload-hook');
-
-module.exports = {
+export default {
   before: {
     all: [
       iff(
         isProvider('external'),
         authenticate('jwt')
       ),
-      softDelete()
+      softDelete({
+        // context is the normal hook context
+        deletedQuery: async context => {
+          return { deletedAt: null };
+        },
+        removeData: async context => {
+          return { deletedAt: new Date() };
+        }
+      })
     ],
     find: [],
     get: [],

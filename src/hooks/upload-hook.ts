@@ -1,28 +1,34 @@
 // Use this hook to manipulate incoming or outgoing data.
 // For more information on hooks see: http://docs.feathersjs.com/api/hooks.html
-const uuid = require('uuid/v4');
-const mime = require('mime-types');
-const Storage = require('@google-cloud/storage').Storage;
+import { v4 as uuid } from 'uuid';
+import mime from 'mime-types';
+import { Storage } from '@google-cloud/storage';
+import { HookContext, Hook } from '@feathersjs/feathers';
+import logger from '../logger';
 
 // eslint-disable-next-line no-unused-vars
-module.exports = function (options = {}) {
-  return async context => {
+export default function (options = {}): Hook {
+  return async (context: HookContext) => {
     const { app, method, type } = context;
     if (method === 'create' && type === 'after') {
-      return new Promise((resolve, reject) => {
+      let promise = new Promise<HookContext>((resolve, reject) => {
         const { params } = context;
         if (!params) {
           reject('Params Can\'t Null');
           return;
-        }        
+        }
         const file = params.file;
         if (!file) {
           reject('File not found');
           return;
         }
-        app.debug(file);
+        logger.debug(file);
 
         const type = mime.lookup(file.originalname);
+        if (!type) {
+          reject('Can\'t find mime-type')
+          return;
+        }
 
         const storage = new Storage({
           keyFilename: 'src/credentials/google.json',
@@ -38,19 +44,20 @@ module.exports = function (options = {}) {
         });
 
         stream.on('error', err => {
-          app.error('Error Upload');
-          app.error(err);
+          logger.error('Error Upload');
+          logger.error(err);
           reject(err);
         });
 
         stream.on('finish', () => {
-          app.info('finish upload');
+          logger.info('finish upload');
           context.data.url = `https://storage.googleapis.com/${bucket.name}/${blob.name}`;
           resolve(context);
         });
 
         stream.end(file.buffer);
       });
+      return await promise;
     } else {
       return context;
     }

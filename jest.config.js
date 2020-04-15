@@ -1,9 +1,14 @@
 module.exports = {
-  "collectCoverage": true,
-  "collectCoverageFrom": [
-    "**/src/*.{js,jsx}",
-    "!**/node_modules/**",
-    "!**/vendor/**"
+  preset: 'ts-jest',
+  testEnvironment: 'node',
+  globals: {
+    'ts-jest': {
+      diagnostics: false
+    }
+  },
+  collectCoverage: true,
+  collectCoverageFrom: [
+    "**/src/*.{ts,tsx}"
   ],
-  "coverageDirectory": "./coverage/",
+  coverageDirectory: "./coverage/",
 }

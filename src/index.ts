@@ -1,6 +1,7 @@
 /* eslint-disable no-console */
-const logger = require('./logger');
-const app = require('./app');
+import logger from './logger';
+import app from './app';
+
 const port = app.get('port');
 const server = app.listen(port);
 
