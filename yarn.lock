@@ -318,7 +318,7 @@
     grant-profile "^0.0.11"
     lodash "^4.17.15"
 
-"@feathersjs/authentication@^4.5.2", "@feathersjs/authentication@^4.5.3":
+"@feathersjs/authentication@^4.5.3":
   version "4.5.3"
   resolved "https://registry.yarnpkg.com/@feathersjs/authentication/-/authentication-4.5.3.tgz#6f39749d999546b9e1a9117c249989385f45cd51"
   integrity sha512-OhwLktiULpKMk0hwMNI0Rn285xDjvhnVkyeg6QuQ+84jhb4dFNHp8gE29wgJS0tYXL6jJchq5b9VvguHyoThmQ==
@@ -366,7 +366,7 @@
   dependencies:
     debug "^4.1.1"
 
-"@feathersjs/express@^4.5.2", "@feathersjs/express@^4.5.3":
+"@feathersjs/express@^4.5.3":
   version "4.5.3"
   resolved "https://registry.yarnpkg.com/@feathersjs/express/-/express-4.5.3.tgz#4a7ee196fe539d3437c77b7c4301fbd3bfe47637"
   integrity sha512-d+5OqCwV/Ev+O5AtY6kSryIGMbIWSZUPSvQWyTlU9Qu6bCJDgJFrciO74WtNZoY8HrRWvwjsc4M0QIiqtNXyqw==
