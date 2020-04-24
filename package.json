@@ -60,7 +60,7 @@
     "mime-types": "^2.1.26",
     "multer": "^1.4.2",
     "pg": "^8.0.3",
-    "sequelize": "^5.21.6",
+    "sequelize": "^5.21.7",
     "serve-favicon": "^2.5.0",
     "uuid": "^7.0.3",
     "winston": "^3.2.1"
