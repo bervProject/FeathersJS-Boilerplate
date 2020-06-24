@@ -62,7 +62,7 @@
     "pg": "^8.2.1",
     "sequelize": "^5.21.13",
     "serve-favicon": "^2.5.0",
-    "uuid": "^8.1.0",
+    "uuid": "^8.2.0",
     "winston": "^3.3.3"
   },
   "devDependencies": {
