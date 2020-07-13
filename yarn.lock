@@ -327,25 +327,30 @@
     grant-profile "^0.0.11"
     lodash "^4.17.15"
 
-"@feathersjs/authentication@^4.5.3":
-  version "4.5.3"
-  resolved "https://registry.yarnpkg.com/@feathersjs/authentication/-/authentication-4.5.3.tgz#6f39749d999546b9e1a9117c249989385f45cd51"
-  integrity sha512-OhwLktiULpKMk0hwMNI0Rn285xDjvhnVkyeg6QuQ+84jhb4dFNHp8gE29wgJS0tYXL6jJchq5b9VvguHyoThmQ==
+"@feathersjs/authentication@^4.5.3", "@feathersjs/authentication@^4.5.6":
+  version "4.5.6"
+  resolved "https://registry.yarnpkg.com/@feathersjs/authentication/-/authentication-4.5.6.tgz#0f87d42d445afaf69197ddfb701d81ffd0ba4729"
+  integrity sha512-CWjpQtfPlbJ70oUu/UTVo6+TE5DNmmxcJSVX/cdVmn7cSzRzZ8MVUl/uVsxYPiRMSG0+9aTuo3ZuEf5qTVH4Xw==
   dependencies:
-    "@feathersjs/errors" "^4.5.3"
-    "@feathersjs/feathers" "^4.5.3"
-    "@feathersjs/transport-commons" "^4.5.3"
-    "@types/jsonwebtoken" "^8.3.9"
+    "@feathersjs/errors" "^4.5.5"
+    "@feathersjs/feathers" "^4.5.5"
+    "@feathersjs/transport-commons" "^4.5.5"
+    "@types/jsonwebtoken" "^8.5.0"
     debug "^4.1.1"
     jsonwebtoken "^8.5.1"
-    lodash "^4.17.15"
+    lodash "^4.17.19"
     long-timeout "^0.1.1"
-    uuid "^7.0.3"
+    uuid "^8.2.0"
 
 "@feathersjs/commons@^4.4.3", "@feathersjs/commons@^4.5.2", "@feathersjs/commons@^4.5.3":
   version "4.5.3"
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-4.5.3.tgz#72ea846c80b74e3251448486b7800e7550cb0fa1"
   integrity sha512-LsiZ0jxh13TT6SOrDq5VYtdBCv0Vdvu4a5Wei/Dvd/daZHX6ERuH6iQtfh2f5hFwuydtd+Ch/2GlYld8XziwhA==
+
+"@feathersjs/commons@^4.5.5":
+  version "4.5.5"
+  resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-4.5.5.tgz#bef2abdfaeeb7860b4681f0f0ca1c1613d3f9847"
+  integrity sha512-pY1yyrK6kMcdq5cdLkTtGQlsFoT3kexiSXwPc7weXPTRhpqWyZ49c5iy+6JxwyQKaMQUZCfK0KQ3CxlVdTMCQQ==
 
 "@feathersjs/configuration@^4.5.3":
   version "4.5.3"
@@ -363,10 +368,10 @@
   dependencies:
     debug "^4.0.0"
 
-"@feathersjs/errors@^4.4.3", "@feathersjs/errors@^4.5.2", "@feathersjs/errors@^4.5.3":
-  version "4.5.3"
-  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-4.5.3.tgz#7476de0a9586f7290b1cbe5ff481ef293660a25b"
-  integrity sha512-yvy5k0X79yQBxNSmjxU8rxRrKD/YnMjqAWzT/LbJ41UIOsvRzo88pqFuNXTX8qbB90IPjtxgbSjuaxoiQZ7nmg==
+"@feathersjs/errors@^4.4.3", "@feathersjs/errors@^4.5.2", "@feathersjs/errors@^4.5.3", "@feathersjs/errors@^4.5.5":
+  version "4.5.5"
+  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-4.5.5.tgz#04a520926db6e1b42d0fa6723708fde567af017d"
+  integrity sha512-VY4OgdazSmWtmTLbr+/G/NDVKiN/3zmEVR1ngw3lgn4BGSoiohbm3m2TQ6ySROzBTpvUjQEhAQzlhlt6+1268w==
   dependencies:
     debug "^4.1.1"
 
@@ -383,12 +388,12 @@
     lodash "^4.17.15"
     uberproto "^2.0.6"
 
-"@feathersjs/feathers@^4.5.2", "@feathersjs/feathers@^4.5.3":
-  version "4.5.3"
-  resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-4.5.3.tgz#0ad665316bf16a8e238cfe96e108238d2f51115b"
-  integrity sha512-1JcX2orsAatDLN6PKHsfUzA7CXyiBCJ4rV3CArUZIHuIiM2oDto47M3N7B46q9CoqzuXxBG3OtoFV1eb93vnsA==
+"@feathersjs/feathers@^4.5.2", "@feathersjs/feathers@^4.5.3", "@feathersjs/feathers@^4.5.5":
+  version "4.5.5"
+  resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-4.5.5.tgz#45c1522950036ee3c863e7c49c9b90b024dc516d"
+  integrity sha512-H/7ZI7Xomr/5CcmGgdw8yOlskMPdtGpjnm88HUeOhOOlpdm1gSMWVzGp2Uxw94DOy0SxY+6UgIi535xTvelvxg==
   dependencies:
-    "@feathersjs/commons" "^4.5.3"
+    "@feathersjs/commons" "^4.5.5"
     debug "^4.1.1"
     events "^3.1.0"
     uberproto "^2.0.6"
@@ -404,15 +409,15 @@
     socket.io "^2.3.0"
     uberproto "^2.0.6"
 
-"@feathersjs/transport-commons@^4.5.3":
-  version "4.5.3"
-  resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-4.5.3.tgz#312af2af4bfd1a12930aa0f811ca6e56884ed4a1"
-  integrity sha512-5uZh/XTOh7eUfAL+1KueRO0AfUQ/b6CGrtOe7Vjn9Durr7hXVHD3a29CCUBcZWyijHxBTweUWQeGhe/WvgG+Hg==
+"@feathersjs/transport-commons@^4.5.3", "@feathersjs/transport-commons@^4.5.5":
+  version "4.5.5"
+  resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-4.5.5.tgz#08327177948b9d53bc54ac2f52905b4eea7d90e5"
+  integrity sha512-vCe2daomT7fv1hUDBZEhKWvGC33AdjOcDCZvT2Nu49DNjXTVUN+MzFYDB/ekzXd4A849aI2uurvtwQApWKX1NQ==
   dependencies:
-    "@feathersjs/commons" "^4.5.3"
-    "@feathersjs/errors" "^4.5.3"
+    "@feathersjs/commons" "^4.5.5"
+    "@feathersjs/errors" "^4.5.5"
     debug "^4.1.1"
-    lodash "^4.17.15"
+    lodash "^4.17.19"
     radix-router "^3.0.1"
 
 "@google-cloud/common@^3.0.0":
@@ -822,7 +827,7 @@
     jest-diff "^25.2.1"
     pretty-format "^25.2.1"
 
-"@types/jsonwebtoken@^8.3.9", "@types/jsonwebtoken@^8.5.0":
+"@types/jsonwebtoken@^8.5.0":
   version "8.5.0"
   resolved "https://registry.yarnpkg.com/@types/jsonwebtoken/-/jsonwebtoken-8.5.0.tgz#2531d5e300803aa63279b232c014acf780c981c5"
   integrity sha512-9bVao7LvyorRGZCw0VmH/dr7Og+NdjYSsKAxB43OQoComFbBgsEpoR9JW6+qSq/ogwVBg8GI2MfAlk4SYI4OLg==
@@ -4009,10 +4014,10 @@ lodash.sortby@^4.7.0:
   resolved "https://registry.npmjs.org/lodash.sortby/-/lodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
   integrity sha1-7dFMgk4sycHgsKG0K7UhBRakJDg=
 
-lodash@^4.17.13, lodash@^4.17.15:
-  version "4.17.15"
-  resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+lodash@^4.17.13, lodash@^4.17.15, lodash@^4.17.19:
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 logform@^2.2.0:
   version "2.2.0"
@@ -6254,7 +6259,7 @@ uuid@^3.2.1, uuid@^3.3.2:
   resolved "https://registry.npmjs.org/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
 
-uuid@^7.0.0, uuid@^7.0.3:
+uuid@^7.0.0:
   version "7.0.3"
   resolved "https://registry.npmjs.org/uuid/-/uuid-7.0.3.tgz#c5c9f2c8cf25dc0a372c4df1441c41f5bd0c680b"
   integrity sha512-DPSke0pXhTZgoF/d+WSt2QaKMCFSfx7QegxEWT+JOuHF5aWrKEn0G+ztjuJg/gG8/ItK+rbPCD/yNv8yyih6Cg==
