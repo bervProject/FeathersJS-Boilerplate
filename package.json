@@ -69,7 +69,7 @@
     "@types/bluebird": "^3.5.32",
     "@types/cls-hooked": "^4.3.1",
     "@types/compression": "^1.7.0",
-    "@types/cors": "^2.8.6",
+    "@types/cors": "^2.8.7",
     "@types/helmet": "^0.0.47",
     "@types/jest": "^26.0.8",
     "@types/jsonwebtoken": "^8.5.0",
