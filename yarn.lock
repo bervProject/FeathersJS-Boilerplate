@@ -348,12 +348,7 @@
     long-timeout "^0.1.1"
     uuid "^8.2.0"
 
-"@feathersjs/commons@^4.4.3", "@feathersjs/commons@^4.5.2", "@feathersjs/commons@^4.5.3", "@feathersjs/commons@^4.5.7", "@feathersjs/commons@^4.5.8":
-  version "4.5.8"
-  resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-4.5.8.tgz#12351a1796f707a9940e83e875ba414f8c15291d"
-  integrity sha512-8HFQjJ5fkciLbvwWOsbtUvAIOFKMRIXLg+Ynm4HLjK2wHwpWtppkYxe3TfVbc254SYigmQ1c9kK0ERjrn6CqqQ==
-
-"@feathersjs/commons@^4.5.8":
+"@feathersjs/commons@^4.4.3", "@feathersjs/commons@^4.5.2", "@feathersjs/commons@^4.5.3", "@feathersjs/commons@^4.5.8":
   version "4.5.8"
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-4.5.8.tgz#12351a1796f707a9940e83e875ba414f8c15291d"
   integrity sha512-8HFQjJ5fkciLbvwWOsbtUvAIOFKMRIXLg+Ynm4HLjK2wHwpWtppkYxe3TfVbc254SYigmQ1c9kK0ERjrn6CqqQ==
@@ -404,27 +399,16 @@
     events "^3.2.0"
     uberproto "^2.0.6"
 
-"@feathersjs/socketio@^4.5.7":
-  version "4.5.7"
-  resolved "https://registry.npmjs.org/@feathersjs/socketio/-/socketio-4.5.7.tgz#199d613435c11b245b9646e6e1155f597d321b77"
-  integrity sha512-S0j8wIFtq/arjnxyiIWaspdQis18xOtApdOV/neTkPXnkBn5ZJiHpBhlG1CDqpSRTyyamQwML2i9RA47zrTA7Q==
+"@feathersjs/socketio@^4.5.8":
+  version "4.5.8"
+  resolved "https://registry.yarnpkg.com/@feathersjs/socketio/-/socketio-4.5.8.tgz#5d33ff0af270c735b84a5289624e7e4692c0d675"
+  integrity sha512-bcH8Ed4cEm9A5wktvKTvLSClC2VBuAOBV/F1dNYu+CeJTufA+LuiBvt1wEEtxRhGL/7DF0N0gekdg8KKGc9BGQ==
   dependencies:
-    "@feathersjs/transport-commons" "^4.5.7"
+    "@feathersjs/transport-commons" "^4.5.8"
     "@types/socket.io" "^2.1.10"
     debug "^4.1.1"
     socket.io "^2.3.0"
     uberproto "^2.0.6"
-
-"@feathersjs/transport-commons@^4.5.7":
-  version "4.5.7"
-  resolved "https://registry.npmjs.org/@feathersjs/transport-commons/-/transport-commons-4.5.7.tgz#fbef9e3227247a06c68d1d0c2b70f238f6403e78"
-  integrity sha512-ELaSiEqii/FPssZQUyLedLBhcgxUclZN8+4Hxl/Ww0QiVRDmjFunkE8znwbFL0QS1zFn+K1792CU+FB/kvUJMg==
-  dependencies:
-    "@feathersjs/commons" "^4.5.7"
-    "@feathersjs/errors" "^4.5.7"
-    debug "^4.1.1"
-    lodash "^4.17.19"
-    radix-router "^3.0.1"
 
 "@feathersjs/transport-commons@^4.5.8":
   version "4.5.8"
