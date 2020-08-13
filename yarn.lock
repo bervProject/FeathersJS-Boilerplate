@@ -353,12 +353,12 @@
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-4.5.8.tgz#12351a1796f707a9940e83e875ba414f8c15291d"
   integrity sha512-8HFQjJ5fkciLbvwWOsbtUvAIOFKMRIXLg+Ynm4HLjK2wHwpWtppkYxe3TfVbc254SYigmQ1c9kK0ERjrn6CqqQ==
 
-"@feathersjs/configuration@^4.5.7":
-  version "4.5.7"
-  resolved "https://registry.npmjs.org/@feathersjs/configuration/-/configuration-4.5.7.tgz#757f4c501a83809fce98d1007c4ac36e4c738c40"
-  integrity sha512-MRhkamvbGqZ/+vRN33zDS0QVfs/Osaa2Fgf7bax5o1IyjsQv3uPBr8YLXKqI70khSQKKC4oeYvEsTjWt51t+Ag==
+"@feathersjs/configuration@^4.5.8":
+  version "4.5.8"
+  resolved "https://registry.yarnpkg.com/@feathersjs/configuration/-/configuration-4.5.8.tgz#7c92c611800bb6823833a9987df889adeee83189"
+  integrity sha512-eSMoGJBPlIYJagn+WDW+3ZHOWNdSLeH93Q/w1yV0jLMWMBobUHq912KQJ0PAnrzpcsulEnuDrsL2DBWwa/R0bQ==
   dependencies:
-    "@feathersjs/feathers" "^4.5.7"
+    "@feathersjs/feathers" "^4.5.8"
     config "^3.3.1"
     debug "^4.1.1"
 
