@@ -83,7 +83,7 @@
     "nodemon": "^2.0.4",
     "shx": "^0.3.2",
     "ts-jest": "^25.5.1",
-    "ts-node-dev": "^1.0.0-pre.56",
+    "ts-node-dev": "^1.0.0-pre.57",
     "tslint": "^6.1.3",
     "typescript": "^3.9.7"
   }
