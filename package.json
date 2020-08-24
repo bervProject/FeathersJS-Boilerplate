@@ -70,7 +70,7 @@
     "@types/cls-hooked": "^4.3.1",
     "@types/compression": "^1.7.0",
     "@types/cors": "^2.8.7",
-    "@types/helmet": "^0.0.47",
+    "@types/helmet": "^0.0.48",
     "@types/jest": "^26.0.10",
     "@types/jsonwebtoken": "^8.5.0",
     "@types/mime-types": "^2.1.0",
