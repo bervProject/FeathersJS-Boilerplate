@@ -306,17 +306,17 @@
     lodash.pick "^4.4.0"
     passport-jwt "^4.0.0"
 
-"@feathersjs/authentication-local@^4.5.8":
-  version "4.5.8"
-  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-local/-/authentication-local-4.5.8.tgz#2d5714ae2b12cb7ce4cccad25da2c12c9e5a3f2d"
-  integrity sha512-pcXOc8iVXVg0YYpmfh35jhahGuuWdBJuxxnKoEZcKwcMFbbQ/9Rk5QH44IMaU75v0Kj6CJIXZkwj5VDyUFTnfA==
+"@feathersjs/authentication-local@^4.5.9":
+  version "4.5.9"
+  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-local/-/authentication-local-4.5.9.tgz#2a21e6de16238cc86750d980dd0c401ed73b5d51"
+  integrity sha512-xL2TX/V36d/+XtIRwv1Pcwl915EeY///rt9DsbKNAa3ctv3HbgglCkn4o3TTppPofGrsRz+OrZ5R578P8vi2MQ==
   dependencies:
-    "@feathersjs/authentication" "^4.5.8"
-    "@feathersjs/errors" "^4.5.8"
-    "@feathersjs/feathers" "^4.5.8"
+    "@feathersjs/authentication" "^4.5.9"
+    "@feathersjs/errors" "^4.5.9"
+    "@feathersjs/feathers" "^4.5.9"
     bcryptjs "^2.4.3"
-    debug "^4.1.1"
-    lodash "^4.17.19"
+    debug "^4.2.0"
+    lodash "^4.17.20"
 
 "@feathersjs/authentication-oauth@^4.5.8":
   version "4.5.8"
@@ -410,7 +410,7 @@
     socket.io "^2.3.0"
     uberproto "^2.0.6"
 
-"@feathersjs/transport-commons@^4.5.8", "@feathersjs/transport-commons@^4.5.9":
+"@feathersjs/transport-commons@^4.5.9":
   version "4.5.9"
   resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-4.5.9.tgz#cb61a3779835508f57a45fe3b02280771edb1ca4"
   integrity sha512-DQzfz6RTZMC/ikMj+jt8JnPGFheASLovgZrWBjiwH+Gc7oLvdDN6yU1S3R+Prf3v8EvHtVDFqR9LE6wtyVFk+g==
