@@ -333,20 +333,20 @@
     grant-profile "^0.0.11"
     lodash "^4.17.19"
 
-"@feathersjs/authentication@^4.5.7", "@feathersjs/authentication@^4.5.8":
-  version "4.5.8"
-  resolved "https://registry.yarnpkg.com/@feathersjs/authentication/-/authentication-4.5.8.tgz#348d3e7893a57d24e86667da20b7f152527c0e7b"
-  integrity sha512-ESlrw6UIfqBjYp8my6FC04rybazcDRmXcSZ6mgqZCMjjKJYUdavHoSjynuzsEaMAHV7E1P5HrVe0HY7LEir/NQ==
+"@feathersjs/authentication@^4.5.8", "@feathersjs/authentication@^4.5.9":
+  version "4.5.9"
+  resolved "https://registry.yarnpkg.com/@feathersjs/authentication/-/authentication-4.5.9.tgz#79d3de0bfbd908e73f44bf4521ee7a9db8bebfda"
+  integrity sha512-7CsEy4UmkT5d6MfJbedKpVtJQqF9ASt6sRcymSMcSrD/bfSBNJIQNqwZ4H26M5mxtk6QYjJtbpD9NSf1gelKCA==
   dependencies:
-    "@feathersjs/errors" "^4.5.8"
-    "@feathersjs/feathers" "^4.5.8"
-    "@feathersjs/transport-commons" "^4.5.8"
+    "@feathersjs/errors" "^4.5.9"
+    "@feathersjs/feathers" "^4.5.9"
+    "@feathersjs/transport-commons" "^4.5.9"
     "@types/jsonwebtoken" "^8.5.0"
-    debug "^4.1.1"
+    debug "^4.2.0"
     jsonwebtoken "^8.5.1"
-    lodash "^4.17.19"
+    lodash "^4.17.20"
     long-timeout "^0.1.1"
-    uuid "^8.2.0"
+    uuid "^8.3.0"
 
 "@feathersjs/commons@^4.4.3", "@feathersjs/commons@^4.5.2", "@feathersjs/commons@^4.5.8", "@feathersjs/commons@^4.5.9":
   version "4.5.9"
@@ -6178,7 +6178,7 @@ uuid@^3.2.1, uuid@^3.3.2:
   resolved "https://registry.npmjs.org/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
 
-uuid@^8.0.0, uuid@^8.1.0, uuid@^8.2.0, uuid@^8.3.1:
+uuid@^8.0.0, uuid@^8.1.0, uuid@^8.3.0, uuid@^8.3.1:
   version "8.3.1"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.1.tgz#2ba2e6ca000da60fce5a196954ab241131e05a31"
   integrity sha512-FOmRr+FmWEIG8uhZv6C2bTgEVXsHk08kE7mPlrBbEe+c3r9pjceVPgupIfNIhc4yx55H69OXANrUaSuu9eInKg==

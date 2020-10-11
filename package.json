@@ -41,7 +41,7 @@
   },
   "types": "lib/",
   "dependencies": {
-    "@feathersjs/authentication": "^4.5.7",
+    "@feathersjs/authentication": "^4.5.9",
     "@feathersjs/authentication-jwt": "^2.0.10",
     "@feathersjs/authentication-local": "^4.5.8",
     "@feathersjs/authentication-oauth": "^4.5.8",
