@@ -66,7 +66,7 @@
     "winston": "^3.3.3"
   },
   "devDependencies": {
-    "@types/bluebird": "^3.5.32",
+    "@types/bluebird": "^3.5.33",
     "@types/cls-hooked": "^4.3.1",
     "@types/compression": "^1.7.0",
     "@types/cors": "^2.8.8",
