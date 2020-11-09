@@ -389,13 +389,13 @@
   dependencies:
     debug "^4.2.0"
 
-"@feathersjs/express@^4.5.9":
-  version "4.5.9"
-  resolved "https://registry.npmjs.org/@feathersjs/express/-/express-4.5.9.tgz#af8d67fe709801f1d4e655867abab5a8ac11d52c"
-  integrity sha512-voXUP1sMrTFJ9NVUncImELCYSnbIQqqO2j0RhsDE1qnYy/awRmzQCHkGsv23O+nwoq8zrhbWyG/TQpVinC2fdQ==
+"@feathersjs/express@^4.5.10", "@feathersjs/express@^4.5.9":
+  version "4.5.10"
+  resolved "https://registry.yarnpkg.com/@feathersjs/express/-/express-4.5.10.tgz#7a8c6ce2b3eae97b94b85e165be8cca8cc2a7c00"
+  integrity sha512-boNMQakPoX/7D0atO9cEq2WOkIt9v4GFjFSUdqpQIJwbCU+FKh9S6TySuIMkVDIeIIv7tp8byywVcaZoejUJZA==
   dependencies:
-    "@feathersjs/commons" "^4.5.9"
-    "@feathersjs/errors" "^4.5.9"
+    "@feathersjs/commons" "^4.5.10"
+    "@feathersjs/errors" "^4.5.10"
     "@types/express" "^4.17.8"
     debug "^4.2.0"
     express "^4.17.1"
