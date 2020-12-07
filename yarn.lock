@@ -356,12 +356,7 @@
     long-timeout "^0.1.1"
     uuid "^8.3.1"
 
-"@feathersjs/commons@^4.4.3", "@feathersjs/commons@^4.5.10", "@feathersjs/commons@^4.5.8":
-  version "4.5.10"
-  resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-4.5.10.tgz#e2dc526ce44f8e32c88fbb7bc3b89670e2781622"
-  integrity sha512-3d6HaknbSY3fuA+BIrIxQhxGlA7EKCmH4YK3KR+f2cg7vZYHNEl+Cf5XC2fP2V7kWrdVgLy2AeB3t6oxCIFGtQ==
-
-"@feathersjs/commons@^4.5.11":
+"@feathersjs/commons@^4.4.3", "@feathersjs/commons@^4.5.11", "@feathersjs/commons@^4.5.8":
   version "4.5.11"
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-4.5.11.tgz#4c9d04e6996b823981b714312f7915c4469f0ffd"
   integrity sha512-it/9lc0OER36+2zidopWo6Z4xRqNImQ+qegyQdHEuIDpEsYLXAv6MVHuDccaW2x2UmW5pce75UB7DhQ8yh8J/Q==
@@ -389,15 +384,15 @@
   dependencies:
     debug "^4.3.1"
 
-"@feathersjs/express@^4.5.10":
-  version "4.5.10"
-  resolved "https://registry.yarnpkg.com/@feathersjs/express/-/express-4.5.10.tgz#7a8c6ce2b3eae97b94b85e165be8cca8cc2a7c00"
-  integrity sha512-boNMQakPoX/7D0atO9cEq2WOkIt9v4GFjFSUdqpQIJwbCU+FKh9S6TySuIMkVDIeIIv7tp8byywVcaZoejUJZA==
+"@feathersjs/express@^4.5.10", "@feathersjs/express@^4.5.11":
+  version "4.5.11"
+  resolved "https://registry.yarnpkg.com/@feathersjs/express/-/express-4.5.11.tgz#645dc8081776f82227f1f8c026193c71b8708541"
+  integrity sha512-Z7Lq0QDfDgsBGRyWNaraYEZ/xu4F6Ccv1zusKtqZYK48YOXAvXVse04xWgDVD/MC0j3d6NDe2RklFeGvWtaBng==
   dependencies:
-    "@feathersjs/commons" "^4.5.10"
-    "@feathersjs/errors" "^4.5.10"
-    "@types/express" "^4.17.8"
-    debug "^4.2.0"
+    "@feathersjs/commons" "^4.5.11"
+    "@feathersjs/errors" "^4.5.11"
+    "@types/express" "^4.17.9"
+    debug "^4.3.1"
     express "^4.17.1"
     lodash "^4.17.20"
     uberproto "^2.0.6"
@@ -422,17 +417,6 @@
     debug "^4.3.1"
     socket.io "^2.3.0"
     uberproto "^2.0.6"
-
-"@feathersjs/transport-commons@^4.5.10", "@feathersjs/transport-commons@^4.5.11":
-  version "4.5.11"
-  resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-4.5.11.tgz#dfb31ecd1e66eb80cc6fab77b41d62e46b0a844b"
-  integrity sha512-YuQZnHQWOnhDLggwcMHdWGfIwZ5xabZCQ9/g18Nx770SWYwYPSLyvvbwsxs52LVvHyXW7j1VojcNixdUrOnFHQ==
-  dependencies:
-    "@feathersjs/commons" "^4.5.11"
-    "@feathersjs/errors" "^4.5.11"
-    debug "^4.3.1"
-    lodash "^4.17.20"
-    radix-router "^3.0.1"
 
 "@feathersjs/transport-commons@^4.5.11":
   version "4.5.11"
@@ -812,10 +796,10 @@
     "@types/qs" "*"
     "@types/range-parser" "*"
 
-"@types/express@*", "@types/express@^4.17.8":
-  version "4.17.8"
-  resolved "https://registry.npmjs.org/@types/express/-/express-4.17.8.tgz#3df4293293317e61c60137d273a2e96cd8d5f27a"
-  integrity sha512-wLhcKh3PMlyA2cNAB9sjM1BntnhPMiM0JOBwPBqttjHev2428MLEB4AYVN+d8s2iyCVZac+o41Pflm/ZH5vLXQ==
+"@types/express@*", "@types/express@^4.17.9":
+  version "4.17.9"
+  resolved "https://registry.yarnpkg.com/@types/express/-/express-4.17.9.tgz#f5f2df6add703ff28428add52bdec8a1091b0a78"
+  integrity sha512-SDzEIZInC4sivGIFY4Sz1GG6J9UObPwCInYJjko2jzOf/Imx/dlpume6Xxwj1ORL82tBbmN4cPDIDkLbWHk9hw==
   dependencies:
     "@types/body-parser" "*"
     "@types/express-serve-static-core" "*"
