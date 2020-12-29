@@ -1,8 +1,4 @@
-import {
-  softDelete,
-  isProvider,
-  iff
-} from 'feathers-hooks-common';
+import { softDelete, isProvider, iff } from 'feathers-hooks-common';
 import uploadHook from '../../hooks/upload-hook';
 import * as feathersAuthentication from '@feathersjs/authentication';
 const { authenticate } = feathersAuthentication.hooks;
@@ -10,28 +6,23 @@ const { authenticate } = feathersAuthentication.hooks;
 export default {
   before: {
     all: [
-      iff(
-        isProvider('external'),
-        authenticate('jwt')
-      ),
+      iff(isProvider('external'), authenticate('jwt')),
       softDelete({
         // context is the normal hook context
-        deletedQuery: async context => {
+        deletedQuery: async (context) => {
           return { deletedAt: null };
         },
-        removeData: async context => {
+        removeData: async (context) => {
           return { deletedAt: new Date() };
-        }
-      })
+        },
+      }),
     ],
     find: [],
     get: [],
-    create: [
-      uploadHook()
-    ],
+    create: [uploadHook()],
     update: [],
     patch: [],
-    remove: []
+    remove: [],
   },
 
   after: {
@@ -41,7 +32,7 @@ export default {
     create: [],
     update: [],
     patch: [],
-    remove: []
+    remove: [],
   },
 
   error: {
@@ -51,6 +42,6 @@ export default {
     create: [],
     update: [],
     patch: [],
-    remove: []
-  }
+    remove: [],
+  },
 };

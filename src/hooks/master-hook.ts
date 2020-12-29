@@ -1,5 +1,5 @@
 // Use this hook to manipulate incoming or outgoing data.
-import { HookContext, Hook } from "@feathersjs/feathers";
+import { HookContext, Hook } from '@feathersjs/feathers';
 import logger from '../logger';
 // For more information on hooks see: http://docs.feathersjs.com/api/hooks.html
 function recursive(i: number) {
@@ -18,9 +18,9 @@ export default function (options = {}): Hook {
     const { method, type } = context;
     if (method === 'find' && type === 'before') {
       logger.info('Hahaha... You need this loop?');
-      let i = 0;
+      const i = 0;
       recursive(i);
     }
     return context;
   };
-};
+}

@@ -8,4 +8,4 @@ export default function (app: Application) {
   // Add your custom middleware here. Remember that
   // in Express, the order matters.
   app.use(correlation(logNameSpace));
-};
+}

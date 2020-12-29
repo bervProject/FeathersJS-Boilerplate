@@ -11,10 +11,10 @@ export default function (options = {}): Hook {
   return async (context: HookContext) => {
     const { app, method, type } = context;
     if (method === 'create' && type === 'after') {
-      let promise = new Promise<HookContext>((resolve, reject) => {
+      const promise = new Promise<HookContext>((resolve, reject) => {
         const { params } = context;
         if (!params) {
-          reject('Params Can\'t Null');
+          reject("Params Can't Null");
           return;
         }
         const file = params.file;
@@ -26,7 +26,7 @@ export default function (options = {}): Hook {
 
         const type = mime.lookup(file.originalname);
         if (!type) {
-          reject('Can\'t find mime-type')
+          reject("Can't find mime-type");
           return;
         }
 
@@ -43,7 +43,7 @@ export default function (options = {}): Hook {
           predefinedAcl: 'publicRead',
         });
 
-        stream.on('error', err => {
+        stream.on('error', (err) => {
           logger.error('Error Upload');
           logger.error(err);
           reject(err);
@@ -62,4 +62,4 @@ export default function (options = {}): Hook {
       return context;
     }
   };
-};
+}

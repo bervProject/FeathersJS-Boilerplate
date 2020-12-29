@@ -5,21 +5,25 @@ import { Application } from '../declarations';
 
 export default function (app: Application) {
   const sequelizeClient: Sequelize = app.get('sequelizeClient');
-  const masters = sequelizeClient.define('masters', {
-    text: {
-      type: DataTypes.STRING,
-      allowNull: false
+  const masters = sequelizeClient.define(
+    'masters',
+    {
+      text: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+      deletedAt: {
+        type: DataTypes.DATE,
+      },
     },
-    deletedAt: {
-      type: DataTypes.DATE
-    }
-  }, {
-    hooks: {
-      beforeCount(options: any) {
-        options.raw = true;
-      }
-    }
-  });
+    {
+      hooks: {
+        beforeCount(options: any) {
+          options.raw = true;
+        },
+      },
+    },
+  );
 
   // eslint-disable-next-line no-unused-vars
   (masters as any).associate = function (models: any) {
@@ -28,4 +32,4 @@ export default function (app: Application) {
   };
 
   return masters;
-};
+}

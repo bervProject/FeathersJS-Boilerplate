@@ -7,7 +7,7 @@ import { Masters } from './masters.class';
 
 declare module '../../declarations' {
   interface ServiceTypes {
-    'masters': Masters & ServiceAddons<any>;
+    masters: Masters & ServiceAddons<any>;
   }
 }
 
@@ -17,7 +17,7 @@ export default function (app: Application) {
 
   const options = {
     Model,
-    paginate
+    paginate,
   };
 
   // Initialize our service with any options it requires
@@ -27,4 +27,4 @@ export default function (app: Application) {
   const service = app.service('masters');
 
   service.hooks(hooks);
-};
+}

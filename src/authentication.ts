@@ -1,5 +1,9 @@
 import { ServiceAddons, Params } from '@feathersjs/feathers';
-import { AuthenticationService, JWTStrategy, AuthenticationResult } from '@feathersjs/authentication';
+import {
+  AuthenticationService,
+  JWTStrategy,
+  AuthenticationResult,
+} from '@feathersjs/authentication';
 import { LocalStrategy } from '@feathersjs/authentication-local';
 import { expressOauth } from '@feathersjs/authentication-oauth';
 
@@ -7,7 +11,7 @@ import { Application } from './declarations';
 
 declare module './declarations' {
   interface ServiceTypes {
-    'authentication': AuthenticationService & ServiceAddons<any>;
+    authentication: AuthenticationService & ServiceAddons<any>;
   }
 }
 
@@ -20,7 +24,7 @@ class MyAuthenticationService extends AuthenticationService {
     return Object.assign(payload, {
       userId: user.id,
       role: user.role,
-      roles: user.role
+      roles: user.role,
     });
   }
 }

@@ -1,6 +1,4 @@
-import {
-  softDelete,
-} from 'feathers-hooks-common';
+import { softDelete } from 'feathers-hooks-common';
 import masterHook from '../../hooks/master-hook';
 
 export default {
@@ -8,24 +6,20 @@ export default {
     all: [
       softDelete({
         // context is the normal hook context
-        deletedQuery: async context => {
+        deletedQuery: async (context) => {
           return { deletedAt: null };
         },
-        removeData: async context => {
+        removeData: async (context) => {
           return { deletedAt: new Date() };
-        }
-      })
+        },
+      }),
     ],
-    find: [
-      masterHook()
-    ],
-    get: [
-      masterHook()
-    ],
+    find: [masterHook()],
+    get: [masterHook()],
     create: [],
     update: [],
     patch: [],
-    remove: []
+    remove: [],
   },
 
   after: {
@@ -35,7 +29,7 @@ export default {
     create: [],
     update: [],
     patch: [],
-    remove: []
+    remove: [],
   },
 
   error: {
@@ -45,6 +39,6 @@ export default {
     create: [],
     update: [],
     patch: [],
-    remove: []
-  }
+    remove: [],
+  },
 };

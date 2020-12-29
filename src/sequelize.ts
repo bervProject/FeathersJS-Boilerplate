@@ -8,8 +8,8 @@ export default function (app: Application) {
     dialect: 'postgres',
     logging: false,
     define: {
-      freezeTableName: true
-    }
+      freezeTableName: true,
+    },
   });
   const oldSetup = app.setup;
 
@@ -20,17 +20,17 @@ export default function (app: Application) {
 
     // Set up data relationships
     const models = sequelize.models;
-    Object.keys(models).forEach(name => {
+    Object.keys(models).forEach((name) => {
       if ('associate' in models[name]) {
         (models[name] as any).associate(models);
       }
     });
 
     // Sync to the database
-    sequelize.sync().catch(err => {
+    sequelize.sync().catch((err) => {
       logger.info(JSON.stringify(err));
     });
 
     return result;
   };
-};
+}

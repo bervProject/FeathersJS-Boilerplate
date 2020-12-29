@@ -7,4 +7,4 @@ export default function (app: Application) {
   app.configure(masters);
   app.configure(upload);
   app.configure(users);
-};
+}
