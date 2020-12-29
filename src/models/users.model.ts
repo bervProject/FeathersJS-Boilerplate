@@ -46,6 +46,7 @@ export default function (
     },
     {
       hooks: {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         beforeCount(options: any) {
           options.raw = true;
         },
@@ -53,7 +54,7 @@ export default function (
     },
   );
 
-  // eslint-disable-next-line no-unused-vars
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars,@typescript-eslint/no-explicit-any
   (users as any).associate = function (models: any) {
     // Define associations here
     // See http://docs.sequelizejs.com/en/latest/docs/associations/
