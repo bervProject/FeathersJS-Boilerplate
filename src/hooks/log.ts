@@ -17,6 +17,7 @@ export default function (): Hook {
     );
 
     if (
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       typeof (context as any).toJSON === 'function' &&
       logger.level === 'debug'
     ) {

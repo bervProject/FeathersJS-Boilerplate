@@ -12,7 +12,7 @@ function recursive(i: number) {
   }, 5000);
 }
 
-// eslint-disable-next-line no-unused-vars
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export default function (options = {}): Hook {
   return async (context: HookContext) => {
     const { method, type } = context;

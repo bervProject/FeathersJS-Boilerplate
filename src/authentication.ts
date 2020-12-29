@@ -11,6 +11,7 @@ import { Application } from './declarations';
 
 declare module './declarations' {
   interface ServiceTypes {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     authentication: AuthenticationService & ServiceAddons<any>;
   }
 }
@@ -29,7 +30,7 @@ class MyAuthenticationService extends AuthenticationService {
   }
 }
 
-export default function (app: Application) {
+export default function (app: Application): void {
   const authentication = new MyAuthenticationService(app);
 
   authentication.register('jwt', new JWTStrategy());

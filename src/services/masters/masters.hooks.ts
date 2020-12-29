@@ -6,9 +6,11 @@ export default {
     all: [
       softDelete({
         // context is the normal hook context
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
         deletedQuery: async (context) => {
           return { deletedAt: null };
         },
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
         removeData: async (context) => {
           return { deletedAt: new Date() };
         },

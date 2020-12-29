@@ -2,7 +2,7 @@ import { Sequelize } from 'sequelize';
 import logger from './logger';
 import { Application } from './declarations';
 
-export default function (app: Application) {
+export default function (app: Application): void {
   const connectionString = app.get('postgres');
   const sequelize = new Sequelize(connectionString, {
     dialect: 'postgres',
@@ -22,6 +22,7 @@ export default function (app: Application) {
     const models = sequelize.models;
     Object.keys(models).forEach((name) => {
       if ('associate' in models[name]) {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         (models[name] as any).associate(models);
       }
     });
