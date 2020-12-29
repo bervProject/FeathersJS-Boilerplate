@@ -1,13 +1,33 @@
 // See http://docs.sequelizejs.com/en/latest/docs/models-definition/
 // for more of what you can do here.
-import { Sequelize, DataTypes } from 'sequelize';
+import { Optional, Model, Sequelize, DataTypes, ModelCtor } from 'sequelize';
 import { Application } from '../declarations';
 
-export default function (app: Application) {
+export interface UploadAttributes {
+  id: number;
+  url: string;
+  deletedAt: Date;
+}
+
+// eslint-disable-next-line
+interface UploadCreationAttributes extends Optional<UploadAttributes, 'id'> {
+
+}
+
+export default function (
+  app: Application,
+): ModelCtor<Model<UploadAttributes, UploadCreationAttributes>> {
   const sequelizeClient: Sequelize = app.get('sequelizeClient');
-  const upload = sequelizeClient.define(
+  const upload = sequelizeClient.define<
+    Model<UploadAttributes, UploadCreationAttributes>
+  >(
     'upload',
     {
+      id: {
+        type: DataTypes.INTEGER.UNSIGNED,
+        autoIncrement: true,
+        primaryKey: true,
+      },
       url: {
         type: DataTypes.STRING,
         allowNull: false,

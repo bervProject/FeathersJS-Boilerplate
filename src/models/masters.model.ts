@@ -1,13 +1,33 @@
 // See http://docs.sequelizejs.com/en/latest/docs/models-definition/
 // for more of what you can do here.
-import { Sequelize, DataTypes } from 'sequelize';
+import { Model, Optional, Sequelize, DataTypes, ModelCtor } from 'sequelize';
 import { Application } from '../declarations';
 
-export default function (app: Application) {
+export interface MasterAttributes {
+  id: number;
+  text: string;
+  deletedAt: Date;
+}
+
+// eslint-disable-next-line
+interface MasterCreationAttributes extends Optional<MasterAttributes, 'id'> {
+
+}
+
+export default function (
+  app: Application,
+): ModelCtor<Model<MasterAttributes, MasterCreationAttributes>> {
   const sequelizeClient: Sequelize = app.get('sequelizeClient');
-  const masters = sequelizeClient.define(
+  const masters = sequelizeClient.define<
+    Model<MasterAttributes, MasterCreationAttributes>
+  >(
     'masters',
     {
+      id: {
+        type: DataTypes.INTEGER.UNSIGNED,
+        autoIncrement: true,
+        primaryKey: true,
+      },
       text: {
         type: DataTypes.STRING,
         allowNull: false,
