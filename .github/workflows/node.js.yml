@@ -58,7 +58,7 @@ jobs:
   # See also https://docs.docker.com/docker-hub/builds/
   docker-push:
     # Ensure test job passes before pushing image.
-    needs: docker-test
+    needs: build
     runs-on: ubuntu-20.04
     if: github.event_name == 'push'
     steps:
