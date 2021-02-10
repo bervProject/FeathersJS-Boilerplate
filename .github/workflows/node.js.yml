@@ -13,7 +13,7 @@ env:
   IMAGE_NAME: feathersjs-boilerplate
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     services:
       # Label used to access the service container
       postgres:
@@ -46,25 +46,20 @@ jobs:
     - run: yarn compile
     - run: yarn test
     - run: bash <(curl -s https://codecov.io/bash)
-  docker-test:
-    runs-on: ubuntu-latest
+  docker-build:
+    runs-on: ubuntu-20.04
+    if: github.event_name == 'pull_request'
     needs: build
     steps:
       - uses: actions/checkout@v2
-      - name: Run tests
-        run: |
-          if [ -f docker-compose.test.yml ]; then
-            docker-compose --file docker-compose.test.yml build
-            docker-compose --file docker-compose.test.yml run sut
-          else
-            docker build . --file Dockerfile
-          fi
+      - name: Run build
+        run: docker build . --file Dockerfile
   # Push image to GitHub Packages.
   # See also https://docs.docker.com/docker-hub/builds/
   docker-push:
     # Ensure test job passes before pushing image.
     needs: docker-test
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     if: github.event_name == 'push'
     steps:
       - uses: actions/checkout@v2
