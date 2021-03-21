@@ -2,9 +2,9 @@
 
 ## Build Status
 
-| Azure Pipelines | Codecov |
-|:---------------:|:-------:|
-| [![Build Status](https://dev.azure.com/berviantoleo/FeathersJS%20Boilerplate/_apis/build/status/bervProject.FeathersJS-Boilerplate?branchName=master)](https://dev.azure.com/berviantoleo/FeathersJS%20Boilerplate/_build/latest?definitionId=2&branchName=master) | [![codecov](https://codecov.io/gh/bervProject/FeathersJS-Boilerplate/branch/master/graph/badge.svg)](https://codecov.io/gh/bervProject/FeathersJS-Boilerplate) |
+| Azure Pipelines | Github Action | CircleCI | Codecov |
+|:---------------:|:-------------:|:--------:|:-------:|
+| [![Build Status](https://dev.azure.com/berviantoleo/FeathersJS%20Boilerplate/_apis/build/status/bervProject.FeathersJS-Boilerplate?branchName=master)](https://dev.azure.com/berviantoleo/FeathersJS%20Boilerplate/_build/latest?definitionId=2&branchName=master) | [![Node.js CI](https://github.com/bervProject/FeathersJS-Boilerplate/actions/workflows/node.js.yml/badge.svg)](https://github.com/bervProject/FeathersJS-Boilerplate/actions/workflows/node.js.yml) | [![bervProject](https://circleci.com/gh/bervProject/FeathersJS-Boilerplate.svg?style=svg)](https://circleci.com/gh/bervProject/FeathersJS-Boilerplate) | [![codecov](https://codecov.io/gh/bervProject/FeathersJS-Boilerplate/branch/master/graph/badge.svg)](https://codecov.io/gh/bervProject/FeathersJS-Boilerplate) |
 
 ## About
 
