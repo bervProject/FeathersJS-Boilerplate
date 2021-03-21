@@ -12,16 +12,10 @@ pool:
 steps:
 - task: NodeTool@0
   inputs:
-    versionSpec: '12.x'
+    versionSpec: '14.x'
   displayName: 'Install Node.js'
-
 - script: |
     yarn
     yarn global add codecov
     yarn test
   displayName: 'npm install and test'
-- task: PublishCodeCoverageResults@1
-  displayName: 'Publish code coverage report'
-  inputs:
-    codeCoverageTool: 'cobertura'
-    summaryFileLocation: '$(Build.SourcesDirectory)/**/clover.xml'
