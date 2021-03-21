@@ -20,3 +20,8 @@ steps:
     yarn global add codecov
     yarn test
   displayName: 'npm install and test'
+- task: PublishCodeCoverageResults@1
+  displayName: 'Publish code coverage report'
+  inputs:
+    codeCoverageTool: 'cobertura'
+    summaryFileLocation: '$(Build.SourcesDirectory)/**/clover.xml'
