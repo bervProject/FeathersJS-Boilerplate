@@ -33,7 +33,7 @@ jobs:
           --health-retries 5
     strategy:
       matrix:
-        node-version: [12.x, 14.x]
+        node-version: [14.x, 16.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     steps:
     - uses: actions/checkout@v2
@@ -41,10 +41,11 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
-    - run: yarn
-    - run: yarn lint
-    - run: yarn compile
-    - run: yarn test
+    - run: |
+        yarn
+        yarn lint
+        yarn compile
+        yarn test
     - run: bash <(curl -s https://codecov.io/bash)
   docker-build:
     runs-on: ubuntu-20.04
