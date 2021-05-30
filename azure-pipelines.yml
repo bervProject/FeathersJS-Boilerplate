@@ -16,6 +16,5 @@ steps:
   displayName: 'Install Node.js'
 - script: |
     yarn
-    yarn global add codecov
     yarn test
   displayName: 'npm install and test'
