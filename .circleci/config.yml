@@ -4,13 +4,17 @@
 #
 version: 2.1
 orbs:
-  node: circleci/node@4.4.0
+  node: circleci/node@4.5.1
 jobs:
   test:
     executor:
       name: node/default
     steps:
       - checkout
+      - node/install:
+          install-yarn: true
+          install-npm: false
+          lts: true
       - node/install-packages:
           pkg-manager: yarn
       - run:
