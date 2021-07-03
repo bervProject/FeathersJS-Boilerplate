@@ -26,5 +26,6 @@ spec:
           value: "9000"
         - name: NODE_ENV
           value: "production"
-        - name: DATABASE_URL
-          value: "postgres://postgres:@localhost:5432/feathersjs_boilerplate"
+        envFrom:
+        - secretRef:
+            name: feathersjs-secret
