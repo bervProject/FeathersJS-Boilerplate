@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+    web:
+      build: .
+      image: feathersjs
+      environment: 
+        PORT: 3030
+        NODE_ENV: production
+        HOST: feathersjs
+        DATABASE_URL: "postgres://postgres:pgsecret123@db:5432/feathersjs_boilerplate"
+      ports:
+        - "3030:3030"
+      links:
+        - db
+    db:
+      image: postgres:13-alpine
+      environment: 
+        POSTGRES_PASSWORD: pgsecret123
+        POSTGRES_DB: feathersjs_boilerplate

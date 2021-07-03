@@ -1,4 +1,6 @@
 {
-  "host": "test-feathers-app.feathersjs.com",
-  "port": "PORT"
+  "host": "HOST",
+  "port": "PORT",
+  "postgres": "DATABASE_URL"
+
 }

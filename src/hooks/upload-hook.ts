@@ -4,6 +4,7 @@ import { v4 as uuid } from 'uuid';
 import mime from 'mime-types';
 import { Storage } from '@google-cloud/storage';
 import { HookContext, Hook } from '@feathersjs/feathers';
+import { BadRequest, GeneralError } from '@feathersjs/errors';
 import logger from '../logger';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -14,19 +15,19 @@ export default function (options = {}): Hook {
       const promise = new Promise<HookContext>((resolve, reject) => {
         const { params } = context;
         if (!params) {
-          reject("Params Can't Null");
+          reject(new BadRequest("Params Can't Null"));
           return;
         }
         const file = params.file;
         if (!file) {
-          reject('File not found');
+          reject(new BadRequest('File not found'));
           return;
         }
         logger.debug(file);
 
         const type = mime.lookup(file.originalname);
         if (!type) {
-          reject("Can't find mime-type");
+          reject(new BadRequest("Can't find mime-type"));
           return;
         }
 
@@ -46,7 +47,7 @@ export default function (options = {}): Hook {
         stream.on('error', (err) => {
           logger.error('Error Upload');
           logger.error(err);
-          reject(err);
+          reject(new GeneralError(err));
         });
 
         stream.on('finish', () => {
