@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: feathersjs
+spec:
+  selector:
+    app: feathersjs
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 9000

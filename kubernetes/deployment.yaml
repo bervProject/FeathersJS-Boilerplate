@@ -1,0 +1,30 @@
+
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: feathersjs
+  labels:
+    app: feathersjs
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: feathersjs
+  template:
+    metadata:
+      labels:
+        app: feathersjs
+    spec:
+      containers:
+      - name: feathersjs
+        image: bervproject/feathersjs-boilerplate:master
+        ports:
+        - containerPort: 9000
+        env:
+        - name: PORT
+          value: "9000"
+        - name: NODE_ENV
+          value: "production"
+        - name: DATABASE_URL
+          value: "postgres://postgres:@localhost:5432/feathersjs_boilerplate"
