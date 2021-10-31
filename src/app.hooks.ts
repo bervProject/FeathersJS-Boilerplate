@@ -1,6 +1,8 @@
 // Application hooks that run for every service
 import log from './hooks/log';
 
+import commonError from './hooks/common-error';
+
 export default {
   before: {
     all: [log()],
@@ -23,7 +25,7 @@ export default {
   },
 
   error: {
-    all: [log()],
+    all: [log(), commonError()],
     find: [],
     get: [],
     create: [],

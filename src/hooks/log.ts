@@ -10,6 +10,9 @@ logger.level = 'debug';
 
 export default function (): Hook {
   return (context: HookContext) => {
+    const { params } = context;
+    const requestId = params.requestId;
+    logger.debug(`Request Id: ${requestId}`);
     // This debugs the service call and a stringified version of the hook context
     // You can customize the message (and logger) to your needs
     logger.debug(
