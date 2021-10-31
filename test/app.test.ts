@@ -33,19 +33,18 @@ describe('Feathers application tests (with jest)', () => {
     expect(data.indexOf('<html lang="en">')).not.toBe(-1);
   });
 
-    it('shows a 404 JSON error without stack trace', async () => {
-      expect.assertions(5);
+  it('shows a 404 JSON error without stack trace', async () => {
+    expect.assertions(5);
 
-      try {
-        await axios.get(getUrl('path/to/nowhere'));
-      } catch (error) {
-        const { response } = error;
+    try {
+      await axios.get(getUrl('path/to/nowhere'));
+    } catch (error) {
+      const { response } = error;
 
-        expect(response.status).toBe(404);
-        expect(response.data.code).toBe(404);
-        expect(response.data.message).toBe('Page not found');
-        expect(response.data.name).toBe('NotFound');
-      }
-    });
+      expect(response.status).toBe(404);
+      expect(response.data.code).toBe(404);
+      expect(response.data.message).toBe('Page not found');
+      expect(response.data.name).toBe('NotFound');
+    }
   });
 });
