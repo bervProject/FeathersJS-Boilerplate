@@ -34,7 +34,7 @@ describe('Feathers application tests (with jest)', () => {
   });
 
   it('shows a 404 JSON error without stack trace', async () => {
-    expect.assertions(5);
+    expect.assertions(4);
 
     try {
       await axios.get(getUrl('path/to/nowhere'));
