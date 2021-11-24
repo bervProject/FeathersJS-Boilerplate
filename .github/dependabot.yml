@@ -1,10 +1,4 @@
 version: 2
-registries:
-  npm-registry-npm-pkg-github-com:
-    type: npm-registry
-    url: https://npm.pkg.github.com
-    username: "${{secrets.NPM_REGISTRY_NPM_PKG_GITHUB_COM_USERNAME}}"
-    password: "${{secrets.NPM_REGISTRY_NPM_PKG_GITHUB_COM_PASSWORD}}"
 
 updates:
 - package-ecosystem: npm
@@ -20,5 +14,29 @@ updates:
   - berviantoleo
   labels:
   - dependencies
-  registries:
-  - npm-registry-npm-pkg-github-com
+  
+- package-ecosystem: github-actions
+  directory: "/"
+  schedule:
+    interval: weekly
+    day: saturday
+    time: "08:00"
+    timezone: Asia/Jakarta
+  open-pull-requests-limit: 100
+  reviewers:
+  - berviantoleo
+  assignees:
+  - berviantoleo
+
+- package-ecosystem: docker
+  directory: "/"
+  schedule:
+    interval: weekly
+    day: saturday
+    time: "08:00"
+    timezone: Asia/Jakarta
+  open-pull-requests-limit: 100
+  reviewers:
+  - berviantoleo
+  assignees:
+  - berviantoleo
