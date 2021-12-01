@@ -302,6 +302,18 @@
   resolved "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
+"@bervproject/feathers-advance-hook@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/@bervproject/feathers-advance-hook/-/feathers-advance-hook-1.1.0.tgz#84e00641a1c9bb042a71061482e0700e2ece1b42"
+  integrity sha512-nHwVU1fvORH35i9ZYZ2yhE/1ITlHXKc2WOMuwSp1wP7tVKT2W0n+UE/RgVIDVIskeqPu0EwZszlMl0AV3oRT5g==
+  dependencies:
+    "@feathersjs/errors" "^4.5.11"
+    "@feathersjs/feathers" "^4.5.11"
+    "@google-cloud/storage" "^5.16.0"
+    dist "^0.1.2"
+    mime-types "^2.1.34"
+    uuid "^8.3.2"
+
 "@dabh/diagnostics@^2.0.2":
   version "2.0.2"
   resolved "https://registry.npmjs.org/@dabh/diagnostics/-/diagnostics-2.0.2.tgz#290d08f7b381b8f94607dc8f471a12c675f9db31"
@@ -2066,6 +2078,15 @@ dir-glob@^3.0.1:
   dependencies:
     path-type "^4.0.0"
 
+dist@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.npmjs.org/dist/-/dist-0.1.2.tgz#8898629cc251297e36d1354a9a9598619aba5b1a"
+  integrity sha1-iJhinMJRKX420TVKmpWYYZq6Wxo=
+  dependencies:
+    filesize "~1.6.6"
+    optimist "~0.3.5"
+    uglify-js "~1.3.4"
+
 doctrine@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/doctrine/-/doctrine-3.0.0.tgz#addebead72a6574db783639dc87a121773973961"
@@ -2579,6 +2600,11 @@ file-entry-cache@^6.0.1:
   integrity sha512-7Gps/XWymbLk2QLYK4NzpMOrYjMhdIxXuIvy2QBsLE6ljuodKvdkWs/cpyJJ3CVIVpH0Oi1Hvg1ovbMzLdFBBg==
   dependencies:
     flat-cache "^3.0.4"
+
+filesize@~1.6.6:
+  version "1.6.7"
+  resolved "https://registry.npmjs.org/filesize/-/filesize-1.6.7.tgz#0d0acf26851e2a7339ffc45ac87e3c2edff0e96e"
+  integrity sha1-DQrPJoUeKnM5/8RayH48Lt/w6W4=
 
 fill-range@^7.0.1:
   version "7.0.1"
@@ -4267,6 +4293,13 @@ onetime@^5.1.2:
   dependencies:
     mimic-fn "^2.1.0"
 
+optimist@~0.3.5:
+  version "0.3.7"
+  resolved "https://registry.npmjs.org/optimist/-/optimist-0.3.7.tgz#c90941ad59e4273328923074d2cf2e7cbc6ec0d9"
+  integrity sha1-yQlBrVnkJzMokjB00s8ufLxuwNk=
+  dependencies:
+    wordwrap "~0.0.2"
+
 optionator@^0.8.1:
   version "0.8.3"
   resolved "https://registry.npmjs.org/optionator/-/optionator-0.8.3.tgz#84fa1d036fe9d3c7e21d99884b601167ec8fb495"
@@ -5554,6 +5587,11 @@ uberproto@^2.0.6:
   resolved "https://registry.npmjs.org/uberproto/-/uberproto-2.0.6.tgz#709274d183bce6fb734dfd3880d2086ed72b69e5"
   integrity sha512-68H97HffZoFaa3HFtpstahWorN9dSp5uTU6jo3GjIQ6JkJBR3hC2Nx/e/HFOoYHdUyT/Z1MRWfxN1EiQJZUyCQ==
 
+uglify-js@~1.3.4:
+  version "1.3.5"
+  resolved "https://registry.npmjs.org/uglify-js/-/uglify-js-1.3.5.tgz#4b5bfff9186effbaa888e4c9e94bd9fc4c94929d"
+  integrity sha1-S1v/+Rhu/7qoiOTJ6UvZ/EyUkp0=
+
 uid-safe@~2.1.5:
   version "2.1.5"
   resolved "https://registry.npmjs.org/uid-safe/-/uid-safe-2.1.5.tgz#2b3d5c7240e8fc2e58f8aa269e5ee49c0857bd3a"
@@ -5774,6 +5812,11 @@ word-wrap@^1.2.3, word-wrap@~1.2.3:
   version "1.2.3"
   resolved "https://registry.npmjs.org/word-wrap/-/word-wrap-1.2.3.tgz#610636f6b1f703891bd34771ccb17fb93b47079c"
   integrity sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ==
+
+wordwrap@~0.0.2:
+  version "0.0.3"
+  resolved "https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.3.tgz#a3d5da6cd5c0bc0008d37234bbaf1bed63059107"
+  integrity sha1-o9XabNXAvAAI03I0u68b7WMFkQc=
 
 wrap-ansi@^7.0.0:
   version "7.0.0"
