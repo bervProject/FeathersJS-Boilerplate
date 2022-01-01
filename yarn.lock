@@ -302,14 +302,14 @@
   resolved "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@bervproject/feathers-advance-hook@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.npmjs.org/@bervproject/feathers-advance-hook/-/feathers-advance-hook-1.1.0.tgz#84e00641a1c9bb042a71061482e0700e2ece1b42"
-  integrity sha512-nHwVU1fvORH35i9ZYZ2yhE/1ITlHXKc2WOMuwSp1wP7tVKT2W0n+UE/RgVIDVIskeqPu0EwZszlMl0AV3oRT5g==
+"@bervproject/feathers-advance-hook@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@bervproject/feathers-advance-hook/-/feathers-advance-hook-1.1.1.tgz#f6d70fd42c2539c75212fd6fd9ee347acd27d561"
+  integrity sha512-gyoG5bswTxj1u8vAmBuB3OXeG8oAM422cX8lVsKpZmI3KUHsfQ7byoR4kPPDo6PwVCmLt+pAUWxYntWDkL2Dag==
   dependencies:
     "@feathersjs/errors" "^4.5.11"
     "@feathersjs/feathers" "^4.5.11"
-    "@google-cloud/storage" "^5.16.0"
+    "@google-cloud/storage" "^5.16.1"
     dist "^0.1.2"
     mime-types "^2.1.34"
     uuid "^8.3.2"
@@ -512,7 +512,7 @@
   resolved "https://registry.npmjs.org/@google-cloud/promisify/-/promisify-2.0.4.tgz#9d8705ecb2baa41b6b2673f3a8e9b7b7e1abc52a"
   integrity sha512-j8yRSSqswWi1QqUGKVEKOG03Q7qOoZP6/h2zN2YO+F5h2+DHU0bSrHCK9Y7lo2DI9fBd8qGAw795sf+3Jva4yA==
 
-"@google-cloud/storage@^5.16.0", "@google-cloud/storage@^5.16.1":
+"@google-cloud/storage@^5.16.1":
   version "5.16.1"
   resolved "https://registry.yarnpkg.com/@google-cloud/storage/-/storage-5.16.1.tgz#6a9a2c160282676d2725d3426e97417753426354"
   integrity sha512-C2li/2PUfLSGEetebLL70uQRwqm6PS+kBtFEjr5AnAn/Qv0UnD8V+rI9Y4RmwxWFvhlPAgg+ZRqa4bkK4eUxlA==
