@@ -559,22 +559,22 @@
     debug "^4.3.3"
     lodash "^4.17.21"
 
-"@feathersjs/authentication-oauth@^4.5.11":
-  version "4.5.11"
-  resolved "https://registry.npmjs.org/@feathersjs/authentication-oauth/-/authentication-oauth-4.5.11.tgz#72ce08cb3ea6aee7953b6469dee47594892df261"
-  integrity sha512-Ok2OHu1IRGcTBGpPZJAldy5E9nHA5GCtMyojasowcrrrglxUbK7TLijz16IAuLZRLYdaZgivn3WyoLijCjOKhQ==
+"@feathersjs/authentication-oauth@^4.5.12":
+  version "4.5.12"
+  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-oauth/-/authentication-oauth-4.5.12.tgz#760c8734c93cf5b2f077e3eac84708f2e28924c6"
+  integrity sha512-mhK9KPRAXTVQ9p+6tSSj1+K0aquApYmf/AXN6IN5PEbpGOwIxTloWbQf+lKyHrzpGw/btxKNVAFbV4kTzsmKSQ==
   dependencies:
-    "@feathersjs/authentication" "^4.5.11"
-    "@feathersjs/errors" "^4.5.11"
-    "@feathersjs/express" "^4.5.11"
-    "@feathersjs/feathers" "^4.5.11"
-    debug "^4.3.1"
-    express-session "^1.17.1"
+    "@feathersjs/authentication" "^4.5.12"
+    "@feathersjs/errors" "^4.5.12"
+    "@feathersjs/express" "^4.5.12"
+    "@feathersjs/feathers" "^4.5.12"
+    debug "^4.3.3"
+    express-session "^1.17.2"
     grant "^4.7.0"
     grant-profile "^0.0.11"
-    lodash "^4.17.20"
+    lodash "^4.17.21"
 
-"@feathersjs/authentication@^4.5.11", "@feathersjs/authentication@^4.5.12":
+"@feathersjs/authentication@^4.5.12":
   version "4.5.12"
   resolved "https://registry.yarnpkg.com/@feathersjs/authentication/-/authentication-4.5.12.tgz#fbe508b63fe51f1986e8be898b900709166f16a3"
   integrity sha512-qNLSlSZ0lCM77ELf7Ae+mkgXE1HafwWU2q/2MbSQfva1zUTo34O59JHa3PKmDK+TqAQwYQVlAY9IR6SmK+MW1g==
@@ -2626,9 +2626,9 @@ expect@^27.4.6:
     jest-matcher-utils "^27.4.6"
     jest-message-util "^27.4.6"
 
-express-session@^1.17.1:
+express-session@^1.17.2:
   version "1.17.2"
-  resolved "https://registry.npmjs.org/express-session/-/express-session-1.17.2.tgz#397020374f9bf7997f891b85ea338767b30d0efd"
+  resolved "https://registry.yarnpkg.com/express-session/-/express-session-1.17.2.tgz#397020374f9bf7997f891b85ea338767b30d0efd"
   integrity sha512-mPcYcLA0lvh7D4Oqr5aNJFMtBMKPLl++OKKxkHzZ0U0oDq1rpKBnkR5f5vCHR26VeArlTOEF9td4x5IjICksRQ==
   dependencies:
     cookie "0.4.1"
@@ -4080,7 +4080,7 @@ lodash.pick@^4.4.0:
   resolved "https://registry.npmjs.org/lodash.pick/-/lodash.pick-4.4.0.tgz#52f05610fff9ded422611441ed1fc123a03001b3"
   integrity sha1-UvBWEP/53tQiYRRB7R/BI6AwAbM=
 
-lodash@^4.17.20, lodash@^4.17.21, lodash@^4.7.0:
+lodash@^4.17.21, lodash@^4.7.0:
   version "4.17.21"
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
