@@ -547,17 +547,17 @@
     lodash.pick "^4.4.0"
     passport-jwt "^4.0.0"
 
-"@feathersjs/authentication-local@^4.5.11":
-  version "4.5.11"
-  resolved "https://registry.npmjs.org/@feathersjs/authentication-local/-/authentication-local-4.5.11.tgz#5663451d1c381e5a993bda238a06659fb09cad5f"
-  integrity sha512-oz8WRzk1gugO8qA1JIoVPIkPJklEq1h5DnU8dsYWMoImsgqfAsSaV4+RulIxNwCDIb6V0Xs5waTu+b53f2rGnA==
+"@feathersjs/authentication-local@^4.5.12":
+  version "4.5.12"
+  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-local/-/authentication-local-4.5.12.tgz#c0900a68a0da3a7419b9a760db77468b4398e4da"
+  integrity sha512-4L2sfJjxfdBgcZ9EoH7E5JMsOzxK50rwdhs8ijbJ5+9bV2ixoCz/oyclypUiN21smmIMorODXWgOeMN7qU27og==
   dependencies:
-    "@feathersjs/authentication" "^4.5.11"
-    "@feathersjs/errors" "^4.5.11"
-    "@feathersjs/feathers" "^4.5.11"
+    "@feathersjs/authentication" "^4.5.12"
+    "@feathersjs/errors" "^4.5.12"
+    "@feathersjs/feathers" "^4.5.12"
     bcryptjs "^2.4.3"
-    debug "^4.3.1"
-    lodash "^4.17.20"
+    debug "^4.3.3"
+    lodash "^4.17.21"
 
 "@feathersjs/authentication-oauth@^4.5.11":
   version "4.5.11"
@@ -617,13 +617,6 @@
   dependencies:
     debug "^4.3.3"
 
-"@feathersjs/errors@^4.5.12":
-  version "4.5.12"
-  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-4.5.12.tgz#c9d408a103e2ead228e6c61ea24516e6fe635a43"
-  integrity sha512-xIQJ7t/acTuL1fTC6mpf0qlcWfJkA9x0rRMrSgjD3mzUnJU6VqxXFxusL8895ksGD0vQHwPueblbm8Hn6Ifqqw==
-  dependencies:
-    debug "^4.3.3"
-
 "@feathersjs/express@^4.5.11":
   version "4.5.11"
   resolved "https://registry.npmjs.org/@feathersjs/express/-/express-4.5.11.tgz#645dc8081776f82227f1f8c026193c71b8708541"
@@ -658,7 +651,7 @@
     socket.io "^2.3.0"
     uberproto "^2.0.6"
 
-"@feathersjs/transport-commons@^4.5.11", "@feathersjs/transport-commons@^4.5.12":
+"@feathersjs/transport-commons@^4.5.12":
   version "4.5.12"
   resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-4.5.12.tgz#3993d03a1cfed630b0fc42e5dc1e92c76738fb28"
   integrity sha512-c/FnP+xzCmfsHGj4NGhHpTy2haaA2jiKZ+du8rUUWBgxC73y3mw7udUGhWdDxGx2mnXtOKCwIA6oPQBdXtFC+A==
