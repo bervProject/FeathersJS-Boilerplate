@@ -617,6 +617,13 @@
   dependencies:
     debug "^4.3.1"
 
+"@feathersjs/errors@^4.5.12":
+  version "4.5.12"
+  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-4.5.12.tgz#c9d408a103e2ead228e6c61ea24516e6fe635a43"
+  integrity sha512-xIQJ7t/acTuL1fTC6mpf0qlcWfJkA9x0rRMrSgjD3mzUnJU6VqxXFxusL8895ksGD0vQHwPueblbm8Hn6Ifqqw==
+  dependencies:
+    debug "^4.3.3"
+
 "@feathersjs/express@^4.5.11":
   version "4.5.11"
   resolved "https://registry.npmjs.org/@feathersjs/express/-/express-4.5.11.tgz#645dc8081776f82227f1f8c026193c71b8708541"
@@ -640,26 +647,26 @@
     events "^3.3.0"
     uberproto "^2.0.6"
 
-"@feathersjs/socketio@^4.5.11":
-  version "4.5.11"
-  resolved "https://registry.npmjs.org/@feathersjs/socketio/-/socketio-4.5.11.tgz#f53912355c2f34b682db359a0abe0dac5e9df806"
-  integrity sha512-Qwcg9LU76CwS0r3Qqrs0JqlIy54aqJBLwxj9N+Pv6HsLxhc8C4KkyitKv2yYORi2Fz+QzXoVNzC9W4EuAbiynA==
+"@feathersjs/socketio@^4.5.13":
+  version "4.5.13"
+  resolved "https://registry.yarnpkg.com/@feathersjs/socketio/-/socketio-4.5.13.tgz#6eb863530964ba43e2bfc29316900e13ac776184"
+  integrity sha512-cd7iM6U2+UPMv3ziu6BIPRbJ3zPbJM+DYFZpbcKbkoY2ypY6Cx9NLkC3TMKTzdI3xwi8AlckeXd095mvV+PU9A==
   dependencies:
-    "@feathersjs/transport-commons" "^4.5.11"
+    "@feathersjs/transport-commons" "^4.5.12"
     "@types/socket.io" "^2.1.11"
-    debug "^4.3.1"
+    debug "^4.3.3"
     socket.io "^2.3.0"
     uberproto "^2.0.6"
 
-"@feathersjs/transport-commons@^4.5.11":
-  version "4.5.11"
-  resolved "https://registry.npmjs.org/@feathersjs/transport-commons/-/transport-commons-4.5.11.tgz#dfb31ecd1e66eb80cc6fab77b41d62e46b0a844b"
-  integrity sha512-YuQZnHQWOnhDLggwcMHdWGfIwZ5xabZCQ9/g18Nx770SWYwYPSLyvvbwsxs52LVvHyXW7j1VojcNixdUrOnFHQ==
+"@feathersjs/transport-commons@^4.5.11", "@feathersjs/transport-commons@^4.5.12":
+  version "4.5.12"
+  resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-4.5.12.tgz#3993d03a1cfed630b0fc42e5dc1e92c76738fb28"
+  integrity sha512-c/FnP+xzCmfsHGj4NGhHpTy2haaA2jiKZ+du8rUUWBgxC73y3mw7udUGhWdDxGx2mnXtOKCwIA6oPQBdXtFC+A==
   dependencies:
-    "@feathersjs/commons" "^4.5.11"
-    "@feathersjs/errors" "^4.5.11"
-    debug "^4.3.1"
-    lodash "^4.17.20"
+    "@feathersjs/commons" "^4.5.12"
+    "@feathersjs/errors" "^4.5.12"
+    debug "^4.3.3"
+    lodash "^4.17.21"
     radix-router "^3.0.1"
 
 "@google-cloud/common@^3.8.1":
