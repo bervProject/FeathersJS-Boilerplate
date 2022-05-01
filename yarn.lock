@@ -552,12 +552,12 @@
     lodash.pick "^4.4.0"
     passport-jwt "^4.0.0"
 
-"@feathersjs/authentication-local@^4.5.12":
-  version "4.5.12"
-  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-local/-/authentication-local-4.5.12.tgz#c0900a68a0da3a7419b9a760db77468b4398e4da"
-  integrity sha512-4L2sfJjxfdBgcZ9EoH7E5JMsOzxK50rwdhs8ijbJ5+9bV2ixoCz/oyclypUiN21smmIMorODXWgOeMN7qU27og==
+"@feathersjs/authentication-local@^4.5.14":
+  version "4.5.14"
+  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-local/-/authentication-local-4.5.14.tgz#512a27f914b383b18003bc74c9ab0139278a9340"
+  integrity sha512-kxMh62qsAghifpA7WTwGZufkf2w3Xlb63di/t+BDgPbMTHV5Tgk0r/TylTYuTGh/S5eKkj+Hdf9ZA125Gf4dgw==
   dependencies:
-    "@feathersjs/authentication" "^4.5.12"
+    "@feathersjs/authentication" "^4.5.14"
     "@feathersjs/errors" "^4.5.12"
     "@feathersjs/feathers" "^4.5.12"
     bcryptjs "^2.4.3"
@@ -579,14 +579,14 @@
     grant-profile "^0.0.11"
     lodash "^4.17.21"
 
-"@feathersjs/authentication@^4.5.12":
-  version "4.5.12"
-  resolved "https://registry.yarnpkg.com/@feathersjs/authentication/-/authentication-4.5.12.tgz#fbe508b63fe51f1986e8be898b900709166f16a3"
-  integrity sha512-qNLSlSZ0lCM77ELf7Ae+mkgXE1HafwWU2q/2MbSQfva1zUTo34O59JHa3PKmDK+TqAQwYQVlAY9IR6SmK+MW1g==
+"@feathersjs/authentication@^4.5.12", "@feathersjs/authentication@^4.5.14":
+  version "4.5.14"
+  resolved "https://registry.yarnpkg.com/@feathersjs/authentication/-/authentication-4.5.14.tgz#f69b9c031d0dd87e6772d108bdeb8dc034eec732"
+  integrity sha512-i/29Kcndacs7KpzDRZGI+P2stgDH3Fq8WU3OxFy2q7H3aAntX7gV74brBZZQdx0EQpfpWcyY4qXXRUDNnMohwQ==
   dependencies:
     "@feathersjs/errors" "^4.5.12"
     "@feathersjs/feathers" "^4.5.12"
-    "@feathersjs/transport-commons" "^4.5.12"
+    "@feathersjs/transport-commons" "^4.5.14"
     "@types/jsonwebtoken" "^8.5.6"
     debug "^4.3.3"
     jsonwebtoken "^8.5.1"
@@ -660,6 +660,17 @@
   version "4.5.12"
   resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-4.5.12.tgz#3993d03a1cfed630b0fc42e5dc1e92c76738fb28"
   integrity sha512-c/FnP+xzCmfsHGj4NGhHpTy2haaA2jiKZ+du8rUUWBgxC73y3mw7udUGhWdDxGx2mnXtOKCwIA6oPQBdXtFC+A==
+  dependencies:
+    "@feathersjs/commons" "^4.5.12"
+    "@feathersjs/errors" "^4.5.12"
+    debug "^4.3.3"
+    lodash "^4.17.21"
+    radix-router "^3.0.1"
+
+"@feathersjs/transport-commons@^4.5.14":
+  version "4.5.14"
+  resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-4.5.14.tgz#d4797bdf881604bb426d0a67664407c2ec170db0"
+  integrity sha512-9cmWTB3+ewsVpdgO9tnz4nnw5XnbbblK9ofpWDw6crz3RlFnTVXS8icZa/qXKiMPhaYOL2oxnxCWWvuFnZ7nGw==
   dependencies:
     "@feathersjs/commons" "^4.5.12"
     "@feathersjs/errors" "^4.5.12"
