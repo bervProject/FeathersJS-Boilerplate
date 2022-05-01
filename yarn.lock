@@ -622,10 +622,10 @@
   dependencies:
     debug "^4.3.3"
 
-"@feathersjs/express@^4.5.12":
-  version "4.5.12"
-  resolved "https://registry.yarnpkg.com/@feathersjs/express/-/express-4.5.12.tgz#98109a6ee02b4d66988f6cfdfbc9d9592cfa776d"
-  integrity sha512-ftGbrBHQZ3vXL/Pq9FBGmMZrJLFmNTjUtBA85YZSyChbVhAdmf8teDJc5JSu8sy4ylM8SkP4C9XgXlixehxw+Q==
+"@feathersjs/express@^4.5.12", "@feathersjs/express@^4.5.14":
+  version "4.5.14"
+  resolved "https://registry.yarnpkg.com/@feathersjs/express/-/express-4.5.14.tgz#5616bf76b32b83dc755ea9af33cbf1d6348599c0"
+  integrity sha512-kVMRiilBw767K1rYBOdLXYZGzwJb3pzKiOygUtSaZe6FsUmjJTycUz6pM7/ij1bI6WhzmSW0O4cfzmfoEXdejg==
   dependencies:
     "@feathersjs/commons" "^4.5.12"
     "@feathersjs/errors" "^4.5.12"
