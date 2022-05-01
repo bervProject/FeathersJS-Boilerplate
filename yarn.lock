@@ -656,10 +656,10 @@
     socket.io "^2.3.0"
     uberproto "^2.0.6"
 
-"@feathersjs/transport-commons@^4.5.12":
-  version "4.5.12"
-  resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-4.5.12.tgz#3993d03a1cfed630b0fc42e5dc1e92c76738fb28"
-  integrity sha512-c/FnP+xzCmfsHGj4NGhHpTy2haaA2jiKZ+du8rUUWBgxC73y3mw7udUGhWdDxGx2mnXtOKCwIA6oPQBdXtFC+A==
+"@feathersjs/transport-commons@^4.5.12", "@feathersjs/transport-commons@^4.5.14":
+  version "4.5.14"
+  resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-4.5.14.tgz#d4797bdf881604bb426d0a67664407c2ec170db0"
+  integrity sha512-9cmWTB3+ewsVpdgO9tnz4nnw5XnbbblK9ofpWDw6crz3RlFnTVXS8icZa/qXKiMPhaYOL2oxnxCWWvuFnZ7nGw==
   dependencies:
     "@feathersjs/commons" "^4.5.12"
     "@feathersjs/errors" "^4.5.12"
