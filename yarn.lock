@@ -594,10 +594,10 @@
     long-timeout "^0.1.1"
     uuid "^8.3.2"
 
-"@feathersjs/commons@^4.5.11", "@feathersjs/commons@^4.5.12":
-  version "4.5.12"
-  resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-4.5.12.tgz#42e60e933849905b8803a3ebd7d4424f85ee7d3f"
-  integrity sha512-ss3yyk8HurmOCSD+wvENIrT9iSa8vg9SmikoP5c9JaLkbtMmKpH88jCjgRl7jiO54f2+UcjW3PqccNgUGSNSDQ==
+"@feathersjs/commons@^4.5.11", "@feathersjs/commons@^4.5.12", "@feathersjs/commons@^4.5.15":
+  version "4.5.15"
+  resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-4.5.15.tgz#2f9c2599fd93607206ee40ab0e5639b79c7781b8"
+  integrity sha512-eVEcLJL3GcPQBQcD77jI3fZ4MMx+iD02Px2Z1lDw+cn/iGCeQkWWAPQs4Tp+HGR1rTL5JO+unyhzN8V9X7OYmw==
 
 "@feathersjs/configuration@^4.5.12":
   version "4.5.12"
@@ -635,12 +635,12 @@
     lodash "^4.17.21"
     uberproto "^2.0.6"
 
-"@feathersjs/feathers@^4.5.11", "@feathersjs/feathers@^4.5.12":
-  version "4.5.12"
-  resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-4.5.12.tgz#86a99e601a99cd3a30f9e8841039b052676f5168"
-  integrity sha512-24bxpMpheBrDmVwwByNPPfXnXk2KkeiW3NvE3xXHbt7QzZj3OrPJ8WS5MqUZMPMFSLMyqlhRKs+hpQgfWhuxrA==
+"@feathersjs/feathers@^4.5.11", "@feathersjs/feathers@^4.5.12", "@feathersjs/feathers@^4.5.15":
+  version "4.5.15"
+  resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-4.5.15.tgz#7eaae343e2c72818edebe7813f610028e6288baa"
+  integrity sha512-Q7sa1QAEhspYHsVEJPRg313bqjNaOhgvibiUxtjf3CGGJL9hVcAPLHQbrzsZuVTR4QwBATZSf6voEtuNmG/pIQ==
   dependencies:
-    "@feathersjs/commons" "^4.5.12"
+    "@feathersjs/commons" "^4.5.15"
     debug "^4.3.3"
     events "^3.3.0"
     uberproto "^2.0.6"
