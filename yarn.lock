@@ -599,11 +599,6 @@
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-4.5.15.tgz#2f9c2599fd93607206ee40ab0e5639b79c7781b8"
   integrity sha512-eVEcLJL3GcPQBQcD77jI3fZ4MMx+iD02Px2Z1lDw+cn/iGCeQkWWAPQs4Tp+HGR1rTL5JO+unyhzN8V9X7OYmw==
 
-"@feathersjs/commons@^4.5.15":
-  version "4.5.15"
-  resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-4.5.15.tgz#2f9c2599fd93607206ee40ab0e5639b79c7781b8"
-  integrity sha512-eVEcLJL3GcPQBQcD77jI3fZ4MMx+iD02Px2Z1lDw+cn/iGCeQkWWAPQs4Tp+HGR1rTL5JO+unyhzN8V9X7OYmw==
-
 "@feathersjs/configuration@^4.5.12":
   version "4.5.12"
   resolved "https://registry.yarnpkg.com/@feathersjs/configuration/-/configuration-4.5.12.tgz#599fe446ff728c9c1008be05002e6aca47e9b44f"
@@ -627,13 +622,13 @@
   dependencies:
     debug "^4.3.3"
 
-"@feathersjs/express@^4.5.14":
-  version "4.5.14"
-  resolved "https://registry.yarnpkg.com/@feathersjs/express/-/express-4.5.14.tgz#5616bf76b32b83dc755ea9af33cbf1d6348599c0"
-  integrity sha512-kVMRiilBw767K1rYBOdLXYZGzwJb3pzKiOygUtSaZe6FsUmjJTycUz6pM7/ij1bI6WhzmSW0O4cfzmfoEXdejg==
+"@feathersjs/express@^4.5.14", "@feathersjs/express@^4.5.15":
+  version "4.5.15"
+  resolved "https://registry.yarnpkg.com/@feathersjs/express/-/express-4.5.15.tgz#dfc1d0afe52278c862544d133d23a37504512abe"
+  integrity sha512-5gNaXpDZFY0W8svZflDCdQILeiVFt532LiLHYhBJdMK/lMyttKl1Ul8ZjQ/WF4P8Wmp196bxeIUyiJpIdoCXbQ==
   dependencies:
-    "@feathersjs/commons" "^4.5.12"
-    "@feathersjs/errors" "^4.5.12"
+    "@feathersjs/commons" "^4.5.15"
+    "@feathersjs/errors" "^4.5.15"
     "@types/express" "^4.17.13"
     debug "^4.3.3"
     express "^4.17.2"
