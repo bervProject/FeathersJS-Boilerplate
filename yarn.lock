@@ -687,6 +687,11 @@
   resolved "https://registry.npmjs.org/@google-cloud/projectify/-/projectify-2.1.1.tgz#ae6af4fee02d78d044ae434699a630f8df0084ef"
   integrity sha512-+rssMZHnlh0twl122gXY4/aCrk0G1acBqkHFfYddtsqpYXGxA29nj9V5V9SfC+GyOG00l650f6lG9KL+EpFEWQ==
 
+"@google-cloud/projectify@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@google-cloud/projectify/-/projectify-3.0.0.tgz#302b25f55f674854dce65c2532d98919b118a408"
+  integrity sha512-HRkZsNmjScY6Li8/kb70wjGlDDyLkVk3KvoEo9uIoxSjYLJasGiCch9+PqRVDOCGUFvEIqyogl+BeqILL4OJHA==
+
 "@google-cloud/promisify@^2.0.0":
   version "2.0.4"
   resolved "https://registry.npmjs.org/@google-cloud/promisify/-/promisify-2.0.4.tgz#9d8705ecb2baa41b6b2673f3a8e9b7b7e1abc52a"
@@ -728,13 +733,13 @@
     teeny-request "^7.1.3"
     xdg-basedir "^4.0.0"
 
-"@google-cloud/storage@^6.0.1":
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/@google-cloud/storage/-/storage-6.0.1.tgz#57c367345431da1f9196513ca836796b11b39d95"
-  integrity sha512-52P3A8IpqISc2aeGxx/DQyqDmG0uP5wUW3dsns4ZPKZS5jbllFMy0V7qzY2vVv7GgpIULIKQ26yEWjSEA/pLng==
+"@google-cloud/storage@^6.2.2":
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/@google-cloud/storage/-/storage-6.2.2.tgz#1fd3ee85e5fea55a9696c98769d097b28ff4d775"
+  integrity sha512-KhAOxmGfmELKKn6cdvgGfAi/YBLi19hI1jX3QI7xQmbeajSFMgUKrIPbbyfMIxQPOEQ9vG0MQX1uganlA/HTRA==
   dependencies:
     "@google-cloud/paginator" "^3.0.7"
-    "@google-cloud/projectify" "^2.0.0"
+    "@google-cloud/projectify" "^3.0.0"
     "@google-cloud/promisify" "^3.0.0"
     abort-controller "^3.0.0"
     arrify "^2.0.0"
