@@ -2757,10 +2757,10 @@ feathers-hooks-common@^6.1.5:
     lodash "^4.17.21"
     traverse "^0.6.6"
 
-feathers-sequelize@^6.3.6:
-  version "6.3.6"
-  resolved "https://registry.yarnpkg.com/feathers-sequelize/-/feathers-sequelize-6.3.6.tgz#51b65f1ca0f2d5a8e4f1041f1fa0b78ea7ff5680"
-  integrity sha512-Stl2jXTRx8ILyIummRUiHHRgUS8gZ6U0dPR0QQBwTHzfTVMDoDp5wzDhJG8li/u3o2Qti5T6rI6So70l814BOQ==
+feathers-sequelize@^6.4.0:
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/feathers-sequelize/-/feathers-sequelize-6.4.0.tgz#0f193142f52a58fb4c3ee7218eafed53b2c9a790"
+  integrity sha512-EAnv0RuTOOi7yk2wASKO6baETf1A8VF+NUs/4XMquTG+IHPpNvmuPL2vOdKVjw3XQoUR8RSQ8MhFGzg2dEB7ag==
   dependencies:
     "@feathersjs/adapter-commons" "^4.5.15"
     "@feathersjs/commons" "^4.5.15"
