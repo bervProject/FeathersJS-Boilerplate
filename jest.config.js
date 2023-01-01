@@ -10,6 +10,6 @@ module.exports = {
   collectCoverageFrom: ['**/src/*.{ts,tsx}'],
   coverageDirectory: './coverage/',
   moduleNameMapper: {
-    axios: 'axios/dist/node/axios.cjs'
+    axios: 'axios/dist/node/axios.cjs',
   },
-}
+};
