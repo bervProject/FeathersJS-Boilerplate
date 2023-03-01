@@ -629,6 +629,11 @@
   dependencies:
     debug "^4.3.3"
 
+"@feathersjs/errors@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.0.tgz#dc4f8ec73ed60aba24c0c3d023cd3bb4a1f8226d"
+  integrity sha512-bVir0nomgk8BSnpe5zcJ8JT2ly5xVsdH5KrMgA5f+E00NMu/2S8QoC3YF4WesYQ7WYg3uS6VulhPDj3MV6xLgw==
+
 "@feathersjs/express@^4.5.15":
   version "4.5.15"
   resolved "https://registry.yarnpkg.com/@feathersjs/express/-/express-4.5.15.tgz#dfc1d0afe52278c862544d133d23a37504512abe"
