@@ -538,14 +538,14 @@
   resolved "https://registry.npmjs.org/@feathers-plus/batch-loader/-/batch-loader-0.3.6.tgz#1e096e95fcdffb83fb1a65468e6ef80b416f7d98"
   integrity sha512-r+n31iZ/B5Rl1mLkC9/S20UI445MdkZvE3VBmjupep2t8OuyTYHPkFEgR25HY6khH+RothK1VL3B5eumk9N2QQ==
 
-"@feathersjs/adapter-commons@^4.5.15":
-  version "4.5.15"
-  resolved "https://registry.yarnpkg.com/@feathersjs/adapter-commons/-/adapter-commons-4.5.15.tgz#f7dd1a250b0a58fa735ed31b63e25e35b57418aa"
-  integrity sha512-kKqL4mYCe+dBn271lfJb6/79qEL0C7R7EfVrW+U75uCGrOuE3Ws8LbE2SQcjasUcrzZQShiJDJIpU/grcTPsHg==
+"@feathersjs/adapter-commons@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@feathersjs/adapter-commons/-/adapter-commons-5.0.0.tgz#d36b049387f181a8097051c64dbd698930798ae3"
+  integrity sha512-FHI82BgTMbKFy/v3HGTPFxf2048I1usU1CSUwkXK6udHIsKiJessqTok0FiV0IkGRT7RR/jo02xcq/NPSd0wvg==
   dependencies:
-    "@feathersjs/commons" "^4.5.15"
-    "@feathersjs/errors" "^4.5.15"
-    "@feathersjs/feathers" "^4.5.15"
+    "@feathersjs/commons" "^5.0.0"
+    "@feathersjs/errors" "^5.0.0"
+    "@feathersjs/feathers" "^5.0.0"
 
 "@feathersjs/authentication-jwt@^2.0.10":
   version "2.0.10"
@@ -606,6 +606,11 @@
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-4.5.15.tgz#2f9c2599fd93607206ee40ab0e5639b79c7781b8"
   integrity sha512-eVEcLJL3GcPQBQcD77jI3fZ4MMx+iD02Px2Z1lDw+cn/iGCeQkWWAPQs4Tp+HGR1rTL5JO+unyhzN8V9X7OYmw==
 
+"@feathersjs/commons@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.0.tgz#f35abf74d8e8a20fe6288c62c3c3d29a80383b96"
+  integrity sha512-WTUQag+cIhkJ+Y7kS1lEy2T8i2AF7bO2qvIXdKM9jb4d92GCl5ZX2LrAlEgKY2Y8GUqm3EVfYXEqHq9ZUqdI8A==
+
 "@feathersjs/configuration@^4.5.15":
   version "4.5.15"
   resolved "https://registry.yarnpkg.com/@feathersjs/configuration/-/configuration-4.5.15.tgz#bd2f142369579e6ac00afb2926fb0de5c5902c28"
@@ -629,6 +634,11 @@
   dependencies:
     debug "^4.3.3"
 
+"@feathersjs/errors@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.0.tgz#dc4f8ec73ed60aba24c0c3d023cd3bb4a1f8226d"
+  integrity sha512-bVir0nomgk8BSnpe5zcJ8JT2ly5xVsdH5KrMgA5f+E00NMu/2S8QoC3YF4WesYQ7WYg3uS6VulhPDj3MV6xLgw==
+
 "@feathersjs/express@^4.5.15":
   version "4.5.15"
   resolved "https://registry.yarnpkg.com/@feathersjs/express/-/express-4.5.15.tgz#dfc1d0afe52278c862544d133d23a37504512abe"
@@ -651,6 +661,20 @@
     debug "^4.3.3"
     events "^3.3.0"
     uberproto "^2.0.6"
+
+"@feathersjs/feathers@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-5.0.0.tgz#dca815e8ca156271ddd19ec8f4d73bc79c3b545f"
+  integrity sha512-21rrKf4jFYEUHxMM/FeBiZODeXERSEMBVLTUbwCX9gtrbEH1okROz/u2piWS4LeYpeptiLu4i+S0xdvUe53H/Q==
+  dependencies:
+    "@feathersjs/commons" "^5.0.0"
+    "@feathersjs/hooks" "^0.8.1"
+    events "^3.3.0"
+
+"@feathersjs/hooks@^0.8.1":
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@feathersjs/hooks/-/hooks-0.8.1.tgz#de7e8e9632d9bd9027eaffc7f5292fc577bc769f"
+  integrity sha512-q/OGjm2BEhT9cHYYcMZR4YKX4lHyufBJmi5Dz+XRM5YqUuEg9MYtR45CWgDiC1klrd2srNSsdmGNVU1otL4+0Q==
 
 "@feathersjs/socketio@^4.5.15":
   version "4.5.15"
@@ -2771,14 +2795,14 @@ feathers-hooks-common@^6.1.5:
     lodash "^4.17.21"
     traverse "^0.6.6"
 
-feathers-sequelize@^6.4.0:
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/feathers-sequelize/-/feathers-sequelize-6.4.0.tgz#0f193142f52a58fb4c3ee7218eafed53b2c9a790"
-  integrity sha512-EAnv0RuTOOi7yk2wASKO6baETf1A8VF+NUs/4XMquTG+IHPpNvmuPL2vOdKVjw3XQoUR8RSQ8MhFGzg2dEB7ag==
+feathers-sequelize@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/feathers-sequelize/-/feathers-sequelize-7.0.0.tgz#376bec859250a73da68cdbc468e5ed984bbaccf9"
+  integrity sha512-aVM7HSKMy5RIoSC37wF5aH61LVtD5xy3I1swqrX6w6wbWaQJbbKI3Yv9Q0hgw7JD7Apm72JtK+WWU6z5EYHNiw==
   dependencies:
-    "@feathersjs/adapter-commons" "^4.5.15"
-    "@feathersjs/commons" "^4.5.15"
-    "@feathersjs/errors" "^4.5.15"
+    "@feathersjs/adapter-commons" "^5.0.0"
+    "@feathersjs/commons" "^5.0.0"
+    "@feathersjs/errors" "^5.0.0"
 
 fecha@^4.2.0:
   version "4.2.1"
