@@ -3,12 +3,12 @@
 // about the logger.
 import logger from '../logger';
 import util from 'util';
-import { HookContext, Hook } from '@feathersjs/feathers';
+import { HookContext } from '@feathersjs/feathers';
 
 // To see more detailed messages, uncomment the following line:
 logger.level = 'debug';
 
-export default function (): Hook {
+export default function () {
   return (context: HookContext) => {
     const { params } = context;
     const requestId = params.requestId;

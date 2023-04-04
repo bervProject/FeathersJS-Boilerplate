@@ -1,5 +1,4 @@
 // Initializes the `upload` service on path `/upload`
-import { ServiceAddons } from '@feathersjs/feathers';
 import { Request, Response, NextFunction } from 'express';
 import multer from 'multer';
 import { Application } from '../../declarations';
@@ -11,8 +10,7 @@ const multipartMiddleware = multer();
 
 declare module '../../declarations' {
   interface ServiceTypes {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    upload: Upload & ServiceAddons<any>;
+    upload: Upload;
   }
 }
 
@@ -26,7 +24,7 @@ export default function (app: Application): void {
 
   // Initialize our service with any options it requires
   app.use(
-    '/upload',
+    'upload',
     multipartMiddleware.single('file'),
     function (req: Request, res: Response, next: NextFunction) {
       if (!req.feathers) {

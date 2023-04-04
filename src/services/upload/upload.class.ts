@@ -1,9 +1,9 @@
-import { Service, SequelizeServiceOptions } from 'feathers-sequelize';
+import { SequelizeService, SequelizeAdapterOptions } from 'feathers-sequelize';
 import { Application } from '../../declarations';
 
-export class Upload extends Service {
+export class Upload extends SequelizeService {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  constructor(options: Partial<SequelizeServiceOptions>, app: Application) {
+  constructor(options: SequelizeAdapterOptions, app: Application) {
     super(options);
   }
 }
