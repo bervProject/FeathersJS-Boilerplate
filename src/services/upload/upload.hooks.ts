@@ -1,5 +1,5 @@
 import { softDelete, isProvider, iff } from 'feathers-hooks-common';
-// import { uploadHook } from '@bervproject/feathers-advance-hook';
+import { uploadHook } from '@bervproject/feathers-advance-hook';
 import * as feathersAuthentication from '@feathersjs/authentication';
 const { authenticate } = feathersAuthentication.hooks;
 
@@ -21,9 +21,7 @@ export default {
     ],
     find: [],
     get: [],
-    create: [
-      // uploadHook()
-    ],
+    create: [uploadHook()],
     update: [],
     patch: [],
     remove: [],
