@@ -13,7 +13,7 @@ env:
   IMAGE_NAME: feathersjs-boilerplate
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     services:
       # Label used to access the service container
       postgres:
@@ -33,7 +33,7 @@ jobs:
           --health-retries 5
     strategy:
       matrix:
-        node-version: [16.x, 18.x]
+        node-version: [18.x, 19.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     steps:
     - uses: actions/checkout@v3
@@ -52,7 +52,7 @@ jobs:
     - name: Coverage Upload
       uses: codecov/codecov-action@v3
   docker-build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     if: github.event_name == 'pull_request'
     needs: build
     steps:
@@ -64,7 +64,7 @@ jobs:
   docker-push:
     # Ensure test job passes before pushing image.
     needs: build
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     if: github.event_name == 'push'
     steps:
       - uses: actions/checkout@v3
