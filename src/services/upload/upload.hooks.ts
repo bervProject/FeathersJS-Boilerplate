@@ -1,6 +1,7 @@
 import { softDelete, isProvider, iff } from 'feathers-hooks-common';
 import { uploadHook } from '@bervproject/feathers-advance-hook';
 import * as feathersAuthentication from '@feathersjs/authentication';
+import { HookContext } from '../../declarations';
 const { authenticate } = feathersAuthentication.hooks;
 
 export default {
@@ -10,11 +11,11 @@ export default {
       softDelete({
         // context is the normal hook context
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
-        deletedQuery: async (context) => {
+        deletedQuery: async (context: HookContext) => {
           return { deletedAt: null };
         },
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
-        removeData: async (context) => {
+        removeData: async (context: HookContext) => {
           return { deletedAt: new Date() };
         },
       }),

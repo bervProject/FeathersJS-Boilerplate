@@ -1,5 +1,5 @@
 // Use this hook to manipulate incoming or outgoing data.
-import { HookContext, Hook } from '@feathersjs/feathers';
+import { HookContext } from '@feathersjs/feathers';
 import logger from '../logger';
 // For more information on hooks see: http://docs.feathersjs.com/api/hooks.html
 function recursive(i: number) {
@@ -13,7 +13,7 @@ function recursive(i: number) {
 }
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-export default function (options = {}): Hook {
+export default function (options = {}) {
   return async (context: HookContext) => {
     const { method, type } = context;
     if (method === 'find' && type === 'before') {
