@@ -2624,10 +2624,10 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "2.1.1"
 
-feathers-hooks-common@^7.0.2:
-  version "7.0.2"
-  resolved "https://registry.npmjs.org/feathers-hooks-common/-/feathers-hooks-common-7.0.2.tgz#05b8e5790c1697eb9091a36142eb8c47963c5898"
-  integrity sha512-4byNIP2RmUCITTQdHQ8X712ugkrKOu8aqeKeTHDkXZBXn8Y5Of87pD6+FKocF2CAXvlbi5LEELnpJd/cg+XwtQ==
+feathers-hooks-common@^7.0.3:
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/feathers-hooks-common/-/feathers-hooks-common-7.0.3.tgz#4c071eb78e0dfe78e6e586213ab133b6c6d96e1c"
+  integrity sha512-9qqYmvP5iYzfRLY2kOVmOVx4XmkFyQ8mZa81aofLa1RXfz2ULfpbCzE2PTcVz9ltekmMAKoHnWycVpI2ZaatCA==
   dependencies:
     "@feathers-plus/batch-loader" "^0.3.6"
     "@feathersjs/commons" "^5.0.1"
