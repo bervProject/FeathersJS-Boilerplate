@@ -306,10 +306,10 @@
   resolved "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@bervproject/feathers-advance-hook@^2.0.0-rc.0":
-  version "2.0.0-rc.0"
-  resolved "https://registry.npmjs.org/@bervproject/feathers-advance-hook/-/feathers-advance-hook-2.0.0-rc.0.tgz#d225947c1662667881f327cf2d8ca6082e3032cf"
-  integrity sha512-uI6KcyrpLVdVELzc8WX1tyu3dzOXWaxkTbG0/Mvt5ZqGGGDFE/YK8t9ssBxvhvxHD5brPy3T35/Fn6dKQoagMw==
+"@bervproject/feathers-advance-hook@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@bervproject/feathers-advance-hook/-/feathers-advance-hook-2.0.1.tgz#211079855e1a58a1b357555027f398e795985d14"
+  integrity sha512-6MAM4xPEANl3NQzlne/UUJZ2rv1LHbnp4ZAUG9/l8yuin/YY19oYCGHtOFVtjLRkWoUh2ga6kw22g8EKiZBLqg==
   dependencies:
     "@feathersjs/errors" "^5.0.1"
     "@feathersjs/feathers" "^5.0.1"
