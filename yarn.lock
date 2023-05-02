@@ -436,17 +436,17 @@
     lodash "^4.17.21"
     qs "^6.11.1"
 
-"@feathersjs/authentication@^5.0.1", "@feathersjs/authentication@^5.0.3":
-  version "5.0.3"
-  resolved "https://registry.npmjs.org/@feathersjs/authentication/-/authentication-5.0.3.tgz#d4e1c1deb40422b85cd33e1f55a4147f271d5ad9"
-  integrity sha512-cZkr0+2u6re5kMgtuvvWVJ9XHLmqESgAAfC63W7MTEHarpSEKH+b27Pmf1DTposu1m2uUaNH3wlYH4vab8+hcA==
+"@feathersjs/authentication@^5.0.3", "@feathersjs/authentication@^5.0.5":
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/@feathersjs/authentication/-/authentication-5.0.5.tgz#b322a3d95aab291b101d468d4e7c81f9c49b18bb"
+  integrity sha512-86sVlkAbvw60+3tfaYh0O4EOvr5Azl8qZZ90cHq4f9Xi7USv6fh9Q7oHBW+3SeTwS/Z/K+NopdpR5817o6rmAw==
   dependencies:
-    "@feathersjs/commons" "^5.0.3"
-    "@feathersjs/errors" "^5.0.3"
-    "@feathersjs/feathers" "^5.0.3"
+    "@feathersjs/commons" "^5.0.5"
+    "@feathersjs/errors" "^5.0.5"
+    "@feathersjs/feathers" "^5.0.5"
     "@feathersjs/hooks" "^0.8.1"
-    "@feathersjs/schema" "^5.0.3"
-    "@feathersjs/transport-commons" "^5.0.3"
+    "@feathersjs/schema" "^5.0.5"
+    "@feathersjs/transport-commons" "^5.0.5"
     "@types/jsonwebtoken" "^9.0.1"
     jsonwebtoken "^9.0.0"
     lodash "^4.17.21"
@@ -558,14 +558,14 @@
     "@feathersjs/transport-commons" "^5.0.3"
     socket.io "^4.6.1"
 
-"@feathersjs/transport-commons@^5.0.3":
-  version "5.0.3"
-  resolved "https://registry.npmjs.org/@feathersjs/transport-commons/-/transport-commons-5.0.3.tgz#65970b8c20bdfa3d3b2ba73ae7f45eb86e352ef4"
-  integrity sha512-30ecuwXjebqieSNwQhM+xlSrgyxVzKeXxANDoj2gH2wcmtKB1irTBt/BVtxDOO2zsn0vu7XAN6jA+tUEMsGQeA==
+"@feathersjs/transport-commons@^5.0.3", "@feathersjs/transport-commons@^5.0.5":
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-5.0.5.tgz#13775c0d2319225bfe9e99761d2d5d60ee1ba5e1"
+  integrity sha512-z5xeAMPxbkPl2svgWSaW2zMjXTKzmBwFHrfgF4U29Ea2PSK+qkosgGcmewbPQU4mxZcQE5+pemKt8nlhz1d1YQ==
   dependencies:
-    "@feathersjs/commons" "^5.0.3"
-    "@feathersjs/errors" "^5.0.3"
-    "@feathersjs/feathers" "^5.0.3"
+    "@feathersjs/commons" "^5.0.5"
+    "@feathersjs/errors" "^5.0.5"
+    "@feathersjs/feathers" "^5.0.5"
     encodeurl "^1.0.2"
     lodash "^4.17.21"
 
