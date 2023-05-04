@@ -406,15 +406,15 @@
     lodash.pick "^4.4.0"
     passport-jwt "^4.0.0"
 
-"@feathersjs/authentication-local@^5.0.1":
-  version "5.0.3"
-  resolved "https://registry.npmjs.org/@feathersjs/authentication-local/-/authentication-local-5.0.3.tgz#414d017dce2c72f0a59874f823b826c494673137"
-  integrity sha512-omvscQPUtg1hcoCWO107qP4IkxnMqOSaZA+LL3SQe6fF+X3pgHTVZy11jP6pVjHtRxxtkDC6YEg9F+WmSeV+RA==
+"@feathersjs/authentication-local@^5.0.5":
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-local/-/authentication-local-5.0.5.tgz#b250859d879ffad071dc7385d1f07519bafd2729"
+  integrity sha512-uoEsua+1u2wM96vDMIRjtWHqBuE7+Gl70pVYCQGWnuUp0N+nkUho5mMsAWx84yWff21Q3ffGshlo8P/NUL6XXg==
   dependencies:
-    "@feathersjs/authentication" "^5.0.3"
-    "@feathersjs/commons" "^5.0.3"
-    "@feathersjs/errors" "^5.0.3"
-    "@feathersjs/feathers" "^5.0.3"
+    "@feathersjs/authentication" "^5.0.5"
+    "@feathersjs/commons" "^5.0.5"
+    "@feathersjs/errors" "^5.0.5"
+    "@feathersjs/feathers" "^5.0.5"
     bcryptjs "^2.4.3"
     lodash "^4.17.21"
 
@@ -436,7 +436,7 @@
     lodash "^4.17.21"
     qs "^6.11.1"
 
-"@feathersjs/authentication@^5.0.1", "@feathersjs/authentication@^5.0.3", "@feathersjs/authentication@^5.0.5":
+"@feathersjs/authentication@^5.0.1", "@feathersjs/authentication@^5.0.5":
   version "5.0.5"
   resolved "https://registry.yarnpkg.com/@feathersjs/authentication/-/authentication-5.0.5.tgz#b322a3d95aab291b101d468d4e7c81f9c49b18bb"
   integrity sha512-86sVlkAbvw60+3tfaYh0O4EOvr5Azl8qZZ90cHq4f9Xi7USv6fh9Q7oHBW+3SeTwS/Z/K+NopdpR5817o6rmAw==
