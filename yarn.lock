@@ -376,11 +376,6 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.44.0.tgz#961a5903c74139390478bdc808bcde3fc45ab7af"
   integrity sha512-Ag+9YM4ocKQx9AarydN0KY2j0ErMHNIocPDrVo8zAE44xLTjEtz81OdR68/cydGtk6m6jDb5Za3r2useMzYmSw==
 
-"@feathers-plus/batch-loader@^0.3.6":
-  version "0.3.6"
-  resolved "https://registry.npmjs.org/@feathers-plus/batch-loader/-/batch-loader-0.3.6.tgz#1e096e95fcdffb83fb1a65468e6ef80b416f7d98"
-  integrity sha512-r+n31iZ/B5Rl1mLkC9/S20UI445MdkZvE3VBmjupep2t8OuyTYHPkFEgR25HY6khH+RothK1VL3B5eumk9N2QQ==
-
 "@feathersjs/adapter-commons@^5.0.1":
   version "5.0.3"
   resolved "https://registry.npmjs.org/@feathersjs/adapter-commons/-/adapter-commons-5.0.3.tgz#74823fcba367575225bed65c6e6a89feb3df147c"
@@ -2681,15 +2676,12 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "2.1.1"
 
-feathers-hooks-common@^7.0.3:
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/feathers-hooks-common/-/feathers-hooks-common-7.0.3.tgz#4c071eb78e0dfe78e6e586213ab133b6c6d96e1c"
-  integrity sha512-9qqYmvP5iYzfRLY2kOVmOVx4XmkFyQ8mZa81aofLa1RXfz2ULfpbCzE2PTcVz9ltekmMAKoHnWycVpI2ZaatCA==
+feathers-hooks-common@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/feathers-hooks-common/-/feathers-hooks-common-8.0.0.tgz#e3a24a4e08300cab6f47150f78658fee42235212"
+  integrity sha512-k7xb0hJh0lkMcDV+NYg132auwuAKjD9+7cwEijoEldAnKMPxH948a8JmoqPad572mgXTuGln0YQWC2PptQ/K5Q==
   dependencies:
-    "@feathers-plus/batch-loader" "^0.3.6"
-    "@feathersjs/commons" "^5.0.1"
-    "@feathersjs/errors" "^5.0.1"
-    "@feathersjs/feathers" "^5.0.1"
+    "@feathersjs/errors" "^5.0.6"
     ajv "^6.12.6"
     debug "^4.3.4"
     graphql "^16.6.0"
