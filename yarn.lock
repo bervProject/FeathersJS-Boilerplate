@@ -376,15 +376,6 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.44.0.tgz#961a5903c74139390478bdc808bcde3fc45ab7af"
   integrity sha512-Ag+9YM4ocKQx9AarydN0KY2j0ErMHNIocPDrVo8zAE44xLTjEtz81OdR68/cydGtk6m6jDb5Za3r2useMzYmSw==
 
-"@feathersjs/adapter-commons@^5.0.1":
-  version "5.0.3"
-  resolved "https://registry.npmjs.org/@feathersjs/adapter-commons/-/adapter-commons-5.0.3.tgz#74823fcba367575225bed65c6e6a89feb3df147c"
-  integrity sha512-REn7Ut215mBoM5pJUc0ectpjTe2IPBxmmESZX1qveXPSq8y29wviV7P+0pCLi7tAe9CMaUvT3PhfnGGuLf1cpw==
-  dependencies:
-    "@feathersjs/commons" "^5.0.3"
-    "@feathersjs/errors" "^5.0.3"
-    "@feathersjs/feathers" "^5.0.3"
-
 "@feathersjs/adapter-commons@^5.0.6":
   version "5.0.6"
   resolved "https://registry.yarnpkg.com/@feathersjs/adapter-commons/-/adapter-commons-5.0.6.tgz#b9ef1baafe00bd5411f0817c340327bd5e7e407e"
@@ -453,7 +444,7 @@
     long-timeout "^0.1.1"
     uuid "^9.0.0"
 
-"@feathersjs/commons@^5.0.1", "@feathersjs/commons@^5.0.3", "@feathersjs/commons@^5.0.5", "@feathersjs/commons@^5.0.6":
+"@feathersjs/commons@^5.0.5", "@feathersjs/commons@^5.0.6":
   version "5.0.6"
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.6.tgz#4f30d42414fcbaa3bf9b72ed1e8caf7ab0961da6"
   integrity sha512-AVX6+JPb+KT9Ya4ASMAErVfKnnEN1dzwiWK03cHA2IvUrhzLBPGNoe/t+ph4L7BNl8JSK/nds3XOvf3/IcdOcg==
@@ -476,7 +467,7 @@
   dependencies:
     debug "^4.0.0"
 
-"@feathersjs/errors@^5.0.1", "@feathersjs/errors@^5.0.3", "@feathersjs/errors@^5.0.5", "@feathersjs/errors@^5.0.6":
+"@feathersjs/errors@^5.0.1", "@feathersjs/errors@^5.0.5", "@feathersjs/errors@^5.0.6":
   version "5.0.6"
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.6.tgz#5c58fcd054802a79e7d317f61a711e59aa923d75"
   integrity sha512-lJAKKOpV6+gdah9TcS65f93gPGUx6SEQojK3bp6r51RgMP9SBD68JfrUoTX7pVDN6+hBBOfwT+1QiAyDw7mvAQ==
@@ -498,7 +489,7 @@
     cors "^2.8.5"
     express "^4.18.2"
 
-"@feathersjs/feathers@^5.0.1", "@feathersjs/feathers@^5.0.3", "@feathersjs/feathers@^5.0.5", "@feathersjs/feathers@^5.0.6":
+"@feathersjs/feathers@^5.0.1", "@feathersjs/feathers@^5.0.5", "@feathersjs/feathers@^5.0.6":
   version "5.0.6"
   resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-5.0.6.tgz#5761e798e91adcb8ae7df817cce335713007599d"
   integrity sha512-aYqeA7SyAhClxONhlVxY1zSlKTSef9OtpvInNpYvUHlJK4G9gRRk2KytwEG4W/ipCl88TLTXjZAaWyiMdfLgcw==
@@ -2688,14 +2679,14 @@ feathers-hooks-common@^8.0.0:
     lodash "^4.17.21"
     traverse "^0.6.7"
 
-feathers-sequelize@^7.0.1:
-  version "7.0.1"
-  resolved "https://registry.npmjs.org/feathers-sequelize/-/feathers-sequelize-7.0.1.tgz#ca22527e0f4a9e99e8482da7525820e43462dbfb"
-  integrity sha512-v+oOV6ZRkPLl+RARsNQxXaQRIDv2+Yv3VKtkCqLtZNuMTrv8E3ynuoppuGyhtpoUUVOtViNSNUZP8kMNMd+clA==
+feathers-sequelize@^7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/feathers-sequelize/-/feathers-sequelize-7.0.2.tgz#6af9b70bfe0f1bdab385c8a23d924d5f37e99f0a"
+  integrity sha512-gMgo+p5jnYhohwXcmWNpeYJ6y5Mwne4gDsfbwWZGhjO0ZfVqJpnVAuOG2P2XkJD8xaftpuk50i+o41p6dlUqxA==
   dependencies:
-    "@feathersjs/adapter-commons" "^5.0.1"
-    "@feathersjs/commons" "^5.0.1"
-    "@feathersjs/errors" "^5.0.1"
+    "@feathersjs/adapter-commons" "^5.0.6"
+    "@feathersjs/commons" "^5.0.6"
+    "@feathersjs/errors" "^5.0.6"
 
 fecha@^4.2.0:
   version "4.2.3"
