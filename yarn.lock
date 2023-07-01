@@ -411,15 +411,15 @@
     lodash.pick "^4.4.0"
     passport-jwt "^4.0.0"
 
-"@feathersjs/authentication-local@^5.0.5":
-  version "5.0.5"
-  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-local/-/authentication-local-5.0.5.tgz#b250859d879ffad071dc7385d1f07519bafd2729"
-  integrity sha512-uoEsua+1u2wM96vDMIRjtWHqBuE7+Gl70pVYCQGWnuUp0N+nkUho5mMsAWx84yWff21Q3ffGshlo8P/NUL6XXg==
+"@feathersjs/authentication-local@^5.0.6":
+  version "5.0.6"
+  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-local/-/authentication-local-5.0.6.tgz#e2a0ceb4e3e2f673430fc8435e0c670c8452816e"
+  integrity sha512-oBYRJR1PUZUP9SRgXhsKSMfs4BO6FX6BzZ6ckYBqEpinmLRoUZHgf8btARG4VwH3KEuFqJIHtVzKM/iOeA+/Ew==
   dependencies:
-    "@feathersjs/authentication" "^5.0.5"
-    "@feathersjs/commons" "^5.0.5"
-    "@feathersjs/errors" "^5.0.5"
-    "@feathersjs/feathers" "^5.0.5"
+    "@feathersjs/authentication" "^5.0.6"
+    "@feathersjs/commons" "^5.0.6"
+    "@feathersjs/errors" "^5.0.6"
+    "@feathersjs/feathers" "^5.0.6"
     bcryptjs "^2.4.3"
     lodash "^4.17.21"
 
@@ -482,16 +482,6 @@
     debug "^4.0.0"
 
 "@feathersjs/errors@^5.0.1", "@feathersjs/errors@^5.0.3", "@feathersjs/errors@^5.0.5", "@feathersjs/errors@^5.0.6":
-  version "5.0.6"
-  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.6.tgz#5c58fcd054802a79e7d317f61a711e59aa923d75"
-  integrity sha512-lJAKKOpV6+gdah9TcS65f93gPGUx6SEQojK3bp6r51RgMP9SBD68JfrUoTX7pVDN6+hBBOfwT+1QiAyDw7mvAQ==
-
-"@feathersjs/errors@^5.0.6":
-  version "5.0.6"
-  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.6.tgz#5c58fcd054802a79e7d317f61a711e59aa923d75"
-  integrity sha512-lJAKKOpV6+gdah9TcS65f93gPGUx6SEQojK3bp6r51RgMP9SBD68JfrUoTX7pVDN6+hBBOfwT+1QiAyDw7mvAQ==
-
-"@feathersjs/errors@^5.0.6":
   version "5.0.6"
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.6.tgz#5c58fcd054802a79e7d317f61a711e59aa923d75"
   integrity sha512-lJAKKOpV6+gdah9TcS65f93gPGUx6SEQojK3bp6r51RgMP9SBD68JfrUoTX7pVDN6+hBBOfwT+1QiAyDw7mvAQ==
