@@ -2735,15 +2735,15 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "2.1.1"
 
-feathers-hooks-common@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/feathers-hooks-common/-/feathers-hooks-common-8.0.0.tgz#e3a24a4e08300cab6f47150f78658fee42235212"
-  integrity sha512-k7xb0hJh0lkMcDV+NYg132auwuAKjD9+7cwEijoEldAnKMPxH948a8JmoqPad572mgXTuGln0YQWC2PptQ/K5Q==
+feathers-hooks-common@^8.1.1:
+  version "8.1.1"
+  resolved "https://registry.yarnpkg.com/feathers-hooks-common/-/feathers-hooks-common-8.1.1.tgz#34517b3d07eae813e7b505a13d0c539643119a38"
+  integrity sha512-l33cpzRAjBnX/koyyCdeRY7dFPJBZVRKmN1fR1926S8p3gjS+gq5HE7wIipFcIPLDFKfwE9o2ZU5FlM2eCteXA==
   dependencies:
-    "@feathersjs/errors" "^5.0.6"
+    "@feathersjs/errors" "^5.0.8"
     ajv "^6.12.6"
     debug "^4.3.4"
-    graphql "^16.6.0"
+    graphql "^16.8.0"
     lodash "^4.17.21"
     traverse "^0.6.7"
 
@@ -3019,10 +3019,10 @@ graphemer@^1.4.0:
   resolved "https://registry.yarnpkg.com/graphemer/-/graphemer-1.4.0.tgz#fb2f1d55e0e3a1849aeffc90c4fa0dd53a0e66c6"
   integrity sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==
 
-graphql@^16.6.0:
-  version "16.6.0"
-  resolved "https://registry.npmjs.org/graphql/-/graphql-16.6.0.tgz#c2dcffa4649db149f6282af726c8c83f1c7c5fdb"
-  integrity sha512-KPIBPDlW7NxrbT/eh4qPXz5FiFdL5UbaA0XUNz2Rp3Z3hqBSkbj0GVjwFDztsWVauZUWsbKHgMg++sk8UX0bkw==
+graphql@^16.8.0:
+  version "16.8.0"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.8.0.tgz#374478b7f27b2dc6153c8f42c1b80157f79d79d4"
+  integrity sha512-0oKGaR+y3qcS5mCu1vb7KG+a89vjn06C7Ihq/dDl3jA+A8B3TKomvi3CiEcVLJQGalbu8F52LxkOym7U5sSfbg==
 
 gtoken@^6.1.0:
   version "6.1.2"
