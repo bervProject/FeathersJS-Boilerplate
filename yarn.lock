@@ -394,24 +394,6 @@
     "@feathersjs/errors" "^5.0.9"
     "@feathersjs/feathers" "^5.0.9"
 
-"@feathersjs/adapter-commons@^5.0.9":
-  version "5.0.9"
-  resolved "https://registry.yarnpkg.com/@feathersjs/adapter-commons/-/adapter-commons-5.0.9.tgz#53d9387e489700023f0abe4f2f5a887d46f53057"
-  integrity sha512-H0xO+IC+ahZEIRqGBcbC99ofg0KezJbhr7RGl7fnNuucWIyxYEq4YfIuY7L/uiltMnh/5tBwNSbAXhRSiXMRlQ==
-  dependencies:
-    "@feathersjs/commons" "^5.0.9"
-    "@feathersjs/errors" "^5.0.9"
-    "@feathersjs/feathers" "^5.0.9"
-
-"@feathersjs/adapter-commons@^5.0.9":
-  version "5.0.9"
-  resolved "https://registry.yarnpkg.com/@feathersjs/adapter-commons/-/adapter-commons-5.0.9.tgz#53d9387e489700023f0abe4f2f5a887d46f53057"
-  integrity sha512-H0xO+IC+ahZEIRqGBcbC99ofg0KezJbhr7RGl7fnNuucWIyxYEq4YfIuY7L/uiltMnh/5tBwNSbAXhRSiXMRlQ==
-  dependencies:
-    "@feathersjs/commons" "^5.0.9"
-    "@feathersjs/errors" "^5.0.9"
-    "@feathersjs/feathers" "^5.0.9"
-
 "@feathersjs/authentication-jwt@^2.0.10":
   version "2.0.10"
   resolved "https://registry.npmjs.org/@feathersjs/authentication-jwt/-/authentication-jwt-2.0.10.tgz#f8ec25d1230552b311af21822c5974cbc5f99b5e"
@@ -566,36 +548,6 @@
     ajv-formats "^2.1.1"
     json-schema-to-ts "^2.9.2"
 
-"@feathersjs/schema@^5.0.9":
-  version "5.0.9"
-  resolved "https://registry.yarnpkg.com/@feathersjs/schema/-/schema-5.0.9.tgz#a2a28cfec6b41eb540d27c246332220bd27e7a45"
-  integrity sha512-WUOyBeD94wjdxHOOuIQdF2/9+GXm9wV4VZECaQeMbLU9wq2ZihD4Hwiv69snMOKMkGgVPTpUUZH9uCQmxyy8Nw==
-  dependencies:
-    "@feathersjs/adapter-commons" "^5.0.9"
-    "@feathersjs/commons" "^5.0.9"
-    "@feathersjs/errors" "^5.0.9"
-    "@feathersjs/feathers" "^5.0.9"
-    "@feathersjs/hooks" "^0.8.1"
-    "@types/json-schema" "^7.0.13"
-    ajv "^8.12.0"
-    ajv-formats "^2.1.1"
-    json-schema-to-ts "^2.9.2"
-
-"@feathersjs/schema@^5.0.9":
-  version "5.0.9"
-  resolved "https://registry.yarnpkg.com/@feathersjs/schema/-/schema-5.0.9.tgz#a2a28cfec6b41eb540d27c246332220bd27e7a45"
-  integrity sha512-WUOyBeD94wjdxHOOuIQdF2/9+GXm9wV4VZECaQeMbLU9wq2ZihD4Hwiv69snMOKMkGgVPTpUUZH9uCQmxyy8Nw==
-  dependencies:
-    "@feathersjs/adapter-commons" "^5.0.9"
-    "@feathersjs/commons" "^5.0.9"
-    "@feathersjs/errors" "^5.0.9"
-    "@feathersjs/feathers" "^5.0.9"
-    "@feathersjs/hooks" "^0.8.1"
-    "@types/json-schema" "^7.0.13"
-    ajv "^8.12.0"
-    ajv-formats "^2.1.1"
-    json-schema-to-ts "^2.9.2"
-
 "@feathersjs/socketio@^5.0.8":
   version "5.0.8"
   resolved "https://registry.yarnpkg.com/@feathersjs/socketio/-/socketio-5.0.8.tgz#f3414d88b1ac4b6cf983d0a5e64243c0b8fac5c7"
@@ -607,17 +559,6 @@
     socket.io "^4.7.1"
 
 "@feathersjs/transport-commons@^5.0.8", "@feathersjs/transport-commons@^5.0.9":
-  version "5.0.9"
-  resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-5.0.9.tgz#df3c0f166e7d1f90c3305ac34cbf38e7a0f1d10c"
-  integrity sha512-FrTVSZxAp5V55hHFcN0cBrDqNWWj7OUFhy689ZcyLxSz+sUMb+7xB4xPUcremVUMNjvWSJTA6JNABOKjkkH3Gw==
-  dependencies:
-    "@feathersjs/commons" "^5.0.9"
-    "@feathersjs/errors" "^5.0.9"
-    "@feathersjs/feathers" "^5.0.9"
-    encodeurl "^1.0.2"
-    lodash "^4.17.21"
-
-"@feathersjs/transport-commons@^5.0.9":
   version "5.0.9"
   resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-5.0.9.tgz#df3c0f166e7d1f90c3305ac34cbf38e7a0f1d10c"
   integrity sha512-FrTVSZxAp5V55hHFcN0cBrDqNWWj7OUFhy689ZcyLxSz+sUMb+7xB4xPUcremVUMNjvWSJTA6JNABOKjkkH3Gw==
@@ -1136,10 +1077,10 @@
     "@types/connect" "*"
     "@types/node" "*"
 
-"@types/cls-hooked@^4.3.5":
-  version "4.3.5"
-  resolved "https://registry.yarnpkg.com/@types/cls-hooked/-/cls-hooked-4.3.5.tgz#c264a55de090df84a2467b966d961b045c1750c5"
-  integrity sha512-YSLCW5yUYOUoEN4PlH2CQ8ZKYJD7KEstTNS/9h/pTkAoOTRDWWYV9guBdVQUlxWtafaNo4O9kmbg+GDAGnkp1A==
+"@types/cls-hooked@^4.3.6":
+  version "4.3.6"
+  resolved "https://registry.yarnpkg.com/@types/cls-hooked/-/cls-hooked-4.3.6.tgz#9cd75f3d168af3e76565405d2df3b70fad589d48"
+  integrity sha512-Ys46tagI3aFwFizHYwG2v0oS+mMfp1nubY2ETU/RY/D0jLOXpqqVEItjhOmKMI8SklF3MI4Y7oSp9UFkBk4CXQ==
   dependencies:
     "@types/node" "*"
 
@@ -1151,7 +1092,7 @@
     "@types/node" "*"
     "@types/qs" "*"
 
-"@types/compression@^1.7.2", "@types/compression@^1.7.3":
+"@types/compression@^1.7.3":
   version "1.7.3"
   resolved "https://registry.yarnpkg.com/@types/compression/-/compression-1.7.3.tgz#2dd34648fc3b71c95aacd63b3098b2192da33929"
   integrity sha512-rKquEGjebqizyHNMOpaE/4FdYR5VQiWFeesqYfvJU0seSEyB4625UGhNOO/qIkH10S3wftiV7oefc8WdLZ/gCQ==
@@ -1296,13 +1237,6 @@
   version "7.0.11"
   resolved "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.11.tgz#d421b6c527a3037f7c84433fd2c4229e016863d3"
   integrity sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==
-
-"@types/jsonwebtoken@^9.0.2", "@types/jsonwebtoken@^9.0.3":
-  version "9.0.3"
-  resolved "https://registry.yarnpkg.com/@types/jsonwebtoken/-/jsonwebtoken-9.0.3.tgz#1f22283b8e1f933af9e195d720798b64b399d84c"
-  integrity sha512-b0jGiOgHtZ2jqdPgPnP6WLCXZk1T8p06A/vPGzUvxpFGgKMbjXJDjC5m52ErqBnIuWZFgGoIJyRdeG5AyreJjA==
-  dependencies:
-    "@types/node" "*"
 
 "@types/jsonwebtoken@^9.0.3":
   version "9.0.3"
@@ -4005,24 +3939,6 @@ json-parse-even-better-errors@^2.3.0:
   version "2.3.1"
   resolved "https://registry.npmjs.org/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz#7c47805a94319928e05777405dc12e1f7a4ee02d"
   integrity sha512-xyFwyhro/JEof6Ghe2iz2NcXoj2sloNsWr/XsERDK/oiPCfaNhl5ONfp+jQdAZRQQ0IJWNzH9zIZF7li91kh2w==
-
-json-schema-to-ts@^2.9.2:
-  version "2.9.2"
-  resolved "https://registry.yarnpkg.com/json-schema-to-ts/-/json-schema-to-ts-2.9.2.tgz#a054bc6410f13c7a2fc51aeabac52292e885b98d"
-  integrity sha512-h9WqLkTVpBbiaPb5OmeUpz/FBLS/kvIJw4oRCPiEisIu2WjMh+aai0QIY2LoOhRFx5r92taGLcerIrzxKBAP6g==
-  dependencies:
-    "@babel/runtime" "^7.18.3"
-    "@types/json-schema" "^7.0.9"
-    ts-algebra "^1.2.0"
-
-json-schema-to-ts@^2.9.2:
-  version "2.9.2"
-  resolved "https://registry.yarnpkg.com/json-schema-to-ts/-/json-schema-to-ts-2.9.2.tgz#a054bc6410f13c7a2fc51aeabac52292e885b98d"
-  integrity sha512-h9WqLkTVpBbiaPb5OmeUpz/FBLS/kvIJw4oRCPiEisIu2WjMh+aai0QIY2LoOhRFx5r92taGLcerIrzxKBAP6g==
-  dependencies:
-    "@babel/runtime" "^7.18.3"
-    "@types/json-schema" "^7.0.9"
-    ts-algebra "^1.2.0"
 
 json-schema-to-ts@^2.9.2:
   version "2.9.2"
