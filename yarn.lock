@@ -1077,10 +1077,10 @@
     "@types/connect" "*"
     "@types/node" "*"
 
-"@types/cls-hooked@^4.3.5":
-  version "4.3.5"
-  resolved "https://registry.yarnpkg.com/@types/cls-hooked/-/cls-hooked-4.3.5.tgz#c264a55de090df84a2467b966d961b045c1750c5"
-  integrity sha512-YSLCW5yUYOUoEN4PlH2CQ8ZKYJD7KEstTNS/9h/pTkAoOTRDWWYV9guBdVQUlxWtafaNo4O9kmbg+GDAGnkp1A==
+"@types/cls-hooked@^4.3.6":
+  version "4.3.6"
+  resolved "https://registry.yarnpkg.com/@types/cls-hooked/-/cls-hooked-4.3.6.tgz#9cd75f3d168af3e76565405d2df3b70fad589d48"
+  integrity sha512-Ys46tagI3aFwFizHYwG2v0oS+mMfp1nubY2ETU/RY/D0jLOXpqqVEItjhOmKMI8SklF3MI4Y7oSp9UFkBk4CXQ==
   dependencies:
     "@types/node" "*"
 
