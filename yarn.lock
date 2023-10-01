@@ -453,7 +453,7 @@
     long-timeout "^0.1.1"
     uuid "^9.0.1"
 
-"@feathersjs/commons@^5.0.6", "@feathersjs/commons@^5.0.8", "@feathersjs/commons@^5.0.9":
+"@feathersjs/commons@^5.0.6", "@feathersjs/commons@^5.0.9":
   version "5.0.9"
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.9.tgz#0952ba40d67defdb42912750842ba35332a92163"
   integrity sha512-q/afXnwED03D1R7IKDrR4418S1OQV3LbhYoRMvjA2J29XbguttmuwtIwsF3Q5JgEHHc9EOfEOlRkDP98OBzDhw==
@@ -498,7 +498,7 @@
     cors "^2.8.5"
     express "^4.18.2"
 
-"@feathersjs/feathers@^5.0.1", "@feathersjs/feathers@^5.0.6", "@feathersjs/feathers@^5.0.8", "@feathersjs/feathers@^5.0.9":
+"@feathersjs/feathers@^5.0.1", "@feathersjs/feathers@^5.0.6", "@feathersjs/feathers@^5.0.9":
   version "5.0.9"
   resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-5.0.9.tgz#c5b5e9fb45e721bd3bcfb6509493c77a39f03150"
   integrity sha512-PUWu/ceFN1oJLvUn75pywJS0CpHIoPORGA1OOCWc2sIpKQsgge7WFoep27FmPmBDPniKvl8HVCL1NnktHc8dKg==
@@ -558,7 +558,7 @@
     "@feathersjs/transport-commons" "^5.0.9"
     socket.io "^4.7.2"
 
-"@feathersjs/transport-commons@^5.0.8", "@feathersjs/transport-commons@^5.0.9":
+"@feathersjs/transport-commons@^5.0.9":
   version "5.0.9"
   resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-5.0.9.tgz#df3c0f166e7d1f90c3305ac34cbf38e7a0f1d10c"
   integrity sha512-FrTVSZxAp5V55hHFcN0cBrDqNWWj7OUFhy689ZcyLxSz+sUMb+7xB4xPUcremVUMNjvWSJTA6JNABOKjkkH3Gw==
@@ -1314,10 +1314,10 @@
   dependencies:
     "@types/koa" "*"
 
-"@types/mime-types@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.npmjs.org/@types/mime-types/-/mime-types-2.1.1.tgz#d9ba43490fa3a3df958759adf69396c3532cf2c1"
-  integrity sha512-vXOTGVSLR2jMw440moWTC7H19iUyLtP3Z1YTj7cSsubOICinjMxFeb/V57v9QdyyPGbbWolUFSSmSiRSn94tFw==
+"@types/mime-types@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@types/mime-types/-/mime-types-2.1.2.tgz#b4fe6996d2f32975b6603b26b4e4b3b6c92c9901"
+  integrity sha512-q9QGHMGCiBJCHEvd4ZLdasdqXv570agPsUW0CeIm/B8DzhxsYMerD0l3IlI+EQ1A2RWHY2mmM9x1YIuuWxisCg==
 
 "@types/mime@*":
   version "3.0.1"
