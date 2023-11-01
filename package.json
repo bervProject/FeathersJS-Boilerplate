@@ -70,7 +70,7 @@
   },
   "devDependencies": {
     "@types/bluebird": "^3.5.41",
-    "@types/cls-hooked": "^4.3.6",
+    "@types/cls-hooked": "^4.3.7",
     "@types/compression": "^1.7.3",
     "@types/cors": "^2.8.15",
     "@types/helmet": "^4.0.0",
