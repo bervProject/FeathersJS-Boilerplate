@@ -478,15 +478,15 @@
     lodash.pick "^4.4.0"
     passport-jwt "^4.0.0"
 
-"@feathersjs/authentication-local@^5.0.9":
-  version "5.0.9"
-  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-local/-/authentication-local-5.0.9.tgz#b92191d89277c3525e20542da9beaaaeb1c20fe7"
-  integrity sha512-dhBCCMxOMyeHwIyMDk9Nd6tIqIAt8f4Qi+H1RvwkBfYEP5kPk99OSRGOieVBroKIBcXtK+zRpnyQnGT7mAb0vQ==
+"@feathersjs/authentication-local@^5.0.11":
+  version "5.0.11"
+  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-local/-/authentication-local-5.0.11.tgz#0f6380f94cbc8f8be80c27b0e717ee4acfb6c421"
+  integrity sha512-Ib8/gHeDbSUcqPFG9g399bavajYcMsIWGUru3gRQIDZlK40HzsIL4wxG9OkO8JbjZ1Zi00rn+wwr4i4f0pB8zQ==
   dependencies:
-    "@feathersjs/authentication" "^5.0.9"
-    "@feathersjs/commons" "^5.0.9"
-    "@feathersjs/errors" "^5.0.9"
-    "@feathersjs/feathers" "^5.0.9"
+    "@feathersjs/authentication" "^5.0.11"
+    "@feathersjs/commons" "^5.0.11"
+    "@feathersjs/errors" "^5.0.11"
+    "@feathersjs/feathers" "^5.0.11"
     bcryptjs "^2.4.3"
     lodash "^4.17.21"
 
@@ -549,16 +549,6 @@
     debug "^4.0.0"
 
 "@feathersjs/errors@^5.0.1", "@feathersjs/errors@^5.0.11", "@feathersjs/errors@^5.0.6", "@feathersjs/errors@^5.0.8", "@feathersjs/errors@^5.0.9":
-  version "5.0.11"
-  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.11.tgz#b2f98e93762e502bf77f3601440e22b7c23c3aae"
-  integrity sha512-rFVFgGOoQmOh+B8n/Xef3fLDaJaewD3TeVo451lBZjjqQZqgS4XrsEVOKjFtj0ozRBfiZ7AzkzlZEgqDO9syvw==
-
-"@feathersjs/errors@^5.0.11":
-  version "5.0.11"
-  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.11.tgz#b2f98e93762e502bf77f3601440e22b7c23c3aae"
-  integrity sha512-rFVFgGOoQmOh+B8n/Xef3fLDaJaewD3TeVo451lBZjjqQZqgS4XrsEVOKjFtj0ozRBfiZ7AzkzlZEgqDO9syvw==
-
-"@feathersjs/errors@^5.0.11":
   version "5.0.11"
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.11.tgz#b2f98e93762e502bf77f3601440e22b7c23c3aae"
   integrity sha512-rFVFgGOoQmOh+B8n/Xef3fLDaJaewD3TeVo451lBZjjqQZqgS4XrsEVOKjFtj0ozRBfiZ7AzkzlZEgqDO9syvw==
