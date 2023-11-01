@@ -558,6 +558,11 @@
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.11.tgz#b2f98e93762e502bf77f3601440e22b7c23c3aae"
   integrity sha512-rFVFgGOoQmOh+B8n/Xef3fLDaJaewD3TeVo451lBZjjqQZqgS4XrsEVOKjFtj0ozRBfiZ7AzkzlZEgqDO9syvw==
 
+"@feathersjs/errors@^5.0.11":
+  version "5.0.11"
+  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.11.tgz#b2f98e93762e502bf77f3601440e22b7c23c3aae"
+  integrity sha512-rFVFgGOoQmOh+B8n/Xef3fLDaJaewD3TeVo451lBZjjqQZqgS4XrsEVOKjFtj0ozRBfiZ7AzkzlZEgqDO9syvw==
+
 "@feathersjs/express@^5.0.9":
   version "5.0.9"
   resolved "https://registry.yarnpkg.com/@feathersjs/express/-/express-5.0.9.tgz#b9d5aab1d8e59a0543ab128577a0764c0c4e0803"
@@ -625,14 +630,14 @@
     ajv-formats "^2.1.1"
     json-schema-to-ts "^2.9.2"
 
-"@feathersjs/socketio@^5.0.9":
-  version "5.0.9"
-  resolved "https://registry.yarnpkg.com/@feathersjs/socketio/-/socketio-5.0.9.tgz#8186e8661d1a1776c69745ee1e0f0dc35819d852"
-  integrity sha512-qInxBrBN38uVQlPaArW5u3yP4eDhk4hemxRpzNPd3qj/vnDQNYjlLZtWzR8HM0DKfecD1/+NBxA29E4kXu/uqA==
+"@feathersjs/socketio@^5.0.11":
+  version "5.0.11"
+  resolved "https://registry.yarnpkg.com/@feathersjs/socketio/-/socketio-5.0.11.tgz#bf013fd4a235650e3cd583b3380d2a0a2507ea1e"
+  integrity sha512-3KXFDDPFxNgEfBhgbHGYYBwSP8JjkeUJ8268HeCYtsqbfM3aF/mdNM7HX45bGpC1+SB9v+JWSfyWCHbn+9MPaw==
   dependencies:
-    "@feathersjs/commons" "^5.0.9"
-    "@feathersjs/feathers" "^5.0.9"
-    "@feathersjs/transport-commons" "^5.0.9"
+    "@feathersjs/commons" "^5.0.11"
+    "@feathersjs/feathers" "^5.0.11"
+    "@feathersjs/transport-commons" "^5.0.11"
     socket.io "^4.7.2"
 
 "@feathersjs/transport-commons@^5.0.11", "@feathersjs/transport-commons@^5.0.9":
