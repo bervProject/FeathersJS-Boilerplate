@@ -1149,10 +1149,10 @@
     "@types/connect" "*"
     "@types/node" "*"
 
-"@types/cls-hooked@^4.3.6":
-  version "4.3.6"
-  resolved "https://registry.yarnpkg.com/@types/cls-hooked/-/cls-hooked-4.3.6.tgz#9cd75f3d168af3e76565405d2df3b70fad589d48"
-  integrity sha512-Ys46tagI3aFwFizHYwG2v0oS+mMfp1nubY2ETU/RY/D0jLOXpqqVEItjhOmKMI8SklF3MI4Y7oSp9UFkBk4CXQ==
+"@types/cls-hooked@^4.3.7":
+  version "4.3.7"
+  resolved "https://registry.yarnpkg.com/@types/cls-hooked/-/cls-hooked-4.3.7.tgz#11e603d8e08fa999ece501c859c0f42b7a605b1e"
+  integrity sha512-cSLdCRRDCzrFY2qB6VfF5ZOWC29zr6Cx6/XRI1IbD9RWOSU/bP4B6l24kjoQBScHtt8J+1GGAHX5edsNhzCtfA==
   dependencies:
     "@types/node" "*"
 
