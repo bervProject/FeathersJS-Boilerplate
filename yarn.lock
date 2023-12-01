@@ -1486,10 +1486,10 @@
     "@types/mime" "^1"
     "@types/node" "*"
 
-"@types/serve-favicon@^2.5.6":
-  version "2.5.6"
-  resolved "https://registry.yarnpkg.com/@types/serve-favicon/-/serve-favicon-2.5.6.tgz#141cae3780993375e5ea2ec6dac74b039e2f18fc"
-  integrity sha512-Qm/Fct+DtjepE85kOAvPtI/OkB8gPZkBuVhKSv3Xpmy3J7zboVdUspGZOZJVVDa/U7ypaCt2cF3Xm5A9gqUvmg==
+"@types/serve-favicon@^2.5.7":
+  version "2.5.7"
+  resolved "https://registry.yarnpkg.com/@types/serve-favicon/-/serve-favicon-2.5.7.tgz#a556fe9016984341a43af5b8345e274f3887f5ac"
+  integrity sha512-z9TNUQXdQ+W/OJMP1e3KOYUZ99qJS4+ZfFOIrPGImcayqKoyifbJSEFkVq1MCKBbqjMZpjPj3B5ilrQAR2+TOw==
   dependencies:
     "@types/express" "*"
 
