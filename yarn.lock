@@ -558,11 +558,6 @@
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.13.tgz#573f579d40594e9c673345ab39859fc4def7f54c"
   integrity sha512-1SRkUUFtTYE35RIxrJ1IxJkbEom7MlGlIc49BjhWbVKEmbwAMpwyQdjMPkBtWdG2iei3j+bEtW84ks8nYBuZCQ==
 
-"@feathersjs/errors@^5.0.13":
-  version "5.0.13"
-  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.13.tgz#573f579d40594e9c673345ab39859fc4def7f54c"
-  integrity sha512-1SRkUUFtTYE35RIxrJ1IxJkbEom7MlGlIc49BjhWbVKEmbwAMpwyQdjMPkBtWdG2iei3j+bEtW84ks8nYBuZCQ==
-
 "@feathersjs/express@^5.0.12":
   version "5.0.12"
   resolved "https://registry.yarnpkg.com/@feathersjs/express/-/express-5.0.12.tgz#8a32628a9272118567024989387b4e749fc6406f"
@@ -4995,10 +4990,10 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.1.0.tgz#c6d16474a5f764ea1a4a373c593b779697744d5e"
-  integrity sha512-TQLvXjq5IAibjh8EpBIkNKxO749UEWABoiIZehEPiY4GNpVdhaFKqSTu+QrlU6D2dPAfubRmtJTi4K4YkQ5eXw==
+prettier@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.1.1.tgz#6ba9f23165d690b6cbdaa88cb0807278f7019848"
+  integrity sha512-22UbSzg8luF4UuZtzgiUOfcGM8s4tjBv6dJRT7j275NXsy2jb4aJa4NNveul5x4eqlF1wuhuR2RElK71RvmVaw==
 
 pretty-format@^29.0.0, pretty-format@^29.7.0:
   version "29.7.0"
