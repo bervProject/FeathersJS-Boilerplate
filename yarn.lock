@@ -558,16 +558,16 @@
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.13.tgz#573f579d40594e9c673345ab39859fc4def7f54c"
   integrity sha512-1SRkUUFtTYE35RIxrJ1IxJkbEom7MlGlIc49BjhWbVKEmbwAMpwyQdjMPkBtWdG2iei3j+bEtW84ks8nYBuZCQ==
 
-"@feathersjs/express@^5.0.12":
-  version "5.0.12"
-  resolved "https://registry.yarnpkg.com/@feathersjs/express/-/express-5.0.12.tgz#8a32628a9272118567024989387b4e749fc6406f"
-  integrity sha512-8X6OXupTtbg5jHT0eEXvYxBSHomuJ6v3v8dMvShPfrrTq6+shVUycdWVvp3s/U133DPpz38TjDKWNy0IVKK26w==
+"@feathersjs/express@^5.0.12", "@feathersjs/express@^5.0.13":
+  version "5.0.13"
+  resolved "https://registry.yarnpkg.com/@feathersjs/express/-/express-5.0.13.tgz#03aec48032d609baa503068a6e4decc6e1ff5590"
+  integrity sha512-at7jUGecHojTusXu6dZvdLJjZ5jmzf+oJWCWhlkJMUfd+sPM+M35Ty0/Wte0bW5iA91EHoaPg0hq1SLnCU7Tlw==
   dependencies:
-    "@feathersjs/authentication" "^5.0.12"
-    "@feathersjs/commons" "^5.0.12"
-    "@feathersjs/errors" "^5.0.12"
-    "@feathersjs/feathers" "^5.0.12"
-    "@feathersjs/transport-commons" "^5.0.12"
+    "@feathersjs/authentication" "^5.0.13"
+    "@feathersjs/commons" "^5.0.13"
+    "@feathersjs/errors" "^5.0.13"
+    "@feathersjs/feathers" "^5.0.13"
+    "@feathersjs/transport-commons" "^5.0.13"
     "@types/compression" "^1.7.5"
     "@types/cors" "^2.8.17"
     "@types/express" "^4.17.21"
