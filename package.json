@@ -50,7 +50,7 @@
     "@feathersjs/authentication-oauth": "^5.0.13",
     "@feathersjs/configuration": "^5.0.21",
     "@feathersjs/errors": "^5.0.9",
-    "@feathersjs/express": "^5.0.13",
+    "@feathersjs/express": "^5.0.21",
     "@feathersjs/feathers": "^5.0.9",
     "@feathersjs/socketio": "^5.0.21",
     "@google-cloud/storage": "^7.7.0",
