@@ -462,14 +462,14 @@
     "@feathersjs/errors" "^5.0.12"
     "@feathersjs/feathers" "^5.0.12"
 
-"@feathersjs/adapter-commons@^5.0.13":
-  version "5.0.13"
-  resolved "https://registry.yarnpkg.com/@feathersjs/adapter-commons/-/adapter-commons-5.0.13.tgz#8de48c22c9fc4b3d2c32ded1a3cef15379c66163"
-  integrity sha512-UtYvvEaMr/xuDHZnN+8Las3k9TFXrHvhX+K1P1tc/G91W5LQm5DZbMPOR4EggzOVVcIbives0laSDiXrCOqKRg==
+"@feathersjs/adapter-commons@^5.0.21":
+  version "5.0.21"
+  resolved "https://registry.yarnpkg.com/@feathersjs/adapter-commons/-/adapter-commons-5.0.21.tgz#c687323235ee51c3419104e10fde5c7d3609c94d"
+  integrity sha512-OCm3mBEyG1kf5I3yiiVbj7qZUFRjwv8B3JVpmTsNixV5hYHNCXaA1ZAQ1FfZwheJwHWq5/GKLaiSYN7r69SC2w==
   dependencies:
-    "@feathersjs/commons" "^5.0.13"
-    "@feathersjs/errors" "^5.0.13"
-    "@feathersjs/feathers" "^5.0.13"
+    "@feathersjs/commons" "^5.0.21"
+    "@feathersjs/errors" "^5.0.21"
+    "@feathersjs/feathers" "^5.0.21"
 
 "@feathersjs/authentication-jwt@^2.0.10":
   version "2.0.10"
@@ -535,16 +535,16 @@
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.21.tgz#6e19a760aa2a9157b486032b3430ee08afae720a"
   integrity sha512-8/vNe5XR1VqR3kRAGc4D24SeW0nfI2/srUkjGksa9Js2qTVmGlOk5HfLA+Uw2GMuVs2/JYnexpV5WPDtjfMWNw==
 
-"@feathersjs/configuration@^5.0.13":
-  version "5.0.13"
-  resolved "https://registry.yarnpkg.com/@feathersjs/configuration/-/configuration-5.0.13.tgz#97df6c31ce39958588b64ea131ae098c9acb87f3"
-  integrity sha512-uBK/oRYnE9hHrbiJETx390pdvxQ8qqeAJ7khzegTnVeTqgdrRcBMkPfeuw773PLkIGOdHmg8+Klw5OEqlFDmTA==
+"@feathersjs/configuration@^5.0.21":
+  version "5.0.21"
+  resolved "https://registry.yarnpkg.com/@feathersjs/configuration/-/configuration-5.0.21.tgz#01ee9b51d3eea2191eeacfd4d400574f69b66cfb"
+  integrity sha512-8SnV+mmxzXsHt9CosTP733EGYH1uz3mT4Sc7CW9gpPu9yt8gc9YMYtqCeGOKbCVdVB4E5nMA/eEkN894Ai70GA==
   dependencies:
-    "@feathersjs/commons" "^5.0.13"
-    "@feathersjs/feathers" "^5.0.13"
-    "@feathersjs/schema" "^5.0.13"
+    "@feathersjs/commons" "^5.0.21"
+    "@feathersjs/feathers" "^5.0.21"
+    "@feathersjs/schema" "^5.0.21"
     "@types/config" "^3.3.3"
-    config "^3.3.9"
+    config "^3.3.10"
 
 "@feathersjs/errors@^3.3.6":
   version "3.3.6"
@@ -554,6 +554,11 @@
     debug "^4.0.0"
 
 "@feathersjs/errors@^5.0.1", "@feathersjs/errors@^5.0.11", "@feathersjs/errors@^5.0.12", "@feathersjs/errors@^5.0.13", "@feathersjs/errors@^5.0.14", "@feathersjs/errors@^5.0.9":
+  version "5.0.21"
+  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.21.tgz#6a15635731ec76d8df9d88b87d1e4ae9ad5592fb"
+  integrity sha512-HDuhPbR8XUJjGnNkS8ushQmFJuVW6dZz79dT7oflSSP/m1RvQDNtA8DIXxTpTlM9RIYZQbflWwc7oVBx/ikxSw==
+
+"@feathersjs/errors@^5.0.21":
   version "5.0.21"
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.21.tgz#6a15635731ec76d8df9d88b87d1e4ae9ad5592fb"
   integrity sha512-HDuhPbR8XUJjGnNkS8ushQmFJuVW6dZz79dT7oflSSP/m1RvQDNtA8DIXxTpTlM9RIYZQbflWwc7oVBx/ikxSw==
@@ -616,15 +621,15 @@
     koa-qs "^3.0.0"
     koa-static "^5.0.0"
 
-"@feathersjs/schema@^5.0.13":
-  version "5.0.13"
-  resolved "https://registry.yarnpkg.com/@feathersjs/schema/-/schema-5.0.13.tgz#3200d011aa7a1ca7e8198a6e2a7ef40ea62a64a3"
-  integrity sha512-i7ufzEHPwmKGCyRnL0a4Jx1KvSETvFzOoQwSuLetepQ+V8C3PO9Z4IO9GlryzMg0Ap9j6vK9Yn901E2nET2ENA==
+"@feathersjs/schema@^5.0.13", "@feathersjs/schema@^5.0.21":
+  version "5.0.21"
+  resolved "https://registry.yarnpkg.com/@feathersjs/schema/-/schema-5.0.21.tgz#6f2bd1bd66908889857e075411898b9080e668cb"
+  integrity sha512-23Q7g6jq1G3an70TDc4SAzzohBL75BcbW6uYUxEq+gAvifbV/kq0sVCP85Je6bxvVZP5PLbNykF8msFYDTvqjA==
   dependencies:
-    "@feathersjs/adapter-commons" "^5.0.13"
-    "@feathersjs/commons" "^5.0.13"
-    "@feathersjs/errors" "^5.0.13"
-    "@feathersjs/feathers" "^5.0.13"
+    "@feathersjs/adapter-commons" "^5.0.21"
+    "@feathersjs/commons" "^5.0.21"
+    "@feathersjs/errors" "^5.0.21"
+    "@feathersjs/feathers" "^5.0.21"
     "@feathersjs/hooks" "^0.8.1"
     "@types/json-schema" "^7.0.15"
     ajv "^8.12.0"
@@ -2270,10 +2275,10 @@ concat-stream@^1.5.2:
     readable-stream "^2.2.2"
     typedarray "^0.0.6"
 
-config@^3.3.9:
-  version "3.3.9"
-  resolved "https://registry.npmjs.org/config/-/config-3.3.9.tgz#27fae95b43e0e1d5723e54143c090954d8e49572"
-  integrity sha512-G17nfe+cY7kR0wVpc49NCYvNtelm/pPy8czHoFkAgtV1lkmcp7DHtWCdDu+C9Z7gb2WVqa9Tm3uF9aKaPbCfhg==
+config@^3.3.10:
+  version "3.3.10"
+  resolved "https://registry.yarnpkg.com/config/-/config-3.3.10.tgz#effb354d15accfb6e2b50e1d626944c635ad1189"
+  integrity sha512-9Kl3LpQ6zj93KaqgfIMTcpwTpgozFOqNl/Dk7mjras1BgGIOlqxWkyIGeU1my+sRuskRYwrCATgCk1RjAnRPGA==
   dependencies:
     json5 "^2.2.3"
 
