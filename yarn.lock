@@ -483,15 +483,15 @@
     lodash.pick "^4.4.0"
     passport-jwt "^4.0.0"
 
-"@feathersjs/authentication-local@^5.0.21":
-  version "5.0.21"
-  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-local/-/authentication-local-5.0.21.tgz#656f3a2ccfa3a1432167a7d9d637969ea09cec44"
-  integrity sha512-Px7YCbNw323qYyPRYMB54JhXMz2CahAbwYedIgL503YxUAcgmWNT6ECT6BS3JrMq74on/Mh/hdezpx/ZVRjDCA==
+"@feathersjs/authentication-local@^5.0.23":
+  version "5.0.23"
+  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-local/-/authentication-local-5.0.23.tgz#69d799333814020555dc5b95478142c81f756fe0"
+  integrity sha512-vZBakt2PswDmBVcbKYlOdejdjp186bV/EetMXrMKPpRaj2iPWDG2dIbQVcoo5CEC7DDC9iId8/iQv0HArqCyew==
   dependencies:
-    "@feathersjs/authentication" "^5.0.21"
-    "@feathersjs/commons" "^5.0.21"
-    "@feathersjs/errors" "^5.0.21"
-    "@feathersjs/feathers" "^5.0.21"
+    "@feathersjs/authentication" "^5.0.23"
+    "@feathersjs/commons" "^5.0.23"
+    "@feathersjs/errors" "^5.0.23"
+    "@feathersjs/feathers" "^5.0.23"
     bcryptjs "^2.4.3"
     lodash "^4.17.21"
 
@@ -558,16 +558,6 @@
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.23.tgz#737c5479729036bfff49939809b3eab0b005e656"
   integrity sha512-oczkQ8GzzReRRVHC+VGymu439SJY6+uuh/bKJ7gNrEk97ekohW83RJa4h2wSCM+chajUFklY4iInessHTIKOEw==
 
-"@feathersjs/errors@^5.0.23":
-  version "5.0.23"
-  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.23.tgz#737c5479729036bfff49939809b3eab0b005e656"
-  integrity sha512-oczkQ8GzzReRRVHC+VGymu439SJY6+uuh/bKJ7gNrEk97ekohW83RJa4h2wSCM+chajUFklY4iInessHTIKOEw==
-
-"@feathersjs/errors@^5.0.23":
-  version "5.0.23"
-  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.23.tgz#737c5479729036bfff49939809b3eab0b005e656"
-  integrity sha512-oczkQ8GzzReRRVHC+VGymu439SJY6+uuh/bKJ7gNrEk97ekohW83RJa4h2wSCM+chajUFklY4iInessHTIKOEw==
-
 "@feathersjs/express@^5.0.21":
   version "5.0.21"
   resolved "https://registry.yarnpkg.com/@feathersjs/express/-/express-5.0.21.tgz#15fdbd8e7ddf1cf092ff4218012e909bedec8dd9"
@@ -594,16 +584,6 @@
     "@feathersjs/commons" "^5.0.23"
     "@feathersjs/hooks" "^0.9.0"
     events "^3.3.0"
-
-"@feathersjs/hooks@^0.9.0":
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/@feathersjs/hooks/-/hooks-0.9.0.tgz#8aa339b83d17fcbd929e80113a3c0616979b33cb"
-  integrity sha512-kLfWnuhbC25CPkR1/TDcVs0rSiv0JLNxrpUivLwc7FUnkyeciRi5VOmC1SOzL2SOagcozu3+m4VQiONyzgfY7w==
-
-"@feathersjs/hooks@^0.9.0":
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/@feathersjs/hooks/-/hooks-0.9.0.tgz#8aa339b83d17fcbd929e80113a3c0616979b33cb"
-  integrity sha512-kLfWnuhbC25CPkR1/TDcVs0rSiv0JLNxrpUivLwc7FUnkyeciRi5VOmC1SOzL2SOagcozu3+m4VQiONyzgfY7w==
 
 "@feathersjs/hooks@^0.9.0":
   version "0.9.0"
