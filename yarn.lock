@@ -558,16 +558,6 @@
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.23.tgz#737c5479729036bfff49939809b3eab0b005e656"
   integrity sha512-oczkQ8GzzReRRVHC+VGymu439SJY6+uuh/bKJ7gNrEk97ekohW83RJa4h2wSCM+chajUFklY4iInessHTIKOEw==
 
-"@feathersjs/errors@^5.0.23":
-  version "5.0.23"
-  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.23.tgz#737c5479729036bfff49939809b3eab0b005e656"
-  integrity sha512-oczkQ8GzzReRRVHC+VGymu439SJY6+uuh/bKJ7gNrEk97ekohW83RJa4h2wSCM+chajUFklY4iInessHTIKOEw==
-
-"@feathersjs/errors@^5.0.23":
-  version "5.0.23"
-  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.23.tgz#737c5479729036bfff49939809b3eab0b005e656"
-  integrity sha512-oczkQ8GzzReRRVHC+VGymu439SJY6+uuh/bKJ7gNrEk97ekohW83RJa4h2wSCM+chajUFklY4iInessHTIKOEw==
-
 "@feathersjs/express@^5.0.21":
   version "5.0.21"
   resolved "https://registry.yarnpkg.com/@feathersjs/express/-/express-5.0.21.tgz#15fdbd8e7ddf1cf092ff4218012e909bedec8dd9"
@@ -594,16 +584,6 @@
     "@feathersjs/commons" "^5.0.23"
     "@feathersjs/hooks" "^0.9.0"
     events "^3.3.0"
-
-"@feathersjs/hooks@^0.9.0":
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/@feathersjs/hooks/-/hooks-0.9.0.tgz#8aa339b83d17fcbd929e80113a3c0616979b33cb"
-  integrity sha512-kLfWnuhbC25CPkR1/TDcVs0rSiv0JLNxrpUivLwc7FUnkyeciRi5VOmC1SOzL2SOagcozu3+m4VQiONyzgfY7w==
-
-"@feathersjs/hooks@^0.9.0":
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/@feathersjs/hooks/-/hooks-0.9.0.tgz#8aa339b83d17fcbd929e80113a3c0616979b33cb"
-  integrity sha512-kLfWnuhbC25CPkR1/TDcVs0rSiv0JLNxrpUivLwc7FUnkyeciRi5VOmC1SOzL2SOagcozu3+m4VQiONyzgfY7w==
 
 "@feathersjs/hooks@^0.9.0":
   version "0.9.0"
@@ -1311,10 +1291,10 @@
   dependencies:
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@^29.5.11":
-  version "29.5.11"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-29.5.11.tgz#0c13aa0da7d0929f078ab080ae5d4ced80fa2f2c"
-  integrity sha512-S2mHmYIVe13vrm6q4kN6fLYYAka15ALQki/vgDC3mIukEOx8WJlv0kQPM+d4w8Gp6u0uSdKND04IlTXBv0rwnQ==
+"@types/jest@^29.5.12":
+  version "29.5.12"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-29.5.12.tgz#7f7dc6eb4cf246d2474ed78744b05d06ce025544"
+  integrity sha512-eDC8bTvT/QhYdxJAulQikueigY5AsdBRH2yDKW3yveW7svY3+DzN84/2NUgkw10RTiJbWqZrTtoGVdYlvFJdLw==
   dependencies:
     expect "^29.0.0"
     pretty-format "^29.0.0"
