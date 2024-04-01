@@ -483,15 +483,15 @@
     lodash.pick "^4.4.0"
     passport-jwt "^4.0.0"
 
-"@feathersjs/authentication-local@^5.0.23":
-  version "5.0.23"
-  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-local/-/authentication-local-5.0.23.tgz#69d799333814020555dc5b95478142c81f756fe0"
-  integrity sha512-vZBakt2PswDmBVcbKYlOdejdjp186bV/EetMXrMKPpRaj2iPWDG2dIbQVcoo5CEC7DDC9iId8/iQv0HArqCyew==
+"@feathersjs/authentication-local@^5.0.24":
+  version "5.0.24"
+  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-local/-/authentication-local-5.0.24.tgz#2e3eda97a0335dc145eef069815812158990f1d3"
+  integrity sha512-BLl4KkOsasDAXfHA1YGkKY0LyN7EWTLZKpnKMkn0gwD1HvA/cQOpiRy8fXHzpybQAr9emRcbu4hXVW+rIaF3AQ==
   dependencies:
-    "@feathersjs/authentication" "^5.0.23"
-    "@feathersjs/commons" "^5.0.23"
-    "@feathersjs/errors" "^5.0.23"
-    "@feathersjs/feathers" "^5.0.23"
+    "@feathersjs/authentication" "^5.0.24"
+    "@feathersjs/commons" "^5.0.24"
+    "@feathersjs/errors" "^5.0.24"
+    "@feathersjs/feathers" "^5.0.24"
     bcryptjs "^2.4.3"
     lodash "^4.17.21"
 
@@ -513,7 +513,7 @@
     lodash "^4.17.21"
     qs "^6.12.0"
 
-"@feathersjs/authentication@^5.0.23", "@feathersjs/authentication@^5.0.24":
+"@feathersjs/authentication@^5.0.24":
   version "5.0.24"
   resolved "https://registry.yarnpkg.com/@feathersjs/authentication/-/authentication-5.0.24.tgz#ff160173f6f5ff6f7fcc103abe2b84b98d0d4594"
   integrity sha512-tTEq2vY1Yu5A7iA6XIRBaAOYQ1oZt0Q6tuek5DsliMXv+bP6F3lhdgwBLqWK8qoXhhfX6MPt0qUs7hb5lPHNCg==
@@ -553,7 +553,7 @@
   dependencies:
     debug "^4.0.0"
 
-"@feathersjs/errors@^5.0.1", "@feathersjs/errors@^5.0.11", "@feathersjs/errors@^5.0.12", "@feathersjs/errors@^5.0.14", "@feathersjs/errors@^5.0.23", "@feathersjs/errors@^5.0.24", "@feathersjs/errors@^5.0.9":
+"@feathersjs/errors@^5.0.1", "@feathersjs/errors@^5.0.11", "@feathersjs/errors@^5.0.12", "@feathersjs/errors@^5.0.14", "@feathersjs/errors@^5.0.24", "@feathersjs/errors@^5.0.9":
   version "5.0.24"
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.24.tgz#f854a6ee864aeccaa84d736d3871f2bc1bddb697"
   integrity sha512-7XnTWogwA1da3VT3zjjD+oaMZXtxueadm5gP9e4+aD8dYcW6djPk2KvBL38OWEhXZ/iMgPpA7p0JETcbDYE44w==
@@ -635,17 +635,6 @@
     "@feathersjs/feathers" "^5.0.24"
     "@feathersjs/transport-commons" "^5.0.24"
     socket.io "^4.7.4"
-
-"@feathersjs/transport-commons@^5.0.24":
-  version "5.0.24"
-  resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-5.0.24.tgz#5ab03c3ff774672dd84efa44e3cf78f16b1f3123"
-  integrity sha512-BW+Mk4wqnX1wkYArERGEjBUApV/73gqHOrwr/BG7uthingOY+mdptHiSmvTRNnFUjl80POQV9ihf2Qtlja4u0w==
-  dependencies:
-    "@feathersjs/commons" "^5.0.24"
-    "@feathersjs/errors" "^5.0.24"
-    "@feathersjs/feathers" "^5.0.24"
-    encodeurl "^1.0.2"
-    lodash "^4.17.21"
 
 "@google-cloud/paginator@^3.0.7":
   version "3.0.7"
