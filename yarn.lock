@@ -636,14 +636,14 @@
     "@feathersjs/transport-commons" "^5.0.23"
     socket.io "^4.7.4"
 
-"@feathersjs/transport-commons@^5.0.23":
-  version "5.0.23"
-  resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-5.0.23.tgz#b5fb05722c01afbaa7214d7c774f25f03e401c08"
-  integrity sha512-XsuWmrW7d53LAGqExBkKkrtq32HYmuSXXpnrHH8hnfe7wFRELCCiNyBFDDqsOQQjrpjLyGn2BioGv2Xk6sMFlA==
+"@feathersjs/transport-commons@^5.0.23", "@feathersjs/transport-commons@^5.0.24":
+  version "5.0.24"
+  resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-5.0.24.tgz#5ab03c3ff774672dd84efa44e3cf78f16b1f3123"
+  integrity sha512-BW+Mk4wqnX1wkYArERGEjBUApV/73gqHOrwr/BG7uthingOY+mdptHiSmvTRNnFUjl80POQV9ihf2Qtlja4u0w==
   dependencies:
-    "@feathersjs/commons" "^5.0.23"
-    "@feathersjs/errors" "^5.0.23"
-    "@feathersjs/feathers" "^5.0.23"
+    "@feathersjs/commons" "^5.0.24"
+    "@feathersjs/errors" "^5.0.24"
+    "@feathersjs/feathers" "^5.0.24"
     encodeurl "^1.0.2"
     lodash "^4.17.21"
 
