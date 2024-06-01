@@ -471,6 +471,15 @@
     "@feathersjs/errors" "^5.0.25"
     "@feathersjs/feathers" "^5.0.25"
 
+"@feathersjs/adapter-commons@^5.0.25":
+  version "5.0.25"
+  resolved "https://registry.yarnpkg.com/@feathersjs/adapter-commons/-/adapter-commons-5.0.25.tgz#b6781f4cb13f0357a8191817ff5cfe26bbfe3305"
+  integrity sha512-/eWhSiSw8U7hnB0KX9aW88EUitwW8phC8TykCJ/Vtv8jExZoZL8VWEjdZsRZoVk9fCu74sXrfRogwGhPMxiScA==
+  dependencies:
+    "@feathersjs/commons" "^5.0.25"
+    "@feathersjs/errors" "^5.0.25"
+    "@feathersjs/feathers" "^5.0.25"
+
 "@feathersjs/authentication-jwt@^2.0.10":
   version "2.0.10"
   resolved "https://registry.npmjs.org/@feathersjs/authentication-jwt/-/authentication-jwt-2.0.10.tgz#f8ec25d1230552b311af21822c5974cbc5f99b5e"
@@ -483,15 +492,15 @@
     lodash.pick "^4.4.0"
     passport-jwt "^4.0.0"
 
-"@feathersjs/authentication-local@^5.0.24":
-  version "5.0.24"
-  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-local/-/authentication-local-5.0.24.tgz#2e3eda97a0335dc145eef069815812158990f1d3"
-  integrity sha512-BLl4KkOsasDAXfHA1YGkKY0LyN7EWTLZKpnKMkn0gwD1HvA/cQOpiRy8fXHzpybQAr9emRcbu4hXVW+rIaF3AQ==
+"@feathersjs/authentication-local@^5.0.25":
+  version "5.0.25"
+  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-local/-/authentication-local-5.0.25.tgz#6e912d8f26a64a24d18991299caed92961de48e0"
+  integrity sha512-DNGrg+DHBYL4VCygD+Iqc8RzZsVGi7XWOcCB5LSX2qbov7JPn/GfH6yGmU+dBRkZJmle3UGvz6X7atFDa9sqGA==
   dependencies:
-    "@feathersjs/authentication" "^5.0.24"
-    "@feathersjs/commons" "^5.0.24"
-    "@feathersjs/errors" "^5.0.24"
-    "@feathersjs/feathers" "^5.0.24"
+    "@feathersjs/authentication" "^5.0.25"
+    "@feathersjs/commons" "^5.0.25"
+    "@feathersjs/errors" "^5.0.25"
+    "@feathersjs/feathers" "^5.0.25"
     bcryptjs "^2.4.3"
     lodash "^4.17.21"
 
@@ -626,6 +635,21 @@
     ajv-formats "^3.0.1"
     json-schema-to-ts "^3.0.1"
 
+"@feathersjs/schema@^5.0.25":
+  version "5.0.25"
+  resolved "https://registry.yarnpkg.com/@feathersjs/schema/-/schema-5.0.25.tgz#5008c6260a585ea6e51e4b4c22bce8a7d41d9ce1"
+  integrity sha512-PUhZ1jB4BMAx3JbRdZZFQ3dweAeewJw4gOeiMMFTKmm+5+4tk6stTpse6mpZlkoKWAx1gs4s4z7Hc7sMEM4pIQ==
+  dependencies:
+    "@feathersjs/adapter-commons" "^5.0.25"
+    "@feathersjs/commons" "^5.0.25"
+    "@feathersjs/errors" "^5.0.25"
+    "@feathersjs/feathers" "^5.0.25"
+    "@feathersjs/hooks" "^0.9.0"
+    "@types/json-schema" "^7.0.15"
+    ajv "^8.13.0"
+    ajv-formats "^3.0.1"
+    json-schema-to-ts "^3.0.1"
+
 "@feathersjs/socketio@^5.0.24":
   version "5.0.24"
   resolved "https://registry.yarnpkg.com/@feathersjs/socketio/-/socketio-5.0.24.tgz#9f7a80bd4703c1f0a7d533a1569d1bc956a94a82"
@@ -637,6 +661,17 @@
     socket.io "^4.7.4"
 
 "@feathersjs/transport-commons@^5.0.24", "@feathersjs/transport-commons@^5.0.25":
+  version "5.0.25"
+  resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-5.0.25.tgz#ff7974ebde07947c18fe192210dcb17553d02983"
+  integrity sha512-zLOlrtUg8tcFEvN+C7cYYPCS3C7zsP/Kw5HXIq89vg57S/8gCpBG0uh0++PaeyzIEFhX1+6qwnNM1JgtmtmEaw==
+  dependencies:
+    "@feathersjs/commons" "^5.0.25"
+    "@feathersjs/errors" "^5.0.25"
+    "@feathersjs/feathers" "^5.0.25"
+    encodeurl "^2.0.0"
+    lodash "^4.17.21"
+
+"@feathersjs/transport-commons@^5.0.25":
   version "5.0.25"
   resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-5.0.25.tgz#ff7974ebde07947c18fe192210dcb17553d02983"
   integrity sha512-zLOlrtUg8tcFEvN+C7cYYPCS3C7zsP/Kw5HXIq89vg57S/8gCpBG0uh0++PaeyzIEFhX1+6qwnNM1JgtmtmEaw==
@@ -1691,6 +1726,13 @@ agent-base@^7.0.2:
   integrity sha512-o/zjMZRhJxny7OyEF+Op8X+efiELC7k7yOjMzgfzVqOzXqkBkWI79YoTdOtsuWd5BWhAGAuOY/Xa6xpiaWXiNg==
   dependencies:
     debug "^4.3.4"
+
+ajv-formats@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/ajv-formats/-/ajv-formats-3.0.1.tgz#3d5dc762bca17679c3c2ea7e90ad6b7532309578"
+  integrity sha512-8iUql50EUR+uUcdRQ3HDqa6EVyo3docL8g5WJ3FNcWmu62IbkGUue/pEyLBW8VGKKucTPgqeks4fIU1DA4yowQ==
+  dependencies:
+    ajv "^8.0.0"
 
 ajv-formats@^3.0.1:
   version "3.0.1"
