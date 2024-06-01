@@ -81,7 +81,7 @@
     "@types/node": "^20.13.0",
     "@types/serve-favicon": "^2.5.7",
     "@types/uuid": "^9.0.8",
-    "@types/validator": "^13.11.9",
+    "@types/validator": "^13.11.10",
     "@typescript-eslint/eslint-plugin": "^7.0.0",
     "@typescript-eslint/parser": "^6.21.0",
     "axios": "^1.7.2",
