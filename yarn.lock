@@ -646,17 +646,6 @@
     encodeurl "^2.0.0"
     lodash "^4.17.21"
 
-"@feathersjs/transport-commons@^5.0.27":
-  version "5.0.27"
-  resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-5.0.27.tgz#170221e1fd25c1b177b8b8918fef381ca1789536"
-  integrity sha512-EHaxTR/iTq7eB7XHVumdD7MGuYdigT692bGXgpSgbuANTQ65htsd4yWd2ZC0MWaFfhbLVZAu24LTZJ5BgIrrRQ==
-  dependencies:
-    "@feathersjs/commons" "^5.0.27"
-    "@feathersjs/errors" "^5.0.27"
-    "@feathersjs/feathers" "^5.0.27"
-    encodeurl "^2.0.0"
-    lodash "^4.17.21"
-
 "@google-cloud/paginator@^3.0.7":
   version "3.0.7"
   resolved "https://registry.npmjs.org/@google-cloud/paginator/-/paginator-3.0.7.tgz#fb6f8e24ec841f99defaebf62c75c2e744dd419b"
@@ -5709,10 +5698,10 @@ ts-api-utils@^1.0.1:
   resolved "https://registry.yarnpkg.com/ts-api-utils/-/ts-api-utils-1.0.1.tgz#8144e811d44c749cd65b2da305a032510774452d"
   integrity sha512-lC/RGlPmwdrIBFTX59wwNzqh7aR2otPNPR/5brHZm/XKFYKsfqxihXUe9pU3JI+3vGkl+vyCoNNnPhJn3aLK1A==
 
-ts-jest@^29.1.4:
-  version "29.1.4"
-  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-29.1.4.tgz#26f8a55ce31e4d2ef7a1fd47dc7fa127e92793ef"
-  integrity sha512-YiHwDhSvCiItoAgsKtoLFCuakDzDsJ1DLDnSouTaTmdOcOwIkSzbLXduaQ6M5DRVhuZC/NYaaZ/mtHbWMv/S6Q==
+ts-jest@^29.1.5:
+  version "29.1.5"
+  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-29.1.5.tgz#d6c0471cc78bffa2cb4664a0a6741ef36cfe8f69"
+  integrity sha512-UuClSYxM7byvvYfyWdFI+/2UxMmwNyJb0NPkZPQE2hew3RurV7l7zURgOHAd/1I1ZdPpe3GUsXNXAcN8TFKSIg==
   dependencies:
     bs-logger "0.x"
     fast-json-stable-stringify "2.x"
