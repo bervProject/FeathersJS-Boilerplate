@@ -625,26 +625,15 @@
     ajv-formats "^3.0.1"
     json-schema-to-ts "^3.0.1"
 
-"@feathersjs/socketio@^5.0.25":
-  version "5.0.25"
-  resolved "https://registry.yarnpkg.com/@feathersjs/socketio/-/socketio-5.0.25.tgz#610f8a8b3f162187a10c048e7e5dd38fbc9dafe6"
-  integrity sha512-3F/XI/hSXVmRzeJayp2lTJGn2c/4YLzU3B6Q43z/o7Ovzewgy0bHlrdxxrnbyxbJabLjpukLmKv2sCsGBL+N9w==
-  dependencies:
-    "@feathersjs/commons" "^5.0.25"
-    "@feathersjs/feathers" "^5.0.25"
-    "@feathersjs/transport-commons" "^5.0.25"
-    socket.io "^4.7.5"
-
-"@feathersjs/transport-commons@^5.0.25", "@feathersjs/transport-commons@^5.0.27":
+"@feathersjs/socketio@^5.0.27":
   version "5.0.27"
-  resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-5.0.27.tgz#170221e1fd25c1b177b8b8918fef381ca1789536"
-  integrity sha512-EHaxTR/iTq7eB7XHVumdD7MGuYdigT692bGXgpSgbuANTQ65htsd4yWd2ZC0MWaFfhbLVZAu24LTZJ5BgIrrRQ==
+  resolved "https://registry.yarnpkg.com/@feathersjs/socketio/-/socketio-5.0.27.tgz#6caacac837f5d0655aadfd15cbe3da139260d87c"
+  integrity sha512-zz4zm6/ZExmalMoky6UKNsN3M70cyDDrkGvD8w4BzsCIvMhGRNKYQNFcxk3PUKH447yc45gkvrAYE55RaNIvxg==
   dependencies:
     "@feathersjs/commons" "^5.0.27"
-    "@feathersjs/errors" "^5.0.27"
     "@feathersjs/feathers" "^5.0.27"
-    encodeurl "^2.0.0"
-    lodash "^4.17.21"
+    "@feathersjs/transport-commons" "^5.0.27"
+    socket.io "^4.7.5"
 
 "@feathersjs/transport-commons@^5.0.27":
   version "5.0.27"
