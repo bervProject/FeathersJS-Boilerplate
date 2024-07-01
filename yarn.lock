@@ -483,15 +483,15 @@
     lodash.pick "^4.4.0"
     passport-jwt "^4.0.0"
 
-"@feathersjs/authentication-local@^5.0.25":
-  version "5.0.25"
-  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-local/-/authentication-local-5.0.25.tgz#6e912d8f26a64a24d18991299caed92961de48e0"
-  integrity sha512-DNGrg+DHBYL4VCygD+Iqc8RzZsVGi7XWOcCB5LSX2qbov7JPn/GfH6yGmU+dBRkZJmle3UGvz6X7atFDa9sqGA==
+"@feathersjs/authentication-local@^5.0.27":
+  version "5.0.27"
+  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-local/-/authentication-local-5.0.27.tgz#818118e326954d781dd943ab03aefc50e0fabe89"
+  integrity sha512-gyao9TV00jzUyRUWsZOxDwW7qB440GTerr1Pu2zCD/It4ve5P39p10gvfbpTvzIEfqW0rZl7GM4NhhbzdG+W4Q==
   dependencies:
-    "@feathersjs/authentication" "^5.0.25"
-    "@feathersjs/commons" "^5.0.25"
-    "@feathersjs/errors" "^5.0.25"
-    "@feathersjs/feathers" "^5.0.25"
+    "@feathersjs/authentication" "^5.0.27"
+    "@feathersjs/commons" "^5.0.27"
+    "@feathersjs/errors" "^5.0.27"
+    "@feathersjs/feathers" "^5.0.27"
     bcryptjs "^2.4.3"
     lodash "^4.17.21"
 
@@ -512,7 +512,7 @@
     koa-session "^6.4.0"
     qs "^6.12.1"
 
-"@feathersjs/authentication@^5.0.25", "@feathersjs/authentication@^5.0.27":
+"@feathersjs/authentication@^5.0.27":
   version "5.0.27"
   resolved "https://registry.yarnpkg.com/@feathersjs/authentication/-/authentication-5.0.27.tgz#25fdf6d62fe4f56eead0f78c979fbc3125925cb3"
   integrity sha512-lDfMZHjXNlxdURok0Ov+0G06F9EA3N5ZUSod30/cRWgro0K5yvMV6JBVer1sJrPYjdbmFSo2XrCK7m0wHo5zwQ==
@@ -552,7 +552,7 @@
   dependencies:
     debug "^4.0.0"
 
-"@feathersjs/errors@^5.0.1", "@feathersjs/errors@^5.0.11", "@feathersjs/errors@^5.0.12", "@feathersjs/errors@^5.0.14", "@feathersjs/errors@^5.0.25", "@feathersjs/errors@^5.0.27", "@feathersjs/errors@^5.0.9":
+"@feathersjs/errors@^5.0.1", "@feathersjs/errors@^5.0.11", "@feathersjs/errors@^5.0.12", "@feathersjs/errors@^5.0.14", "@feathersjs/errors@^5.0.27", "@feathersjs/errors@^5.0.9":
   version "5.0.27"
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.27.tgz#0b6e27c10bb6ff0a782271ba2db39972ffeb568c"
   integrity sha512-TWO6rWIh9nQ7tknX5K07z4+oyd58cak8cA1lHK/CcAKWIBF6Kkp0NDpZKkfhFhAxck/7fV77gkFmwLKZpPhIrw==
