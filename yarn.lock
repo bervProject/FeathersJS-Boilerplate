@@ -529,10 +529,15 @@
     long-timeout "^0.1.1"
     uuid "^9.0.1"
 
-"@feathersjs/commons@^5.0.11", "@feathersjs/commons@^5.0.12", "@feathersjs/commons@^5.0.25", "@feathersjs/commons@^5.0.27":
+"@feathersjs/commons@^5.0.11", "@feathersjs/commons@^5.0.12", "@feathersjs/commons@^5.0.27":
   version "5.0.27"
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.27.tgz#8350fede7b48342c10d106f0d42543b5123bdebc"
   integrity sha512-Vq0oKRqdcjlN7t2ahs4xcrmD0sxOKI6ESlHiLL7m+6Lj04LC5sM+++zwKoN77AIEv7kv1ifrND/+OscXx6uf6Q==
+
+"@feathersjs/commons@^5.0.29":
+  version "5.0.29"
+  resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.29.tgz#8dea7428c4281d7ba72953a6bc53c73770690da8"
+  integrity sha512-Gr2c0XxBTQ/+SoH8bAxJO1rUzBrFExQmK7Wdasp9g/xwS0InCNLPHhrrNc2KwTVSx8kbsN+GZRBkzytmxgWM0w==
 
 "@feathersjs/configuration@^5.0.27":
   version "5.0.27"
@@ -557,6 +562,11 @@
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.27.tgz#0b6e27c10bb6ff0a782271ba2db39972ffeb568c"
   integrity sha512-TWO6rWIh9nQ7tknX5K07z4+oyd58cak8cA1lHK/CcAKWIBF6Kkp0NDpZKkfhFhAxck/7fV77gkFmwLKZpPhIrw==
 
+"@feathersjs/errors@^5.0.29":
+  version "5.0.29"
+  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.29.tgz#04536135e8f3f7beaf5e0e356c176ac939f3fae1"
+  integrity sha512-SLpvC36V84XKxucAtDC70GXkqmsvTE5SO4uSZXuTpK68VqeefbmSY+KSid2DY9dM0upZN7orwVBB5YciUMCIIg==
+
 "@feathersjs/express@^5.0.25", "@feathersjs/express@^5.0.27":
   version "5.0.27"
   resolved "https://registry.yarnpkg.com/@feathersjs/express/-/express-5.0.27.tgz#1476cca60f3c478bc639ed911e51a12bc451f9fd"
@@ -575,12 +585,21 @@
     cors "^2.8.5"
     express "^4.19.2"
 
-"@feathersjs/feathers@^5.0.1", "@feathersjs/feathers@^5.0.12", "@feathersjs/feathers@^5.0.25", "@feathersjs/feathers@^5.0.27", "@feathersjs/feathers@^5.0.9":
+"@feathersjs/feathers@^5.0.1", "@feathersjs/feathers@^5.0.12", "@feathersjs/feathers@^5.0.27", "@feathersjs/feathers@^5.0.9":
   version "5.0.27"
   resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-5.0.27.tgz#4e68ede4072838ea3ba2f5479b0c1adcf9667e31"
   integrity sha512-HR9gzmaVzg1MnDgOncXo8b4jodEIIv1aYIfcLD7pxyGlF2joFQZ4kg6tWGDoJ/VB5L+eXNq+xmiV74r+PuDiaw==
   dependencies:
     "@feathersjs/commons" "^5.0.27"
+    "@feathersjs/hooks" "^0.9.0"
+    events "^3.3.0"
+
+"@feathersjs/feathers@^5.0.29":
+  version "5.0.29"
+  resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-5.0.29.tgz#fed5ad47b431990f29e5ed9ca420f1325d55419c"
+  integrity sha512-ERY0W0FfZUysIksdwbBhXZot1F1EuLtlhJA27o9VN9EWIh6IHlT30McyqQqdqTiqVhsOS+KJPLTeGPH60REg+Q==
+  dependencies:
+    "@feathersjs/commons" "^5.0.29"
     "@feathersjs/hooks" "^0.9.0"
     events "^3.3.0"
 
@@ -634,6 +653,17 @@
     "@feathersjs/feathers" "^5.0.27"
     "@feathersjs/transport-commons" "^5.0.27"
     socket.io "^4.7.5"
+
+"@feathersjs/transport-commons@^5.0.27":
+  version "5.0.29"
+  resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-5.0.29.tgz#8a98dfaa70faae37904061360735d1f47a340ef9"
+  integrity sha512-Xy7J9h/t9vLqjPnyn3RnNtcS9wBDp/VfdVYulC0hnpEBFKwDtyjx055rUgrNn8r1B4w0y8CyX02MNSupABgOiQ==
+  dependencies:
+    "@feathersjs/commons" "^5.0.29"
+    "@feathersjs/errors" "^5.0.29"
+    "@feathersjs/feathers" "^5.0.29"
+    encodeurl "^2.0.0"
+    lodash "^4.17.21"
 
 "@google-cloud/paginator@^3.0.7":
   version "3.0.7"
@@ -2886,9 +2916,9 @@ fast-text-encoding@^1.0.0:
   integrity sha512-VhXlQgj9ioXCqGstD37E/HBeqEGV/qOD/kmbVG8h5xKBYvM1L3lR1Zn4555cQ8GkYbJa8aJSipLPndE1k6zK2w==
 
 fast-xml-parser@^4.2.2, fast-xml-parser@^4.3.0:
-  version "4.3.2"
-  resolved "https://registry.yarnpkg.com/fast-xml-parser/-/fast-xml-parser-4.3.2.tgz#761e641260706d6e13251c4ef8e3f5694d4b0d79"
-  integrity sha512-rmrXUXwbJedoXkStenj1kkljNF7ugn5ZjR9FJcwmCfcCbtOMDghPajbc+Tck6vE6F5XsDmx+Pr2le9fw8+pXBg==
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/fast-xml-parser/-/fast-xml-parser-4.4.1.tgz#86dbf3f18edf8739326447bcaac31b4ae7f6514f"
+  integrity sha512-xkjOecfnKGkSsOwtZ5Pz7Us/T6mrbPQrq0nh+aCO5V9nk5NLWmasAHumTKjiPJPWANe+kAZ84Jc8ooJkzZ88Sw==
   dependencies:
     strnum "^1.0.5"
 
