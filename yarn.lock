@@ -478,15 +478,15 @@
     lodash.pick "^4.4.0"
     passport-jwt "^4.0.0"
 
-"@feathersjs/authentication-local@^5.0.27":
-  version "5.0.27"
-  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-local/-/authentication-local-5.0.27.tgz#818118e326954d781dd943ab03aefc50e0fabe89"
-  integrity sha512-gyao9TV00jzUyRUWsZOxDwW7qB440GTerr1Pu2zCD/It4ve5P39p10gvfbpTvzIEfqW0rZl7GM4NhhbzdG+W4Q==
+"@feathersjs/authentication-local@^5.0.29":
+  version "5.0.29"
+  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-local/-/authentication-local-5.0.29.tgz#137c69eea990d65e7eb5c9d204391b3c9da8caa0"
+  integrity sha512-Xkv1oCxn4eZGFWM61Wgo0ghabJIHg0xhkr5zy3glTDZFzqmS8xsoRyQufBnzEd8zMQlw09AK/YbFRNWUc8lNIQ==
   dependencies:
-    "@feathersjs/authentication" "^5.0.27"
-    "@feathersjs/commons" "^5.0.27"
-    "@feathersjs/errors" "^5.0.27"
-    "@feathersjs/feathers" "^5.0.27"
+    "@feathersjs/authentication" "^5.0.29"
+    "@feathersjs/commons" "^5.0.29"
+    "@feathersjs/errors" "^5.0.29"
+    "@feathersjs/feathers" "^5.0.29"
     bcryptjs "^2.4.3"
     lodash "^4.17.21"
 
@@ -507,7 +507,7 @@
     koa-session "^6.4.0"
     qs "^6.12.3"
 
-"@feathersjs/authentication@^5.0.27", "@feathersjs/authentication@^5.0.29":
+"@feathersjs/authentication@^5.0.29":
   version "5.0.29"
   resolved "https://registry.yarnpkg.com/@feathersjs/authentication/-/authentication-5.0.29.tgz#e7952d78645e29383fa121a381ed3002acb2000a"
   integrity sha512-kYC1x1etmZ9Q9EZXd6bbMlk1myaHS5TsW3kOty0m6amG9BDcFdEyh9ij/JgVuL0EJ+7KOHweOypdJ3bIpiinqQ==
@@ -547,7 +547,7 @@
   dependencies:
     debug "^4.0.0"
 
-"@feathersjs/errors@^5.0.1", "@feathersjs/errors@^5.0.11", "@feathersjs/errors@^5.0.12", "@feathersjs/errors@^5.0.27", "@feathersjs/errors@^5.0.29", "@feathersjs/errors@^5.0.9":
+"@feathersjs/errors@^5.0.1", "@feathersjs/errors@^5.0.11", "@feathersjs/errors@^5.0.12", "@feathersjs/errors@^5.0.29", "@feathersjs/errors@^5.0.9":
   version "5.0.29"
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.29.tgz#04536135e8f3f7beaf5e0e356c176ac939f3fae1"
   integrity sha512-SLpvC36V84XKxucAtDC70GXkqmsvTE5SO4uSZXuTpK68VqeefbmSY+KSid2DY9dM0upZN7orwVBB5YciUMCIIg==
