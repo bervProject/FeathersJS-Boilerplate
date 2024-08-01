@@ -490,22 +490,22 @@
     bcryptjs "^2.4.3"
     lodash "^4.17.21"
 
-"@feathersjs/authentication-oauth@^5.0.27":
-  version "5.0.27"
-  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-oauth/-/authentication-oauth-5.0.27.tgz#bd96f37dce1a6231f56a8493bc5d5eccd8b88ca2"
-  integrity sha512-FyCnaQ3Uit9bRTfJgrmfPRkLfPOJ8W30KZcIp6zBiuCp4gehQE8/nAfSCuWHm/oQAVwEEdpvCWAj8fHJH6XOjA==
+"@feathersjs/authentication-oauth@^5.0.29":
+  version "5.0.29"
+  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-oauth/-/authentication-oauth-5.0.29.tgz#243f74bd76bb07461c0571e78876ad04446bba2e"
+  integrity sha512-bcC8wjs5Sk0UD17jSjycH7++qAJy2ZgcdMcprXcUoO7NWP5cucgIYBWLUoOefxp/kmukwDFz71LpV94T92ZAOA==
   dependencies:
-    "@feathersjs/authentication" "^5.0.27"
-    "@feathersjs/commons" "^5.0.27"
-    "@feathersjs/errors" "^5.0.27"
-    "@feathersjs/express" "^5.0.27"
-    "@feathersjs/feathers" "^5.0.27"
-    "@feathersjs/koa" "^5.0.27"
-    "@feathersjs/schema" "^5.0.27"
+    "@feathersjs/authentication" "^5.0.29"
+    "@feathersjs/commons" "^5.0.29"
+    "@feathersjs/errors" "^5.0.29"
+    "@feathersjs/express" "^5.0.29"
+    "@feathersjs/feathers" "^5.0.29"
+    "@feathersjs/koa" "^5.0.29"
+    "@feathersjs/schema" "^5.0.29"
     cookie-session "^2.1.0"
     grant "^5.4.22"
     koa-session "^6.4.0"
-    qs "^6.12.1"
+    qs "^6.12.3"
 
 "@feathersjs/authentication@^5.0.27", "@feathersjs/authentication@^5.0.29":
   version "5.0.29"
@@ -552,7 +552,7 @@
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.29.tgz#04536135e8f3f7beaf5e0e356c176ac939f3fae1"
   integrity sha512-SLpvC36V84XKxucAtDC70GXkqmsvTE5SO4uSZXuTpK68VqeefbmSY+KSid2DY9dM0upZN7orwVBB5YciUMCIIg==
 
-"@feathersjs/express@^5.0.27", "@feathersjs/express@^5.0.29":
+"@feathersjs/express@^5.0.29":
   version "5.0.29"
   resolved "https://registry.yarnpkg.com/@feathersjs/express/-/express-5.0.29.tgz#13b1315a2d51a770c6498ab0ca74f58576cf1cfd"
   integrity sha512-PvbzAuolHZEL2VBQRyuMVhsa9LVM7HuN6nXyGFv7IqSr7t61i3v5BuWbn4SQ6EO88NVHDnb7DZT7ojDVhU6YFw==
@@ -584,16 +584,16 @@
   resolved "https://registry.yarnpkg.com/@feathersjs/hooks/-/hooks-0.9.0.tgz#8aa339b83d17fcbd929e80113a3c0616979b33cb"
   integrity sha512-kLfWnuhbC25CPkR1/TDcVs0rSiv0JLNxrpUivLwc7FUnkyeciRi5VOmC1SOzL2SOagcozu3+m4VQiONyzgfY7w==
 
-"@feathersjs/koa@^5.0.27":
-  version "5.0.27"
-  resolved "https://registry.yarnpkg.com/@feathersjs/koa/-/koa-5.0.27.tgz#8318e2f9f9300056721091d4ba7d4f0926e00f50"
-  integrity sha512-EC59yAPpeLZiJtSbmXVpbchLukFdv5qYxnHrgHudsxGUEsqLImKnxnni5H/sDdU78wPNXiV6j3PSeJQDoHV/Fg==
+"@feathersjs/koa@^5.0.29":
+  version "5.0.29"
+  resolved "https://registry.yarnpkg.com/@feathersjs/koa/-/koa-5.0.29.tgz#3f1b959fb10048bc08976be815a677bd9acd7c40"
+  integrity sha512-LaGmY0iu47FTBB1pcRXJz3b3/6jzlGJkjpRr/BRY+XnHfyaU9IPMCi7bCBxOuijv36dK+O94t5x0JYmNjv1J+g==
   dependencies:
-    "@feathersjs/authentication" "^5.0.27"
-    "@feathersjs/commons" "^5.0.27"
-    "@feathersjs/errors" "^5.0.27"
-    "@feathersjs/feathers" "^5.0.27"
-    "@feathersjs/transport-commons" "^5.0.27"
+    "@feathersjs/authentication" "^5.0.29"
+    "@feathersjs/commons" "^5.0.29"
+    "@feathersjs/errors" "^5.0.29"
+    "@feathersjs/feathers" "^5.0.29"
+    "@feathersjs/transport-commons" "^5.0.29"
     "@koa/cors" "^5.0.0"
     "@types/koa" "^2.15.0"
     "@types/koa-qs" "^2.0.3"
@@ -4980,10 +4980,10 @@ qs@6.11.0:
   dependencies:
     side-channel "^1.0.4"
 
-qs@^6.11.0, qs@^6.11.2, qs@^6.12.1, qs@^6.5.2, qs@^6.9.4, qs@^6.9.6:
-  version "6.12.1"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.12.1.tgz#39422111ca7cbdb70425541cba20c7d7b216599a"
-  integrity sha512-zWmv4RSuB9r2mYQw3zxQuHWeU+42aKi1wWig/j4ele4ygELZ7PEO6MM7rim9oAQH2A5MWfsAVf/jPvTPgCbvUQ==
+qs@^6.11.0, qs@^6.11.2, qs@^6.12.3, qs@^6.5.2, qs@^6.9.4, qs@^6.9.6:
+  version "6.12.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.12.3.tgz#e43ce03c8521b9c7fd7f1f13e514e5ca37727754"
+  integrity sha512-AWJm14H1vVaO/iNZ4/hO+HyaTehuy9nRqVdkTqlJt0HWvBiBIEXFmb4C0DGeYo3Xes9rrEW+TxHsaigCbN5ICQ==
   dependencies:
     side-channel "^1.0.6"
 
