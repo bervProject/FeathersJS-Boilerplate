@@ -471,15 +471,6 @@
     "@feathersjs/errors" "^5.0.29"
     "@feathersjs/feathers" "^5.0.29"
 
-"@feathersjs/adapter-commons@^5.0.29":
-  version "5.0.29"
-  resolved "https://registry.yarnpkg.com/@feathersjs/adapter-commons/-/adapter-commons-5.0.29.tgz#12ed320eb7ef1fc9a2c98e43d4cdc5549c02aa4d"
-  integrity sha512-9D0He+VqkUoYaSbfav4Rg0DMCVXtGmPNNxRO5QDJqbJ7U4deozCru3+qWMIVAYRXc5jiX0x2iFbSVOoMoFf78Q==
-  dependencies:
-    "@feathersjs/commons" "^5.0.29"
-    "@feathersjs/errors" "^5.0.29"
-    "@feathersjs/feathers" "^5.0.29"
-
 "@feathersjs/authentication-jwt@^2.0.10":
   version "2.0.10"
   resolved "https://registry.npmjs.org/@feathersjs/authentication-jwt/-/authentication-jwt-2.0.10.tgz#f8ec25d1230552b311af21822c5974cbc5f99b5e"
@@ -620,21 +611,6 @@
     koa-static "^5.0.0"
 
 "@feathersjs/schema@^5.0.27", "@feathersjs/schema@^5.0.29":
-  version "5.0.29"
-  resolved "https://registry.yarnpkg.com/@feathersjs/schema/-/schema-5.0.29.tgz#c1484b83dd9aaab32ae7f10fbb8440c38038b243"
-  integrity sha512-Eq1wSYyfczJlD7/4mcD5AtNTq3HdjjS191NCJWEurNIKm6MlIssvZXIjMOjnna2A1Vw/80vPIapat65uebEKPg==
-  dependencies:
-    "@feathersjs/adapter-commons" "^5.0.29"
-    "@feathersjs/commons" "^5.0.29"
-    "@feathersjs/errors" "^5.0.29"
-    "@feathersjs/feathers" "^5.0.29"
-    "@feathersjs/hooks" "^0.9.0"
-    "@types/json-schema" "^7.0.15"
-    ajv "^8.16.0"
-    ajv-formats "^3.0.1"
-    json-schema-to-ts "^3.1.0"
-
-"@feathersjs/schema@^5.0.29":
   version "5.0.29"
   resolved "https://registry.yarnpkg.com/@feathersjs/schema/-/schema-5.0.29.tgz#c1484b83dd9aaab32ae7f10fbb8440c38038b243"
   integrity sha512-Eq1wSYyfczJlD7/4mcD5AtNTq3HdjjS191NCJWEurNIKm6MlIssvZXIjMOjnna2A1Vw/80vPIapat65uebEKPg==
@@ -1433,12 +1409,12 @@
   dependencies:
     "@types/express" "*"
 
-"@types/node@*", "@types/node@>=10.0.0", "@types/node@^20.14.9":
-  version "20.14.9"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.14.9.tgz#12e8e765ab27f8c421a1820c99f5f313a933b420"
-  integrity sha512-06OCtnTXtWOZBJlRApleWndH4JsRVs1pDCc8dLSQp+7PpUpX3ePdHyeNSFTeSe7FtKyQkrlPvHwJOW3SLd8Oyg==
+"@types/node@*", "@types/node@>=10.0.0", "@types/node@^22.0.2":
+  version "22.0.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.0.2.tgz#9fb1a2b31970871e8bf696f0e8a40d2e6d2bd04e"
+  integrity sha512-yPL6DyFwY5PiMVEwymNeqUTKsDczQBJ/5T7W/46RwLU/VH+AA8aT5TZkvBviLKLbbm0hlfftEkGrNzfRk/fofQ==
   dependencies:
-    undici-types "~5.26.4"
+    undici-types "~6.11.1"
 
 "@types/qs@*":
   version "6.9.7"
@@ -4113,14 +4089,6 @@ json-schema-to-ts@^3.1.0:
     "@babel/runtime" "^7.18.3"
     ts-algebra "^2.0.0"
 
-json-schema-to-ts@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/json-schema-to-ts/-/json-schema-to-ts-3.1.0.tgz#96303370c2bf9da23aa0e86841548de6c70077b4"
-  integrity sha512-UeVN/ery4/JeXI8h4rM8yZPxsH+KqPi/84qFxHfTGHZnWnK9D0UU9ZGYO+6XAaJLqCWMiks+ARuFOKAiSxJCHA==
-  dependencies:
-    "@babel/runtime" "^7.18.3"
-    ts-algebra "^2.0.0"
-
 json-schema-traverse@^0.4.1:
   version "0.4.1"
   resolved "https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz#69f6a87d9513ab8bb8fe63bdb0979c448e684660"
@@ -5730,11 +5698,6 @@ ts-algebra@^2.0.0:
   resolved "https://registry.yarnpkg.com/ts-algebra/-/ts-algebra-2.0.0.tgz#4e3e0953878f26518fce7f6bb115064a65388b7a"
   integrity sha512-FPAhNPFMrkwz76P7cdjdmiShwMynZYN6SgOujD1urY4oNm80Ou9oMdmbR45LotcKOXoy7wSmHkRFE6Mxbrhefw==
 
-ts-algebra@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/ts-algebra/-/ts-algebra-2.0.0.tgz#4e3e0953878f26518fce7f6bb115064a65388b7a"
-  integrity sha512-FPAhNPFMrkwz76P7cdjdmiShwMynZYN6SgOujD1urY4oNm80Ou9oMdmbR45LotcKOXoy7wSmHkRFE6Mxbrhefw==
-
 ts-api-utils@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/ts-api-utils/-/ts-api-utils-1.0.1.tgz#8144e811d44c749cd65b2da305a032510774452d"
@@ -5859,10 +5822,10 @@ undefsafe@^2.0.5:
   resolved "https://registry.npmjs.org/undefsafe/-/undefsafe-2.0.5.tgz#38733b9327bdcd226db889fb723a6efd162e6e2c"
   integrity sha512-WxONCrssBM8TSPRqN5EmsjVrsv4A8X12J4ArBiiayv3DyyG3ZlIg6yysuuSYdZsVz3TKcTg2fd//Ujd4CHV1iA==
 
-undici-types@~5.26.4:
-  version "5.26.5"
-  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-5.26.5.tgz#bcd539893d00b56e964fd2657a4866b221a65617"
-  integrity sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==
+undici-types@~6.11.1:
+  version "6.11.1"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.11.1.tgz#432ea6e8efd54a48569705a699e62d8f4981b197"
+  integrity sha512-mIDEX2ek50x0OlRgxryxsenE5XaQD4on5U2inY7RApK3SOJpofyw7uW2AyfMKkhAxXIceo2DeWGVGwyvng1GNQ==
 
 unpipe@1.0.0, unpipe@~1.0.0:
   version "1.0.0"
