@@ -529,16 +529,16 @@
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.29.tgz#8dea7428c4281d7ba72953a6bc53c73770690da8"
   integrity sha512-Gr2c0XxBTQ/+SoH8bAxJO1rUzBrFExQmK7Wdasp9g/xwS0InCNLPHhrrNc2KwTVSx8kbsN+GZRBkzytmxgWM0w==
 
-"@feathersjs/configuration@^5.0.27":
-  version "5.0.27"
-  resolved "https://registry.yarnpkg.com/@feathersjs/configuration/-/configuration-5.0.27.tgz#3f2df958d59997fcc3156c9fd2e8cdd14123aac1"
-  integrity sha512-c8zX8i8hHisaSgKkx/tUQpXOMd1iFDBaPyzkxozZ1k1LZp3zhf5PoGQqaUR6cxjQtxzc3rKudpJX7fuyFKgSQg==
+"@feathersjs/configuration@^5.0.29":
+  version "5.0.29"
+  resolved "https://registry.yarnpkg.com/@feathersjs/configuration/-/configuration-5.0.29.tgz#aaeba50a04e9577317abf3546d61118bb768d00e"
+  integrity sha512-b/ql5NVrBe+dISIrhg9JWtR5QrDwsh623X2py9gRy4++HMffKqrhFxxHj0N6xCNhV5MhQU+sXaHJZp0wwmrEoQ==
   dependencies:
-    "@feathersjs/commons" "^5.0.27"
-    "@feathersjs/feathers" "^5.0.27"
-    "@feathersjs/schema" "^5.0.27"
+    "@feathersjs/commons" "^5.0.29"
+    "@feathersjs/feathers" "^5.0.29"
+    "@feathersjs/schema" "^5.0.29"
     "@types/config" "^3.3.4"
-    config "^3.3.11"
+    config "^3.3.12"
 
 "@feathersjs/errors@^3.3.6":
   version "3.3.6"
@@ -605,7 +605,7 @@
     koa-qs "^3.0.0"
     koa-static "^5.0.0"
 
-"@feathersjs/schema@^5.0.27", "@feathersjs/schema@^5.0.29":
+"@feathersjs/schema@^5.0.29":
   version "5.0.29"
   resolved "https://registry.yarnpkg.com/@feathersjs/schema/-/schema-5.0.29.tgz#c1484b83dd9aaab32ae7f10fbb8440c38038b243"
   integrity sha512-Eq1wSYyfczJlD7/4mcD5AtNTq3HdjjS191NCJWEurNIKm6MlIssvZXIjMOjnna2A1Vw/80vPIapat65uebEKPg==
@@ -2258,10 +2258,10 @@ concat-stream@^1.5.2:
     readable-stream "^2.2.2"
     typedarray "^0.0.6"
 
-config@^3.3.11:
-  version "3.3.11"
-  resolved "https://registry.yarnpkg.com/config/-/config-3.3.11.tgz#009e802631363e456d4cf57767a65c1549069ba2"
-  integrity sha512-Dhn63ZoWCW5EMg4P0Sl/XNsj/7RLiUIA1x1npCy+m2cRwRHzLnt3UtYtxRDMZW/6oOMdWhCzaGYkOcajGgrAOA==
+config@^3.3.12:
+  version "3.3.12"
+  resolved "https://registry.yarnpkg.com/config/-/config-3.3.12.tgz#a10ae66efcc3e48c1879fbb657c86c4ef6c7b25e"
+  integrity sha512-Vmx389R/QVM3foxqBzXO8t2tUikYZP64Q6vQxGrsMpREeJc/aWRnPRERXWsYzOHAumx/AOoILWe6nU3ZJL+6Sw==
   dependencies:
     json5 "^2.2.3"
 
