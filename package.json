@@ -44,7 +44,7 @@
   "types": "lib/",
   "dependencies": {
     "@bervproject/feathers-advance-hook": "^2.0.1",
-    "@feathersjs/authentication": "^5.0.27",
+    "@feathersjs/authentication": "^5.0.29",
     "@feathersjs/authentication-jwt": "^2.0.10",
     "@feathersjs/authentication-local": "^5.0.27",
     "@feathersjs/authentication-oauth": "^5.0.27",
