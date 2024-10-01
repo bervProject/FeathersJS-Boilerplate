@@ -478,15 +478,15 @@
     lodash.pick "^4.4.0"
     passport-jwt "^4.0.0"
 
-"@feathersjs/authentication-local@^5.0.29":
-  version "5.0.29"
-  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-local/-/authentication-local-5.0.29.tgz#137c69eea990d65e7eb5c9d204391b3c9da8caa0"
-  integrity sha512-Xkv1oCxn4eZGFWM61Wgo0ghabJIHg0xhkr5zy3glTDZFzqmS8xsoRyQufBnzEd8zMQlw09AK/YbFRNWUc8lNIQ==
+"@feathersjs/authentication-local@^5.0.30":
+  version "5.0.30"
+  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-local/-/authentication-local-5.0.30.tgz#66bb1069b27c434c9bf40ffd4dc19e5aa7a635f5"
+  integrity sha512-o4SuEcU1M1Kdws5CTdmGx7EgWtEsvZR52ZQEPkN5l13JDcoQrSg7YIiTrolN13JE916vo9U9cva2F9A37F1nJA==
   dependencies:
-    "@feathersjs/authentication" "^5.0.29"
-    "@feathersjs/commons" "^5.0.29"
-    "@feathersjs/errors" "^5.0.29"
-    "@feathersjs/feathers" "^5.0.29"
+    "@feathersjs/authentication" "^5.0.30"
+    "@feathersjs/commons" "^5.0.30"
+    "@feathersjs/errors" "^5.0.30"
+    "@feathersjs/feathers" "^5.0.30"
     bcryptjs "^2.4.3"
     lodash "^4.17.21"
 
@@ -524,7 +524,7 @@
     long-timeout "^0.1.1"
     uuid "^10.0.0"
 
-"@feathersjs/commons@^5.0.11", "@feathersjs/commons@^5.0.12", "@feathersjs/commons@^5.0.29", "@feathersjs/commons@^5.0.30":
+"@feathersjs/commons@^5.0.11", "@feathersjs/commons@^5.0.12", "@feathersjs/commons@^5.0.30":
   version "5.0.30"
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.30.tgz#59ff0c7f789b93e871c7fd15cbbb5b9738694f29"
   integrity sha512-OCOwqdzqvTxRrFeMSp3WVdtMIiLdCh/X1Fne7fAjvr1PKMtVk9JkLI6dSV2mp+x1djjHqsO5eAUxjy/ha+7SJw==
@@ -570,7 +570,7 @@
     cors "^2.8.5"
     express "^4.19.2"
 
-"@feathersjs/feathers@^5.0.1", "@feathersjs/feathers@^5.0.12", "@feathersjs/feathers@^5.0.29", "@feathersjs/feathers@^5.0.30", "@feathersjs/feathers@^5.0.9":
+"@feathersjs/feathers@^5.0.1", "@feathersjs/feathers@^5.0.12", "@feathersjs/feathers@^5.0.30", "@feathersjs/feathers@^5.0.9":
   version "5.0.30"
   resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-5.0.30.tgz#9816bd07e86794a956db198fb557609dc3c50cf1"
   integrity sha512-IHES6iWRpq22NWx/UZ8mwOilRbC/1fF27C0Taq2gw+X/xKqfegKFguLWPNk4fs8MuQglnUvtP+oFcYpVORBK7Q==
