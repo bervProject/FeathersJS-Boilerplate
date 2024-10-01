@@ -547,12 +547,7 @@
   dependencies:
     debug "^4.0.0"
 
-"@feathersjs/errors@^5.0.1", "@feathersjs/errors@^5.0.11", "@feathersjs/errors@^5.0.12", "@feathersjs/errors@^5.0.29", "@feathersjs/errors@^5.0.9":
-  version "5.0.29"
-  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.29.tgz#04536135e8f3f7beaf5e0e356c176ac939f3fae1"
-  integrity sha512-SLpvC36V84XKxucAtDC70GXkqmsvTE5SO4uSZXuTpK68VqeefbmSY+KSid2DY9dM0upZN7orwVBB5YciUMCIIg==
-
-"@feathersjs/errors@^5.0.30":
+"@feathersjs/errors@^5.0.1", "@feathersjs/errors@^5.0.11", "@feathersjs/errors@^5.0.12", "@feathersjs/errors@^5.0.29", "@feathersjs/errors@^5.0.30":
   version "5.0.30"
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.30.tgz#d256ea29ee77b92fb2e767534a048c4aa8684c95"
   integrity sha512-9ubxwNHj3XoLJlZK1TMmEa8TDR/wn681PxNwTBqWqwhb+zLfxxgjNVelK81TX6H1r0nhV+byKQ3BO/upuBW6Iw==
