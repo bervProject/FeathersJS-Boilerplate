@@ -1156,10 +1156,10 @@
   resolved "https://registry.yarnpkg.com/@types/caseless/-/caseless-0.12.4.tgz#1326429a519cc077028150343fd502b04686bd6f"
   integrity sha512-2in/lrHRNmDvHPgyormtEralhPcN3An1gLjJzj2Bw145VBxkQ75JEXW6CTdMAwShiHQcYsl2d10IjQSdJSJz4g==
 
-"@types/cls-hooked@^4.3.8":
-  version "4.3.8"
-  resolved "https://registry.yarnpkg.com/@types/cls-hooked/-/cls-hooked-4.3.8.tgz#ece275711b34eca51b3bc3899b13add7d8aff250"
-  integrity sha512-tf/7H883gFA6MPlWI15EQtfNZ+oPL0gLKkOlx9UHFrun1fC/FkuyNBpTKq1B5E3T4fbvjId6WifHUdSGsMMuPg==
+"@types/cls-hooked@^4.3.9":
+  version "4.3.9"
+  resolved "https://registry.yarnpkg.com/@types/cls-hooked/-/cls-hooked-4.3.9.tgz#2cff2f7ca961d53213ef626f96afa986a66d3fad"
+  integrity sha512-CMtHMz6Q/dkfcHarq9nioXH8BDPP+v5xvd+N90lBQ2bdmu06UvnLDqxTKoOJzz4SzIwb/x9i4UXGAAcnUDuIvg==
   dependencies:
     "@types/node" "*"
 
