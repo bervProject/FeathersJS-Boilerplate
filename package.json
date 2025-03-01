@@ -94,7 +94,7 @@
     "shx": "^0.3.4",
     "ts-jest": "^29.2.6",
     "ts-node-dev": "^2.0.0",
-    "typescript": "^5.7.3"
+    "typescript": "^5.8.2"
   },
   "packageManager": "yarn@1.22.19"
 }
