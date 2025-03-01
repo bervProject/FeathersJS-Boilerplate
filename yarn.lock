@@ -478,16 +478,16 @@
     lodash.pick "^4.4.0"
     passport-jwt "^4.0.0"
 
-"@feathersjs/authentication-local@^5.0.31":
-  version "5.0.31"
-  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-local/-/authentication-local-5.0.31.tgz#4e7848936f2cd5ef7c0294ec378b98aa7756d743"
-  integrity sha512-2pChJJnP4UW2TnhsOaj4spTWrCsjy5dXlG9bE9jSaJlGUXuex8iKiofInsu8GxWdd8vNhP1ArPLvrZOw6knIPA==
+"@feathersjs/authentication-local@^5.0.33":
+  version "5.0.33"
+  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-local/-/authentication-local-5.0.33.tgz#a474d3d1ac3fafd800803cbe97f63c4b31fe7861"
+  integrity sha512-KVqo9BjFTvkcOQwyM/vhaKW95CUbvLnyviNR5b5O4c/IoZBAK3CYBR1f1yryd4Yiu/tMY+a8f3GUjGCFcVwDmw==
   dependencies:
-    "@feathersjs/authentication" "^5.0.31"
-    "@feathersjs/commons" "^5.0.31"
-    "@feathersjs/errors" "^5.0.31"
-    "@feathersjs/feathers" "^5.0.31"
-    bcryptjs "^2.4.3"
+    "@feathersjs/authentication" "^5.0.33"
+    "@feathersjs/commons" "^5.0.33"
+    "@feathersjs/errors" "^5.0.33"
+    "@feathersjs/feathers" "^5.0.33"
+    bcryptjs "^3.0.2"
     lodash "^4.17.21"
 
 "@feathersjs/authentication-oauth@^5.0.33":
@@ -507,7 +507,7 @@
     koa-session "^7.0.2"
     qs "^6.14.0"
 
-"@feathersjs/authentication@^5.0.29", "@feathersjs/authentication@^5.0.31", "@feathersjs/authentication@^5.0.33":
+"@feathersjs/authentication@^5.0.29", "@feathersjs/authentication@^5.0.33":
   version "5.0.33"
   resolved "https://registry.yarnpkg.com/@feathersjs/authentication/-/authentication-5.0.33.tgz#b79e02a0d0e255e2b69b762be9d412caf32aadc9"
   integrity sha512-XrPtlbbClVdo/vWIu7ujd2Fdbg4Orhr15P51I2fS8hTQtLa+orxveFJVtlSHNm+9IKykhRZGbpApjWTgxHub6g==
@@ -1932,10 +1932,10 @@ base64id@2.0.0, base64id@~2.0.0:
   resolved "https://registry.npmjs.org/base64id/-/base64id-2.0.0.tgz#2770ac6bc47d312af97a8bf9a634342e0cd25cb6"
   integrity sha512-lGe34o6EHj9y3Kts9R4ZYs/Gr+6N7MCaMlIFA3F1R2O5/m7K06AxfSeO5530PEERE6/WyEg3lsuyw4GHlPZHog==
 
-bcryptjs@^2.4.3:
-  version "2.4.3"
-  resolved "https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.4.3.tgz#9ab5627b93e60621ff7cdac5da9733027df1d0cb"
-  integrity sha512-V/Hy/X9Vt7f3BbPJEi8BdVFMByHi+jNXrYkW3huaybV/kQ0KJg0Y6PkEMbn+zeT+i+SiKZ/HMqJGIIt4LZDqNQ==
+bcryptjs@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/bcryptjs/-/bcryptjs-3.0.2.tgz#caadcca1afefe372ed6e20f86db8e8546361c1ca"
+  integrity sha512-k38b3XOZKv60C4E2hVsXTolJWfkGRMbILBIe2IBITXciy5bOsTKot5kDrf3ZfufQtQOUN5mXceUEpU1rTl9Uog==
 
 bignumber.js@^9.0.0:
   version "9.1.1"
