@@ -524,7 +524,7 @@
     long-timeout "^0.1.1"
     uuid "^11.1.0"
 
-"@feathersjs/commons@^5.0.11", "@feathersjs/commons@^5.0.12", "@feathersjs/commons@^5.0.31", "@feathersjs/commons@^5.0.33":
+"@feathersjs/commons@^5.0.11", "@feathersjs/commons@^5.0.12", "@feathersjs/commons@^5.0.33":
   version "5.0.33"
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.33.tgz#eda8fc41b3f80eccbf6db070a4db59c8977b9dc6"
   integrity sha512-RPwOTERN6jeNjXqV/K0djBtc9Y9GcX3W5N9XKWOSdSkPQNzKwXG1G7sPkSRrnx2iJqFMuN/5nS+s69JwLW2m1g==
@@ -547,7 +547,7 @@
   dependencies:
     debug "^4.0.0"
 
-"@feathersjs/errors@^5.0.1", "@feathersjs/errors@^5.0.11", "@feathersjs/errors@^5.0.12", "@feathersjs/errors@^5.0.29", "@feathersjs/errors@^5.0.30", "@feathersjs/errors@^5.0.31", "@feathersjs/errors@^5.0.33":
+"@feathersjs/errors@^5.0.1", "@feathersjs/errors@^5.0.11", "@feathersjs/errors@^5.0.12", "@feathersjs/errors@^5.0.29", "@feathersjs/errors@^5.0.30", "@feathersjs/errors@^5.0.33":
   version "5.0.33"
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.33.tgz#e1e0a79bf1774d2bbfa4e8983d089330652a8018"
   integrity sha512-roM6xxEUdcm7b9OAtCBViafTF7K0tjW45p9IxAN3Q6VAo7bT2qb7Hh22VgBOtKxVTSYTncON4eQv8F0yVRSCSg==
@@ -570,7 +570,7 @@
     cors "^2.8.5"
     express "^4.21.2"
 
-"@feathersjs/feathers@^5.0.1", "@feathersjs/feathers@^5.0.12", "@feathersjs/feathers@^5.0.31", "@feathersjs/feathers@^5.0.33", "@feathersjs/feathers@^5.0.9":
+"@feathersjs/feathers@^5.0.1", "@feathersjs/feathers@^5.0.12", "@feathersjs/feathers@^5.0.33", "@feathersjs/feathers@^5.0.9":
   version "5.0.33"
   resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-5.0.33.tgz#f8054ba66e3f3dff210bba8f69104868f5adc317"
   integrity sha512-bEcperDJVXJkJQYTUKgneXshC54w0h334TjeBCda8BTPVp7DX5p2q5QvsSvz91RS2si537Vy4E/xp+s4Nsi+ng==
@@ -2241,19 +2241,6 @@ compressible@^2.0.12, compressible@~2.0.18:
   integrity sha512-AF3r7P5dWxL8MxyITRMlORQNaOA2IkAFaTr4k7BUumjPtRpGDTZpl0Pb1XCO6JeDCBdp126Cgs9sMxqSjgYyRg==
   dependencies:
     mime-db ">= 1.43.0 < 2"
-
-compression@^1.7.5:
-  version "1.7.5"
-  resolved "https://registry.yarnpkg.com/compression/-/compression-1.7.5.tgz#fdd256c0a642e39e314c478f6c2cd654edd74c93"
-  integrity sha512-bQJ0YRck5ak3LgtnpKkiabX5pNF7tMUh1BSy2ZBOTh0Dim0BUu6aPPwByIns6/A5Prh8PufSPerMDUklpzes2Q==
-  dependencies:
-    bytes "3.1.2"
-    compressible "~2.0.18"
-    debug "2.6.9"
-    negotiator "~0.6.4"
-    on-headers "~1.0.2"
-    safe-buffer "5.2.1"
-    vary "~1.1.2"
 
 compression@^1.8.0:
   version "1.8.0"
