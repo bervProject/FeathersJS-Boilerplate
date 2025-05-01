@@ -78,7 +78,7 @@
     "@types/jsonwebtoken": "^9.0.9",
     "@types/mime-types": "^2.1.4",
     "@types/multer": "^1.4.12",
-    "@types/node": "^22.13.14",
+    "@types/node": "^22.15.3",
     "@types/serve-favicon": "^2.5.7",
     "@types/uuid": "^9.0.8",
     "@types/validator": "^13.12.3",
