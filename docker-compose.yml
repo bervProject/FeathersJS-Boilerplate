@@ -13,7 +13,7 @@ services:
       links:
         - db
     db:
-      image: postgres:15-alpine
+      image: postgres:17-alpine
       environment: 
         POSTGRES_PASSWORD: pgsecret123
         POSTGRES_DB: feathersjs_boilerplate
