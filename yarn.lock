@@ -547,7 +547,7 @@
   dependencies:
     debug "^4.0.0"
 
-"@feathersjs/errors@^5.0.1", "@feathersjs/errors@^5.0.11", "@feathersjs/errors@^5.0.12", "@feathersjs/errors@^5.0.29", "@feathersjs/errors@^5.0.30", "@feathersjs/errors@^5.0.33", "@feathersjs/errors@^5.0.34":
+"@feathersjs/errors@^5.0.1", "@feathersjs/errors@^5.0.11", "@feathersjs/errors@^5.0.12", "@feathersjs/errors@^5.0.29", "@feathersjs/errors@^5.0.30", "@feathersjs/errors@^5.0.34":
   version "5.0.34"
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.34.tgz#8c909ad7151596b2f57a0ec42913b52de4321b4a"
   integrity sha512-C0t+pONnMvwlDW6iczcYmxaHzGvaGn3+BLhwlySEVYRciWOURIO8Eo5JVdN7cSM3Z7AxS3Dpk4DEhyFU/D2w6w==
@@ -620,26 +620,15 @@
     ajv-formats "^3.0.1"
     json-schema-to-ts "^3.1.1"
 
-"@feathersjs/socketio@^5.0.33":
-  version "5.0.33"
-  resolved "https://registry.yarnpkg.com/@feathersjs/socketio/-/socketio-5.0.33.tgz#c8108625f1f8b688bb94d82bd3fa711a921f2932"
-  integrity sha512-vnIl2k8yiy/HiWku7nNoSVrsjd5kURVPRrXu8Bb6Sgs6hDcfqW3xSfU2rFbpZAMzmT6cS1+mf7i4fM1ja4BiWA==
+"@feathersjs/socketio@^5.0.34":
+  version "5.0.34"
+  resolved "https://registry.yarnpkg.com/@feathersjs/socketio/-/socketio-5.0.34.tgz#a23e5a9dfdcb3960230e66a697fa601949bf553d"
+  integrity sha512-uT94CeSRcnhOIThjiFg/wU30koVPoPrJUHyiQia3Q9sSB5wcaoWaJAIUcOEIZmGrgW2FNLPRw9THpAUTIgd4/w==
   dependencies:
-    "@feathersjs/commons" "^5.0.33"
-    "@feathersjs/feathers" "^5.0.33"
-    "@feathersjs/transport-commons" "^5.0.33"
+    "@feathersjs/commons" "^5.0.34"
+    "@feathersjs/feathers" "^5.0.34"
+    "@feathersjs/transport-commons" "^5.0.34"
     socket.io "^4.8.1"
-
-"@feathersjs/transport-commons@^5.0.33":
-  version "5.0.33"
-  resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-5.0.33.tgz#85743ff104d771cd238534fc510a01e8219f69ab"
-  integrity sha512-mlqcxxfphQTPCBenJLE+8buRpKwOa+1FmJuMXn4QcYpOaK+Y1QlDBRTuXbKmccwFlkld+j4DzmyiF2MCFNZk3w==
-  dependencies:
-    "@feathersjs/commons" "^5.0.33"
-    "@feathersjs/errors" "^5.0.33"
-    "@feathersjs/feathers" "^5.0.33"
-    encodeurl "^2.0.0"
-    lodash "^4.17.21"
 
 "@feathersjs/transport-commons@^5.0.34":
   version "5.0.34"
