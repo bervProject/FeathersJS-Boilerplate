@@ -64,7 +64,7 @@
     "multer": "^2.0.1",
     "pg": "^8.16.0",
     "sequelize": "^6.37.7",
-    "serve-favicon": "^2.5.0",
+    "serve-favicon": "^2.5.1",
     "uuid": "^9.0.1",
     "winston": "^3.17.0"
   },
