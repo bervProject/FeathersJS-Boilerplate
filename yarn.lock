@@ -383,17 +383,17 @@
   resolved "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@bervproject/feathers-advance-hook@^2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@bervproject/feathers-advance-hook/-/feathers-advance-hook-2.0.3.tgz#f0956742ec2464d4c750d3c79938868089908550"
-  integrity sha512-0SIEm/19N52RMmXzmQuYNboTKWcBCpvHyk6OReUiAHII8+DIaQzG9xlyRECBVYMgeJ18XCY7BF3bzIDec0fNow==
+"@bervproject/feathers-advance-hook@^2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@bervproject/feathers-advance-hook/-/feathers-advance-hook-2.0.4.tgz#248d848f56cf14dfee24dfd35f3cc572fcde96c3"
+  integrity sha512-dEz2S9+HySv2iWFUipsZRcb7ViMpgf8ANw5loJSwvKB67M/8JyMW5Eszoo4gKsjqgMc7ldDDoRYkscqAUxnW8w==
   dependencies:
-    "@feathersjs/errors" "^5.0.1"
-    "@feathersjs/feathers" "^5.0.1"
-    "@google-cloud/storage" "^7.0.1"
+    "@feathersjs/errors" "^5.0.34"
+    "@feathersjs/feathers" "^5.0.34"
+    "@google-cloud/storage" "^7.16.0"
     dist "^0.1.2"
     mime-types "^3.0.1"
-    uuid "^11.0.2"
+    uuid "^11.1.0"
 
 "@colors/colors@1.6.0", "@colors/colors@^1.6.0":
   version "1.6.0"
@@ -547,7 +547,7 @@
   dependencies:
     debug "^4.0.0"
 
-"@feathersjs/errors@^5.0.1", "@feathersjs/errors@^5.0.11", "@feathersjs/errors@^5.0.12", "@feathersjs/errors@^5.0.29", "@feathersjs/errors@^5.0.30", "@feathersjs/errors@^5.0.34":
+"@feathersjs/errors@^5.0.11", "@feathersjs/errors@^5.0.12", "@feathersjs/errors@^5.0.29", "@feathersjs/errors@^5.0.30", "@feathersjs/errors@^5.0.34":
   version "5.0.34"
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.34.tgz#8c909ad7151596b2f57a0ec42913b52de4321b4a"
   integrity sha512-C0t+pONnMvwlDW6iczcYmxaHzGvaGn3+BLhwlySEVYRciWOURIO8Eo5JVdN7cSM3Z7AxS3Dpk4DEhyFU/D2w6w==
@@ -570,7 +570,7 @@
     cors "^2.8.5"
     express "^4.21.2"
 
-"@feathersjs/feathers@^5.0.1", "@feathersjs/feathers@^5.0.12", "@feathersjs/feathers@^5.0.34", "@feathersjs/feathers@^5.0.9":
+"@feathersjs/feathers@^5.0.12", "@feathersjs/feathers@^5.0.34", "@feathersjs/feathers@^5.0.9":
   version "5.0.34"
   resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-5.0.34.tgz#591625d9b6b158419acfefe121931fcb4ae1dab6"
   integrity sha512-jgeqKq/Uhsfeld42F8uimqzPv/uhtohkenpaWeD+NudJp2YZNYfA6gDZAL5UTpAvrTJFmK3QR1q1CnuL1mJdHg==
@@ -659,7 +659,7 @@
   resolved "https://registry.yarnpkg.com/@google-cloud/promisify/-/promisify-4.0.0.tgz#a906e533ebdd0f754dca2509933334ce58b8c8b1"
   integrity sha512-Orxzlfb9c67A15cq2JQEyVc7wEsmFBmHjZWZYQMUyJ1qivXyMwdyNOs9odi79hze+2zqdTtu1E19IM/FtqZ10g==
 
-"@google-cloud/storage@^7.0.1", "@google-cloud/storage@^7.16.0":
+"@google-cloud/storage@^7.16.0":
   version "7.16.0"
   resolved "https://registry.yarnpkg.com/@google-cloud/storage/-/storage-7.16.0.tgz#62c04ee4f80190992ef06cb033a90c054bcea575"
   integrity sha512-7/5LRgykyOfQENcm6hDKP8SX/u9XxE5YOiWOkgkwcoO+cG8xT/cyOvp9wwN3IxfdYgpHs8CE7Nq2PKX2lNaEXw==
@@ -5849,7 +5849,7 @@ utils-merge@1.0.1:
   resolved "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==
 
-uuid@^11.0.2, uuid@^11.1.0:
+uuid@^11.1.0:
   version "11.1.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-11.1.0.tgz#9549028be1753bb934fc96e2bca09bb4105ae912"
   integrity sha512-0/A9rDy9P7cJ+8w1c9WD9V//9Wj15Ce2MPz8Ri6032usz+NfePxx5AcN3bN+r6ZL6jEo066/yNYB3tn4pQEx+A==
@@ -5859,7 +5859,7 @@ uuid@^8.0.0, uuid@^8.3.2:
   resolved "https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
-uuid@^9.0.0, uuid@^9.0.1:
+uuid@^9.0.0:
   version "9.0.1"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.1.tgz#e188d4c8853cc722220392c424cd637f32293f30"
   integrity sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==
