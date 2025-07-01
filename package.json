@@ -71,7 +71,7 @@
   "devDependencies": {
     "@types/bluebird": "^3.5.42",
     "@types/cls-hooked": "^4.3.9",
-    "@types/compression": "^1.8.0",
+    "@types/compression": "^1.8.1",
     "@types/cors": "^2.8.19",
     "@types/helmet": "^4.0.0",
     "@types/jest": "^29.5.14",
