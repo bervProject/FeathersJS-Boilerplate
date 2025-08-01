@@ -55,7 +55,7 @@
     "@feathersjs/socketio": "^5.0.34",
     "@google-cloud/storage": "^7.16.0",
     "cls-hooked": "^4.2.2",
-    "compression": "^1.8.0",
+    "compression": "^1.8.1",
     "cors": "^2.8.5",
     "feathers-hooks-common": "^8.2.1",
     "feathers-sequelize": "^7.0.3",
