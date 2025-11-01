@@ -665,15 +665,15 @@
     lodash.pick "^4.4.0"
     passport-jwt "^4.0.0"
 
-"@feathersjs/authentication-local@^5.0.34":
-  version "5.0.34"
-  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-local/-/authentication-local-5.0.34.tgz#481074a1c1980702d9c391657cc35c55fa324d86"
-  integrity sha512-3swHyoz/kW3lTAoGRNT1Y49PXy+wx1/bgw5AQpExLanLuXipevuKHapLvlDUh914bz8vw6FmC/5TnFwxrx8OOQ==
+"@feathersjs/authentication-local@^5.0.35":
+  version "5.0.35"
+  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-local/-/authentication-local-5.0.35.tgz#50a342c488ae6dca9fb1f1b4f0639a7171b89189"
+  integrity sha512-BT+ybAFv0Gux0IwiMZESOSsoSaExYdYdES+stnbsR+P4oaWQHf5NcXVbqeBO7+le04esU2taw5sOe0rABvblXg==
   dependencies:
-    "@feathersjs/authentication" "^5.0.34"
-    "@feathersjs/commons" "^5.0.34"
-    "@feathersjs/errors" "^5.0.34"
-    "@feathersjs/feathers" "^5.0.34"
+    "@feathersjs/authentication" "^5.0.35"
+    "@feathersjs/commons" "^5.0.35"
+    "@feathersjs/errors" "^5.0.35"
+    "@feathersjs/feathers" "^5.0.35"
     bcryptjs "^3.0.2"
     lodash "^4.17.21"
 
@@ -694,7 +694,7 @@
     koa-session "^7.0.2"
     qs "^6.14.0"
 
-"@feathersjs/authentication@^5.0.29", "@feathersjs/authentication@^5.0.34", "@feathersjs/authentication@^5.0.35":
+"@feathersjs/authentication@^5.0.29", "@feathersjs/authentication@^5.0.35":
   version "5.0.35"
   resolved "https://registry.yarnpkg.com/@feathersjs/authentication/-/authentication-5.0.35.tgz#5d9401bc1fe86b4b3641f35442c78f62dfe1158a"
   integrity sha512-1Vh2//qAZVNClBLNiBknTxaynkEaz1tY5x7jkGUnevAvxGTxiBcIUNZosGNBW8go25ZKwe9/D7XrfGKlbSkOkg==
@@ -711,7 +711,7 @@
     long-timeout "^0.1.1"
     uuid "^11.1.0"
 
-"@feathersjs/commons@^5.0.11", "@feathersjs/commons@^5.0.12", "@feathersjs/commons@^5.0.34", "@feathersjs/commons@^5.0.35":
+"@feathersjs/commons@^5.0.11", "@feathersjs/commons@^5.0.12", "@feathersjs/commons@^5.0.35":
   version "5.0.35"
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.35.tgz#8502ee1f40846f4f456e6a6e157d8f3ab146a1f4"
   integrity sha512-YYk3SRLGcM9TPHsd2mGmTdFeZORmv5wa1MRCvmEUwzcsFIPWbq4F6ddFgqKUely216RvPumwyjV9U+MasROesQ==
