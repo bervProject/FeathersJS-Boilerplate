@@ -11,7 +11,7 @@ import { Application } from './declarations';
 
 declare module './declarations' {
   interface ServiceTypes {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+     
     authentication: AuthenticationService;
   }
 }

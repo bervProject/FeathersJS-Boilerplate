@@ -3,7 +3,7 @@ import { Namespace } from 'cls-hooked';
 import { Request, Response, NextFunction } from 'express';
 
 function correlation(namespace: Namespace) {
-  // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
+   
   return (req: Request, res: Response, next: NextFunction) => {
     const correlationId = uuidv4();
     if (!req.feathers) {

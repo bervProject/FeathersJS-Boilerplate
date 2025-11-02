@@ -1,4 +1,4 @@
-/* eslint-disable no-console */
+ 
 import logger from './logger';
 import app from './app';
 
