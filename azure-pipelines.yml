@@ -7,12 +7,12 @@ trigger:
 - main
 
 pool:
-  vmImage: 'Ubuntu-22.04'
+  vmImage: 'Ubuntu-24.04'
 
 steps:
 - task: NodeTool@0
   inputs:
-    versionSpec: '20.x'
+    versionSpec: '24.x'
   displayName: 'Install Node.js'
 - script: |
     yarn
