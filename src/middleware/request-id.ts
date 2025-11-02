@@ -1,5 +1,4 @@
 import { v4 as uuidv4 } from 'uuid';
-import { Request, Response, NextFunction } from 'express';
 
 export default () => {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any

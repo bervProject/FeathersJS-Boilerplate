@@ -1,5 +1,4 @@
 // Initializes the `upload` service on path `/upload`
-import { Request, Response, NextFunction } from 'express';
 import multer from 'multer';
 import { Application } from '../../declarations';
 import { Upload } from './upload.class';
