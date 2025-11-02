@@ -8,7 +8,9 @@ module.exports = {
       // https://kulshekhar.github.io/ts-jest/docs/getting-started/options/tsconfig
       { diagnostics: false },
     ],
+    '\\.jsx?$': 'babel-jest',
   },
+  transformIgnorePatterns: [],
   collectCoverage: true,
   collectCoverageFrom: ['**/src/*.{ts,tsx}'],
   coverageDirectory: './coverage/',

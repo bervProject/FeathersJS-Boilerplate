@@ -13,14 +13,14 @@ jobs:
       - checkout
       - node/install:
           install-yarn: true
-          node-version: '20.16'
+          node-version: '22.21'
       - node/install-packages:
           pkg-manager: yarn
       - run:
           command: yarn run test
           name: Run YARN tests
       - store_artifacts:
-          path: coverage 
+          path: coverage
 workflows:
   test_my_app:
     jobs:

@@ -1,5 +1,4 @@
 // Initializes the `upload` service on path `/upload`
-import { Request, Response, NextFunction } from 'express';
 import multer from 'multer';
 import { Application } from '../../declarations';
 import { Upload } from './upload.class';
@@ -22,11 +21,12 @@ export default function (app: Application): void {
     paginate: app.get('paginate'),
   };
 
-  // Initialize our service with any options it requires
+  // @ts-expect-error different type
   app.use(
     'upload',
     multipartMiddleware.single('file'),
-    function (req: Request, res: Response, next: NextFunction) {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    function (req: any, res: any, next: any) {
       if (!req.feathers) {
         req.feathers = {};
       }

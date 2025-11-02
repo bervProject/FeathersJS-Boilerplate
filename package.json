@@ -23,7 +23,7 @@
     "config": "config/"
   },
   "engines": {
-    "node": ">= 18.0.0",
+    "node": ">= 22.0.0",
     "yarn": ">= 0.18.0"
   },
   "scripts": {
@@ -43,14 +43,14 @@
   },
   "types": "lib/",
   "dependencies": {
-    "@bervproject/feathers-advance-hook": "^2.0.4",
-    "@feathersjs/authentication": "^5.0.29",
+    "@bervproject/feathers-advance-hook": "^2.0.5",
+    "@feathersjs/authentication": "^5.0.35",
     "@feathersjs/authentication-jwt": "^2.0.10",
     "@feathersjs/authentication-local": "^5.0.35",
     "@feathersjs/authentication-oauth": "^5.0.35",
     "@feathersjs/configuration": "^5.0.35",
     "@feathersjs/errors": "^5.0.35",
-    "@feathersjs/express": "^5.0.30",
+    "@feathersjs/express": "^5.0.35",
     "@feathersjs/feathers": "^5.0.35",
     "@feathersjs/socketio": "^5.0.35",
     "@google-cloud/storage": "^7.17.2",
@@ -65,10 +65,14 @@
     "pg": "^8.16.3",
     "sequelize": "^6.37.7",
     "serve-favicon": "^2.5.1",
-    "uuid": "^11.1.0",
+    "uuid": "^13.0.0",
     "winston": "^3.18.3"
   },
   "devDependencies": {
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "@babel/preset-typescript": "^7.28.5",
+    "@eslint/js": "^9.39.0",
     "@types/bluebird": "^3.5.42",
     "@types/cls-hooked": "^4.3.9",
     "@types/compression": "^1.8.1",
@@ -80,12 +84,10 @@
     "@types/multer": "^2.0.0",
     "@types/node": "^24.9.2",
     "@types/serve-favicon": "^2.5.7",
-    "@types/uuid": "^10.0.0",
     "@types/validator": "^13.15.4",
-    "@typescript-eslint/eslint-plugin": "^7.0.0",
-    "@typescript-eslint/parser": "^6.21.0",
     "axios": "^1.13.1",
-    "eslint": "^8.57.1",
+    "babel-jest": "^30.2.0",
+    "eslint": "^9.39.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
     "jest": "^30.2.0",
@@ -94,7 +96,8 @@
     "shx": "^0.4.0",
     "ts-jest": "^29.4.5",
     "ts-node-dev": "^2.0.0",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.2"
   },
   "packageManager": "yarn@1.22.19"
 }

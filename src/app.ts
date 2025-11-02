@@ -33,9 +33,11 @@ app.configure(configuration());
 // Enable security, CORS, compression, favicon and body parsing
 app.use(helmet());
 app.use(cors());
+// @ts-expect-error different types
 app.use(compress());
 app.use(json());
 app.use(urlencoded({ extended: true }));
+// @ts-expect-error different types
 app.use(favicon(path.join(app.get('public'), 'favicon.ico')));
 // Host the public folder
 app.use('/', serveStatic(app.get('public')));
