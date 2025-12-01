@@ -52,7 +52,7 @@
     "@feathersjs/errors": "^5.0.37",
     "@feathersjs/express": "^5.0.35",
     "@feathersjs/feathers": "^5.0.37",
-    "@feathersjs/socketio": "^5.0.35",
+    "@feathersjs/socketio": "^5.0.37",
     "@google-cloud/storage": "^7.17.3",
     "cls-hooked": "^4.2.2",
     "compression": "^1.8.1",
