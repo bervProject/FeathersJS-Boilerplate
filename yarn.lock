@@ -1223,26 +1223,15 @@
     ajv-formats "^3.0.1"
     json-schema-to-ts "^3.1.1"
 
-"@feathersjs/socketio@^5.0.35":
-  version "5.0.35"
-  resolved "https://registry.yarnpkg.com/@feathersjs/socketio/-/socketio-5.0.35.tgz#e829ab9435b41a050b18be95ccd83e7cc0a24595"
-  integrity sha512-0P+YE7ZJgaozULxmnBiF7oQaXg6jwgsW2l9gHD3tyTsHZt/RSoGxvM4yba+0JawNcHWCgXRVB0imsXxvGkZvYQ==
+"@feathersjs/socketio@^5.0.37":
+  version "5.0.37"
+  resolved "https://registry.yarnpkg.com/@feathersjs/socketio/-/socketio-5.0.37.tgz#47d24fdd591f52765858a1764105bd14db5efd11"
+  integrity sha512-StZlTQEpSWEN2icFfNKbyE9XONgD1viXESJDwALb0CXXZLocRU8j/r1g3s51invPad4uuP8Kv3r0Ma99qztqOQ==
   dependencies:
-    "@feathersjs/commons" "^5.0.35"
-    "@feathersjs/feathers" "^5.0.35"
-    "@feathersjs/transport-commons" "^5.0.35"
+    "@feathersjs/commons" "^5.0.37"
+    "@feathersjs/feathers" "^5.0.37"
+    "@feathersjs/transport-commons" "^5.0.37"
     socket.io "^4.8.1"
-
-"@feathersjs/transport-commons@^5.0.35":
-  version "5.0.35"
-  resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-5.0.35.tgz#a860bdedb075891e11bcb8d16544154e37927843"
-  integrity sha512-ev9RdxXB/LTrLHX73tsyVEbylP7lr3KAu6IWnKMYd4kweUUNYw2yzmALD9eMH9rf3P/oZA0NJGhe7pE7fuhcuA==
-  dependencies:
-    "@feathersjs/commons" "^5.0.35"
-    "@feathersjs/errors" "^5.0.35"
-    "@feathersjs/feathers" "^5.0.35"
-    encodeurl "^2.0.0"
-    lodash "^4.17.21"
 
 "@feathersjs/transport-commons@^5.0.37":
   version "5.0.37"
