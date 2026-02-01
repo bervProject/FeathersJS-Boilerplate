@@ -1228,16 +1228,16 @@
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.39.tgz#1db9f46c1f3e4a8d7ebb86e86d429c49aca6288f"
   integrity sha512-eXwWVGLUTyc6WKSROtoM/YCSUMR2vwx+m6iDAR2CwLqqQyDvbdFP1nYcJqQ+wIrtXPcfg06uc/v7OFU9TPvD0g==
 
-"@feathersjs/configuration@^5.0.37":
-  version "5.0.37"
-  resolved "https://registry.yarnpkg.com/@feathersjs/configuration/-/configuration-5.0.37.tgz#c5e9c0310b3dac6efdf8d2ba123e826a61b75ec8"
-  integrity sha512-2SasaKdTBTvTdRZrZXfQTsMcvNxBXbb40F2LL0+wQ3tfHR1US8CmlWpxs46A8NyC/qjEpaKsvW14PRdzI/TFRQ==
+"@feathersjs/configuration@^5.0.39":
+  version "5.0.39"
+  resolved "https://registry.yarnpkg.com/@feathersjs/configuration/-/configuration-5.0.39.tgz#4af2c00d197ad0dcc80d197da8c7f73ab7695838"
+  integrity sha512-UW1OwI7O6ByxPdb+yEuAJhrOtH9CNGMdQw6+wkekl+d4FHrLnRYj9y6GG829P9svM/Wdq63Xsfbx80F/QmRYDw==
   dependencies:
-    "@feathersjs/commons" "^5.0.37"
-    "@feathersjs/feathers" "^5.0.37"
-    "@feathersjs/schema" "^5.0.37"
+    "@feathersjs/commons" "^5.0.39"
+    "@feathersjs/feathers" "^5.0.39"
+    "@feathersjs/schema" "^5.0.39"
     "@types/config" "^3.3.5"
-    config "^4.1.1"
+    config "~4.1.1"
 
 "@feathersjs/errors@^3.3.6":
   version "3.3.6"
@@ -3057,7 +3057,7 @@ concat-stream@^2.0.0:
     readable-stream "^3.0.2"
     typedarray "^0.0.6"
 
-config@^4.1.1:
+config@~4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/config/-/config-4.1.1.tgz#798f636e2a5b7baa7050280d1eb21f8e10abb8c9"
   integrity sha512-jljfwqNZ7QHwAW9Z9NDZdJARFiu5pjLqQO0K4ooY22iY/bIY78n0afI4ANEawfgQOxri0K/3oTayX8XIauWcLA==
