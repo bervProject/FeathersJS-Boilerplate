@@ -56,7 +56,7 @@
     "@google-cloud/storage": "^7.18.0",
     "cls-hooked": "^4.2.2",
     "compression": "^1.8.1",
-    "cors": "^2.8.5",
+    "cors": "^2.8.6",
     "feathers-hooks-common": "^8.2.1",
     "feathers-sequelize": "^7.0.3",
     "helmet": "^8.1.0",
