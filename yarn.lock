@@ -1251,22 +1251,22 @@
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.39.tgz#eff45c06c508b95276dce839c3b39645c3d9a894"
   integrity sha512-kkliDGMN+6Ool8cifYK6miuCBDY9jY9KJzBkXgJPSidSQ2Txpq6gpPpbJUH/n+QpGLTuSTTm3ck/jLztdlonvg==
 
-"@feathersjs/express@^5.0.35", "@feathersjs/express@^5.0.37":
-  version "5.0.37"
-  resolved "https://registry.yarnpkg.com/@feathersjs/express/-/express-5.0.37.tgz#1b1b59bacbb9c55f8ecfb85b50bd765872183301"
-  integrity sha512-enTZ46SBbd3tO5seRJCnnywBi1XhzeAtcTe5huPJvczzTvVmgXWQweugyvkyDg1X53fLZPaYmfwL+3dmG9W4xg==
+"@feathersjs/express@^5.0.37", "@feathersjs/express@^5.0.39":
+  version "5.0.39"
+  resolved "https://registry.yarnpkg.com/@feathersjs/express/-/express-5.0.39.tgz#19dde85e866b24af91a1dbd41620689c9044a102"
+  integrity sha512-WHUa2aC8NK59wLNw47z5mACjbaJli4hZ3Ig6E4F48r3ovUd5NtxWy4m39M96iQkTp7w/qIPpBphs07Z01GZBcA==
   dependencies:
-    "@feathersjs/authentication" "^5.0.37"
-    "@feathersjs/commons" "^5.0.37"
-    "@feathersjs/errors" "^5.0.37"
-    "@feathersjs/feathers" "^5.0.37"
-    "@feathersjs/transport-commons" "^5.0.37"
+    "@feathersjs/authentication" "^5.0.39"
+    "@feathersjs/commons" "^5.0.39"
+    "@feathersjs/errors" "^5.0.39"
+    "@feathersjs/feathers" "^5.0.39"
+    "@feathersjs/transport-commons" "^5.0.39"
     "@types/compression" "^1.8.1"
     "@types/cors" "^2.8.19"
     "@types/express" "^4.17.21"
     "@types/express-serve-static-core" "^4.19.5"
     compression "^1.8.1"
-    cors "^2.8.5"
+    cors "^2.8.6"
     express "^4.21.2"
 
 "@feathersjs/feathers@^5.0.34", "@feathersjs/feathers@^5.0.35", "@feathersjs/feathers@^5.0.37", "@feathersjs/feathers@^5.0.39":
@@ -3126,7 +3126,7 @@ core-js-compat@^3.48.0:
   dependencies:
     browserslist "^4.28.1"
 
-cors@^2.8.5, cors@^2.8.6, cors@~2.8.5:
+cors@^2.8.6, cors@~2.8.5:
   version "2.8.6"
   resolved "https://registry.yarnpkg.com/cors/-/cors-2.8.6.tgz#ff5dd69bd95e547503820d29aba4f8faf8dfec96"
   integrity sha512-tJtZBBHA6vjIAaF6EnIaq6laBBP9aq/Y3ouVJjEfoHbRBcHBAHYcMh/w8LDrk2PvIMMq8gmopa5D4V8RmbrxGw==
