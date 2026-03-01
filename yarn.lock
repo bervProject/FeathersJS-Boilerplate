@@ -1154,16 +1154,16 @@
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.41.tgz#74901bae262a8568bd0bc8a8610a51f7376456a4"
   integrity sha512-Iyp/dGBm0oB6paaa/liVnaTjZS7cblZ4uVuShjhluth8+/CCevTPGgLdqxVSw89YfkigJNRBduko6zqGbdNQ/g==
 
-"@feathersjs/configuration@^5.0.39":
-  version "5.0.39"
-  resolved "https://registry.yarnpkg.com/@feathersjs/configuration/-/configuration-5.0.39.tgz#4af2c00d197ad0dcc80d197da8c7f73ab7695838"
-  integrity sha512-UW1OwI7O6ByxPdb+yEuAJhrOtH9CNGMdQw6+wkekl+d4FHrLnRYj9y6GG829P9svM/Wdq63Xsfbx80F/QmRYDw==
+"@feathersjs/configuration@^5.0.41":
+  version "5.0.41"
+  resolved "https://registry.yarnpkg.com/@feathersjs/configuration/-/configuration-5.0.41.tgz#0b5017a0ed74043cba5a08c1eec2f7e0410c03be"
+  integrity sha512-VpHIETNiR56lT7zlbQx8GeSdMxxd3TXfbIZ8mW8fIEUH2PjcNbrsJbeqFfqmURqs3eyU8AVi8v2a5U82GQzKxA==
   dependencies:
-    "@feathersjs/commons" "^5.0.39"
-    "@feathersjs/feathers" "^5.0.39"
-    "@feathersjs/schema" "^5.0.39"
+    "@feathersjs/commons" "^5.0.41"
+    "@feathersjs/feathers" "^5.0.41"
+    "@feathersjs/schema" "^5.0.41"
     "@types/config" "^3.3.5"
-    config "~4.1.1"
+    config "^4.3.0"
 
 "@feathersjs/errors@^3.3.6":
   version "3.3.6"
@@ -1230,7 +1230,7 @@
     koa-qs "^3.0.0"
     koa-static "^5.0.0"
 
-"@feathersjs/schema@^5.0.39", "@feathersjs/schema@^5.0.40", "@feathersjs/schema@^5.0.41":
+"@feathersjs/schema@^5.0.40", "@feathersjs/schema@^5.0.41":
   version "5.0.41"
   resolved "https://registry.yarnpkg.com/@feathersjs/schema/-/schema-5.0.41.tgz#89eb4358c5e50d277db3f5d98c7f7acf7f185b22"
   integrity sha512-o2cMqSBsWPCn8FlIPuQK77+4/SJLLKJYtuF6yS1sHPoWCY7elrxWkHRwSY/eZWW66siwM91pXAO7AlvFlw2fGQ==
@@ -2995,10 +2995,10 @@ concat-stream@^2.0.0:
     readable-stream "^3.0.2"
     typedarray "^0.0.6"
 
-config@~4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/config/-/config-4.1.1.tgz#798f636e2a5b7baa7050280d1eb21f8e10abb8c9"
-  integrity sha512-jljfwqNZ7QHwAW9Z9NDZdJARFiu5pjLqQO0K4ooY22iY/bIY78n0afI4ANEawfgQOxri0K/3oTayX8XIauWcLA==
+config@^4.3.0:
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/config/-/config-4.4.1.tgz#01e3f6bdd261ccf211a4fdb2f1b319aa5a2928ad"
+  integrity sha512-XfN4Q4+wBKkGtgMyQ+5ayjepdb0MrdiGKfBr0G1PTLx9rnqsX+Xiw03LEUtSALZU0UVfcFp6+xYV0NL8HLF94g==
   dependencies:
     json5 "^2.2.3"
 
