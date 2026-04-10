@@ -1134,7 +1134,7 @@
     long-timeout "^0.1.1"
     uuid "^11.1.0"
 
-"@feathersjs/commons@^5.0.11", "@feathersjs/commons@^5.0.35", "@feathersjs/commons@^5.0.41", "@feathersjs/commons@^5.0.43":
+"@feathersjs/commons@^5.0.11", "@feathersjs/commons@^5.0.35", "@feathersjs/commons@^5.0.43":
   version "5.0.43"
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.43.tgz#9cec470dbb5eeb5557c089f5a2c5ef6cbf99b8c0"
   integrity sha512-47LdD2U01vyCZOCEscR5QNhKqAQjjcaHUXGI1fnZYp+r0ufP3pjPSDW0FkY9r5YOg7wq8HL8o3RAEReqWjA+3A==
@@ -1180,7 +1180,7 @@
     cors "^2.8.6"
     express "^4.21.2"
 
-"@feathersjs/feathers@^5.0.34", "@feathersjs/feathers@^5.0.35", "@feathersjs/feathers@^5.0.39", "@feathersjs/feathers@^5.0.41", "@feathersjs/feathers@^5.0.43":
+"@feathersjs/feathers@^5.0.34", "@feathersjs/feathers@^5.0.35", "@feathersjs/feathers@^5.0.39", "@feathersjs/feathers@^5.0.43":
   version "5.0.43"
   resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-5.0.43.tgz#0188d790f2308a84306a92d8dd80ff0aa9afcad2"
   integrity sha512-RgJCFfsQwIxx88N4aOZ8jHyi9d9GGVOnZc7SgifUeiCoP3XQh6tLeE2LFRuRNgQgU00mqhqGqmmpivBOiRsxXg==
@@ -5085,9 +5085,9 @@ lodash.pick@^4.4.0:
   integrity sha512-hXt6Ul/5yWjfklSGvLQl8vM//l3FtyHZeuelpzK6mm99pNvN9yTDruNZPEJZD1oWrqo+izBmB7oUfWgcCX7s4Q==
 
 lodash@^4.17.21, lodash@^4.17.23:
-  version "4.17.23"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.23.tgz#f113b0378386103be4f6893388c73d0bde7f2c5a"
-  integrity sha512-LgVTMpQtIopCi79SJeDiP0TfWi5CNEc/L/aRdTh3yIvmZXTnheWpKjSZhnvMl8iXbC1tFg9gdHHDMLoV7CnG+w==
+  version "4.18.1"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.18.1.tgz#ff2b66c1f6326d59513de2407bf881439812771c"
+  integrity sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==
 
 logform@^2.7.0:
   version "2.7.0"
