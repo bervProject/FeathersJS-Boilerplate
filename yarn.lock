@@ -950,16 +950,16 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@bervproject/feathers-advance-hook@^2.0.5":
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/@bervproject/feathers-advance-hook/-/feathers-advance-hook-2.0.5.tgz#dcc0317c939b203124d124cbf5979033ba16111d"
-  integrity sha512-MFSFKc1veGn142pq61TZdBz//xZ2PeBSGnj2k7hWB7dc/f4e7AWnuoBLplko9OEXpG603/cfI6wF+RCnF7pJlQ==
+"@bervproject/feathers-advance-hook@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@bervproject/feathers-advance-hook/-/feathers-advance-hook-2.1.0.tgz#19589e376d4d3579016b228665138f23cda9539e"
+  integrity sha512-BiqlhxP7Ro17c54MV4UfZoBSJlAAweEjwqS6cj0LMSXqvoO3bKf7zU8mDKKtm7iAoIltVwgBU87M311pk+d2Ig==
   dependencies:
-    "@feathersjs/errors" "^5.0.34"
-    "@feathersjs/feathers" "^5.0.34"
-    "@google-cloud/storage" "^7.16.0"
+    "@feathersjs/errors" "^5.0.44"
+    "@feathersjs/feathers" "^5.0.44"
+    "@google-cloud/storage" "^7.19.0"
     dist "^0.1.2"
-    mime-types "^3.0.1"
+    mime-types "^3.0.2"
     uuid "^13.0.0"
 
 "@colors/colors@1.6.0", "@colors/colors@^1.6.0":
@@ -1166,7 +1166,7 @@
   dependencies:
     debug "^4.0.0"
 
-"@feathersjs/errors@^5.0.11", "@feathersjs/errors@^5.0.29", "@feathersjs/errors@^5.0.34", "@feathersjs/errors@^5.0.35", "@feathersjs/errors@^5.0.39", "@feathersjs/errors@^5.0.43", "@feathersjs/errors@^5.0.44":
+"@feathersjs/errors@^5.0.11", "@feathersjs/errors@^5.0.29", "@feathersjs/errors@^5.0.35", "@feathersjs/errors@^5.0.39", "@feathersjs/errors@^5.0.43", "@feathersjs/errors@^5.0.44":
   version "5.0.44"
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.44.tgz#4467d9b102bbe84f3e0aef1f39bdd6ba50bf748c"
   integrity sha512-QcxrUvEFHGBT47VyH02rlhw51M+G0yam3fpDnko1HlkM6C62notLwE2lirEDz34JWITwkn/lwV527h1HwHpOuQ==
@@ -1189,7 +1189,7 @@
     cors "^2.8.6"
     express "^4.21.2"
 
-"@feathersjs/feathers@^5.0.34", "@feathersjs/feathers@^5.0.35", "@feathersjs/feathers@^5.0.39", "@feathersjs/feathers@^5.0.43", "@feathersjs/feathers@^5.0.44":
+"@feathersjs/feathers@^5.0.35", "@feathersjs/feathers@^5.0.39", "@feathersjs/feathers@^5.0.43", "@feathersjs/feathers@^5.0.44":
   version "5.0.44"
   resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-5.0.44.tgz#94f114890cc8ea5a4b1dee2ca9d6f308dca4bd2a"
   integrity sha512-qxZ9ZQQBIfyIdQKUIFUXZ2EegcUWpIwG4BOBpO7RZXu7nlv9SNMttrTbVWEfUzc72jhKtJuRW8/FHdrsb1446g==
@@ -1275,17 +1275,6 @@
     encodeurl "^2.0.0"
     lodash "^4.17.23"
 
-"@feathersjs/transport-commons@^5.0.44":
-  version "5.0.44"
-  resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-5.0.44.tgz#d28f9d4065406682dbdb2b0640466c16ae98f1fd"
-  integrity sha512-BxUyGFcbt+o5TWcXKXNVrbh3zrq2iGAzE9uvaVJ7tVQX820LVHOWAp6NL5GxG+InhLUq0cc3CTpQENE0+oXRMw==
-  dependencies:
-    "@feathersjs/commons" "^5.0.44"
-    "@feathersjs/errors" "^5.0.44"
-    "@feathersjs/feathers" "^5.0.44"
-    encodeurl "^2.0.0"
-    lodash "^4.17.23"
-
 "@google-cloud/paginator@^5.0.0":
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/@google-cloud/paginator/-/paginator-5.0.2.tgz#86ad773266ce9f3b82955a8f75e22cd012ccc889"
@@ -1304,7 +1293,7 @@
   resolved "https://registry.yarnpkg.com/@google-cloud/promisify/-/promisify-4.0.0.tgz#a906e533ebdd0f754dca2509933334ce58b8c8b1"
   integrity sha512-Orxzlfb9c67A15cq2JQEyVc7wEsmFBmHjZWZYQMUyJ1qivXyMwdyNOs9odi79hze+2zqdTtu1E19IM/FtqZ10g==
 
-"@google-cloud/storage@^7.16.0", "@google-cloud/storage@^7.19.0":
+"@google-cloud/storage@^7.19.0":
   version "7.19.0"
   resolved "https://registry.yarnpkg.com/@google-cloud/storage/-/storage-7.19.0.tgz#34fb7cc4eacede5a2f1f0d6cefa0c70a22078c5b"
   integrity sha512-n2FjE7NAOYyshogdc7KQOl/VZb4sneqPjWouSyia9CMDdMhRX5+RIbqalNmC7LOLzuLAN89VlF2HvG8na9G+zQ==
