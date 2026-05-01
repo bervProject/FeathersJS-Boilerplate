@@ -1171,16 +1171,16 @@
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.44.tgz#4467d9b102bbe84f3e0aef1f39bdd6ba50bf748c"
   integrity sha512-QcxrUvEFHGBT47VyH02rlhw51M+G0yam3fpDnko1HlkM6C62notLwE2lirEDz34JWITwkn/lwV527h1HwHpOuQ==
 
-"@feathersjs/express@^5.0.39", "@feathersjs/express@^5.0.43":
-  version "5.0.43"
-  resolved "https://registry.yarnpkg.com/@feathersjs/express/-/express-5.0.43.tgz#347f41b815ac172b3cc2c995e20295fc9eda6640"
-  integrity sha512-ymariSTPeMgzYXUVRG1VKm9GIFUBvF+rLFflfmjJJgQ9p34MkLQdZ5RPripRo7nsS9iDLhKN+Kz5y3dagAOspA==
+"@feathersjs/express@^5.0.43", "@feathersjs/express@^5.0.44":
+  version "5.0.44"
+  resolved "https://registry.yarnpkg.com/@feathersjs/express/-/express-5.0.44.tgz#5c71f3133cf6ff29eff6ebd627bc7c63855973cc"
+  integrity sha512-mnSUxOjQnuDzQJD6jlmTtsZimxB7IoJMHyXe0T+nnYOhBIWnuX//6oznncgUUXIGxjhcpswA/2BPoeLFDnZFzQ==
   dependencies:
-    "@feathersjs/authentication" "^5.0.43"
-    "@feathersjs/commons" "^5.0.43"
-    "@feathersjs/errors" "^5.0.43"
-    "@feathersjs/feathers" "^5.0.43"
-    "@feathersjs/transport-commons" "^5.0.43"
+    "@feathersjs/authentication" "^5.0.44"
+    "@feathersjs/commons" "^5.0.44"
+    "@feathersjs/errors" "^5.0.44"
+    "@feathersjs/feathers" "^5.0.44"
+    "@feathersjs/transport-commons" "^5.0.44"
     "@types/compression" "^1.8.1"
     "@types/cors" "^2.8.19"
     "@types/express" "^4.17.21"
@@ -1264,14 +1264,14 @@
     "@feathersjs/transport-commons" "^5.0.43"
     socket.io "^4.8.3"
 
-"@feathersjs/transport-commons@^5.0.43":
-  version "5.0.43"
-  resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-5.0.43.tgz#cda0e16be08e165f78398eae405e7d82872489c6"
-  integrity sha512-HfjU+GykO1sAnqQa+jEHOi8HEjpYeapHqXmfu1pPpk+Ch0abPwHrfSgx9ynrIwMm2RiMiVxL4BCrf93XgbO+CA==
+"@feathersjs/transport-commons@^5.0.43", "@feathersjs/transport-commons@^5.0.44":
+  version "5.0.44"
+  resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-5.0.44.tgz#d28f9d4065406682dbdb2b0640466c16ae98f1fd"
+  integrity sha512-BxUyGFcbt+o5TWcXKXNVrbh3zrq2iGAzE9uvaVJ7tVQX820LVHOWAp6NL5GxG+InhLUq0cc3CTpQENE0+oXRMw==
   dependencies:
-    "@feathersjs/commons" "^5.0.43"
-    "@feathersjs/errors" "^5.0.43"
-    "@feathersjs/feathers" "^5.0.43"
+    "@feathersjs/commons" "^5.0.44"
+    "@feathersjs/errors" "^5.0.44"
+    "@feathersjs/feathers" "^5.0.44"
     encodeurl "^2.0.0"
     lodash "^4.17.23"
 
