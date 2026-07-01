@@ -1144,7 +1144,7 @@
     long-timeout "^0.1.1"
     uuid "^11.1.0"
 
-"@feathersjs/commons@^5.0.11", "@feathersjs/commons@^5.0.35", "@feathersjs/commons@^5.0.44", "@feathersjs/commons@^5.0.46":
+"@feathersjs/commons@^5.0.11", "@feathersjs/commons@^5.0.35", "@feathersjs/commons@^5.0.46":
   version "5.0.46"
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.46.tgz#d46f01bdacfbcefaad2f72676a037341a4ca41fc"
   integrity sha512-jcoPt00VATX25L8eSLLHw75oN0p8ibx0v5KniC/uHlpq5i8CMYgcgjmZJ/bKdkZAHcGQ/ELGvYLkj5QocWpvxg==
@@ -1172,7 +1172,7 @@
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.46.tgz#4b1298549265529e659c0d695d1b61144889aabf"
   integrity sha512-hdO59+xM7xPKMpARlWxpOHxKOpBAxQ/6XuPpsW0cvO/NkI6+6SB5KHIGBa9vEs/OZG5z+lJzn611PeMaGp0rXw==
 
-"@feathersjs/express@^5.0.44", "@feathersjs/express@^5.0.46":
+"@feathersjs/express@^5.0.46":
   version "5.0.46"
   resolved "https://registry.yarnpkg.com/@feathersjs/express/-/express-5.0.46.tgz#27af654c84c21841cb6575b19d92efa2b6919bef"
   integrity sha512-yJaTmpzFTZI0XZ359HfZuhJuweyGqa4kOb+FrU+vTc9lYHr9BcTPkOw2yu7F5E0dJDYLh0IvzawW3NmNR882dA==
@@ -1250,7 +1250,7 @@
     "@feathersjs/transport-commons" "^5.0.46"
     socket.io "^4.8.3"
 
-"@feathersjs/transport-commons@^5.0.44", "@feathersjs/transport-commons@^5.0.46":
+"@feathersjs/transport-commons@^5.0.46":
   version "5.0.46"
   resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-5.0.46.tgz#41a1b20a54ccf763787dde0fa2d45fc1875779b1"
   integrity sha512-Ezdz4yuK+A+kTQ7OWFVyoAFShrdlJ1iuelbXfYkK8zIdiw+huxwAHcOXUmtBdP1MYxsWnadJoyyvA4ZehzuJjQ==
@@ -4861,9 +4861,9 @@ js-tokens@^4.0.0:
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
 js-yaml@^3.13.1:
-  version "3.14.2"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.14.2.tgz#77485ce1dd7f33c061fd1b16ecea23b55fcb04b0"
-  integrity sha512-PMSmkqxr106Xa156c2M265Z+FTrPl+oxd/rgOQy2tijQeK5TxQ43psO1ZCwhVOSdnn+RzkzlRz/eY4BgJBYVpg==
+  version "3.15.0"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.15.0.tgz#586e5214eafe3e893756a41e979b50d89d3e4a67"
+  integrity sha512-ttBQIIQPDeLjpPOohtUdXuXUVoA2uIB6fEH9HyJ7234s5mBJ5wTx20njxplLZQgLaOfpmPQA7X2t5AX6tIPbog==
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
