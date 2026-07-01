@@ -1250,18 +1250,7 @@
     "@feathersjs/transport-commons" "^5.0.44"
     socket.io "^4.8.3"
 
-"@feathersjs/transport-commons@^5.0.44":
-  version "5.0.44"
-  resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-5.0.44.tgz#d28f9d4065406682dbdb2b0640466c16ae98f1fd"
-  integrity sha512-BxUyGFcbt+o5TWcXKXNVrbh3zrq2iGAzE9uvaVJ7tVQX820LVHOWAp6NL5GxG+InhLUq0cc3CTpQENE0+oXRMw==
-  dependencies:
-    "@feathersjs/commons" "^5.0.44"
-    "@feathersjs/errors" "^5.0.44"
-    "@feathersjs/feathers" "^5.0.44"
-    encodeurl "^2.0.0"
-    lodash "^4.17.23"
-
-"@feathersjs/transport-commons@^5.0.46":
+"@feathersjs/transport-commons@^5.0.44", "@feathersjs/transport-commons@^5.0.46":
   version "5.0.46"
   resolved "https://registry.yarnpkg.com/@feathersjs/transport-commons/-/transport-commons-5.0.46.tgz#41a1b20a54ccf763787dde0fa2d45fc1875779b1"
   integrity sha512-Ezdz4yuK+A+kTQ7OWFVyoAFShrdlJ1iuelbXfYkK8zIdiw+huxwAHcOXUmtBdP1MYxsWnadJoyyvA4ZehzuJjQ==
@@ -5158,7 +5147,7 @@ lodash.pick@^4.4.0:
   resolved "https://registry.yarnpkg.com/lodash.pick/-/lodash.pick-4.4.0.tgz#52f05610fff9ded422611441ed1fc123a03001b3"
   integrity sha512-hXt6Ul/5yWjfklSGvLQl8vM//l3FtyHZeuelpzK6mm99pNvN9yTDruNZPEJZD1oWrqo+izBmB7oUfWgcCX7s4Q==
 
-lodash@^4.17.21, lodash@^4.17.23, lodash@^4.18.1:
+lodash@^4.17.21, lodash@^4.18.1:
   version "4.18.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.18.1.tgz#ff2b66c1f6326d59513de2407bf881439812771c"
   integrity sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==
