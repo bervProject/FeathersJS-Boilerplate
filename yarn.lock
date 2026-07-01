@@ -1240,14 +1240,14 @@
     ajv-formats "^3.0.1"
     json-schema-to-ts "^3.1.1"
 
-"@feathersjs/socketio@^5.0.44":
-  version "5.0.44"
-  resolved "https://registry.yarnpkg.com/@feathersjs/socketio/-/socketio-5.0.44.tgz#a90545e9c6312d4332dcea7cce235fbec511bbf4"
-  integrity sha512-Z9QHn5pK3SexzzI9Ro6oR6VQNsPvC060Nxa64smb1KlOJAeJe/dSLfvDj4FTQNu8Ikow0BEd6vmWYB0SMsU02w==
+"@feathersjs/socketio@^5.0.46":
+  version "5.0.46"
+  resolved "https://registry.yarnpkg.com/@feathersjs/socketio/-/socketio-5.0.46.tgz#60aa0a9ff5a70adea3eeb1206d0d91621b51249f"
+  integrity sha512-AfVmxJ+FuukekF47dTGHPVdjpZtQeT0M5rxna/IJOAI1MgoApqyfeoKzmfgPweUqcnHmFPQEj40tChdslwZe/w==
   dependencies:
-    "@feathersjs/commons" "^5.0.44"
-    "@feathersjs/feathers" "^5.0.44"
-    "@feathersjs/transport-commons" "^5.0.44"
+    "@feathersjs/commons" "^5.0.46"
+    "@feathersjs/feathers" "^5.0.46"
+    "@feathersjs/transport-commons" "^5.0.46"
     socket.io "^4.8.3"
 
 "@feathersjs/transport-commons@^5.0.44", "@feathersjs/transport-commons@^5.0.46":
