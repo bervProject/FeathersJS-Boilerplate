@@ -1144,10 +1144,10 @@
     long-timeout "^0.1.1"
     uuid "^11.1.0"
 
-"@feathersjs/commons@^5.0.11", "@feathersjs/commons@^5.0.35", "@feathersjs/commons@^5.0.46":
-  version "5.0.46"
-  resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.46.tgz#d46f01bdacfbcefaad2f72676a037341a4ca41fc"
-  integrity sha512-jcoPt00VATX25L8eSLLHw75oN0p8ibx0v5KniC/uHlpq5i8CMYgcgjmZJ/bKdkZAHcGQ/ELGvYLkj5QocWpvxg==
+"@feathersjs/commons@^5.0.11", "@feathersjs/commons@^5.0.35", "@feathersjs/commons@^5.0.46", "@feathersjs/commons@^5.0.49":
+  version "5.0.49"
+  resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.49.tgz#6f9f7534f12bd2e1a1afe0e5bde940049977d86a"
+  integrity sha512-A74QexhiglOe1L+C9pBEULMgiMyhCK994WiswLob7uPaprDAoNtChN7mMAaN4cj6bbTaT8YMvRXLBtd5Folzfg==
 
 "@feathersjs/configuration@^5.0.46":
   version "5.0.46"
@@ -1190,12 +1190,12 @@
     cors "^2.8.6"
     express "^4.21.2"
 
-"@feathersjs/feathers@^5.0.35", "@feathersjs/feathers@^5.0.39", "@feathersjs/feathers@^5.0.44", "@feathersjs/feathers@^5.0.46":
-  version "5.0.46"
-  resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-5.0.46.tgz#64c0cf1c41cea825fbbfc840b93e5f427b9b5e72"
-  integrity sha512-RDgyeTiOgEmymHn7P0gA+rclXaLPdgPa8KcBrUTbQuJylWgRi6Vd7RFHgQvjCaSlrXVThRfPdvgH9Twbc/yfAA==
+"@feathersjs/feathers@^5.0.35", "@feathersjs/feathers@^5.0.44", "@feathersjs/feathers@^5.0.46", "@feathersjs/feathers@^5.0.49":
+  version "5.0.49"
+  resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-5.0.49.tgz#6029d6f6f48a23666720b8c864e2dea8fc6a3900"
+  integrity sha512-UAy/ndcxY5s6uT6EjhHLkoMVvDYwo+1QsYlr/rhvTwxfKcM20Q07eoK5Xk1S4AZHF236Lil+if5+IVXrBpYlRg==
   dependencies:
-    "@feathersjs/commons" "^5.0.46"
+    "@feathersjs/commons" "^5.0.49"
     "@feathersjs/hooks" "^0.9.0"
     events "^3.3.0"
 
