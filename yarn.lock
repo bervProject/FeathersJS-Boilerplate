@@ -1316,10 +1316,10 @@
     retry-request "^7.0.0"
     teeny-request "^9.0.0"
 
-"@google-cloud/storage@^8.0.1":
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/@google-cloud/storage/-/storage-8.0.1.tgz#97be0e87d3175b6e41c4dadc9e7d88be06054027"
-  integrity sha512-qgNayyweyLssLW2NNL4WYUIbwxRCvCVGg52aW8r9Lkunkoj52U6WQa/TSXSsJZ1BrbxQp3+9kwwpRl+scHQ3KQ==
+"@google-cloud/storage@^8.2.0":
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/@google-cloud/storage/-/storage-8.2.0.tgz#8ac3df400a125026f0ef6d8cafa9a5f0af9d2ac2"
+  integrity sha512-7ckgSjeEprV92VrlLjpYFA3PFerflvFtF7Ea86oQXGNCprGZq5rtpAVK0zgWnCy+44mLjms42M7MiWa433gz2A==
   dependencies:
     "@google-cloud/paginator" "^7.0.1"
     "@google-cloud/projectify" "^6.0.1"
