@@ -1162,21 +1162,21 @@
     long-timeout "^0.1.1"
     uuid "^11.1.0"
 
-"@feathersjs/commons@^5.0.11", "@feathersjs/commons@^5.0.35", "@feathersjs/commons@^5.0.49", "@feathersjs/commons@^5.0.50":
+"@feathersjs/commons@^5.0.11", "@feathersjs/commons@^5.0.35", "@feathersjs/commons@^5.0.50":
   version "5.0.50"
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.50.tgz#0786fc47d709c50a13b0ffb83fc451afb44b8b5a"
   integrity sha512-vzdX1G3d2X1WK/cnH3a1PA2ry3z8y8XBvLjl+RHg9wvOAy1g6dOXwD+ULjOK7Z4LrPmbyUG4b4lvsQChdPcbPw==
 
-"@feathersjs/configuration@^5.0.49":
-  version "5.0.49"
-  resolved "https://registry.yarnpkg.com/@feathersjs/configuration/-/configuration-5.0.49.tgz#74cd2f260c7c1d8baff22db87028416ad01c3879"
-  integrity sha512-tuZYIngFVzs7FUzdywum9UIOCvNbphMoYb6qDiP/KybTZUGeeVzn5Lr3zGZDLWiVIcGr1SwNsxZyS7UxCWo69Q==
+"@feathersjs/configuration@^5.0.50":
+  version "5.0.50"
+  resolved "https://registry.yarnpkg.com/@feathersjs/configuration/-/configuration-5.0.50.tgz#1fc4c53df0e1c73f2715010bc3f34b9080f4e1b1"
+  integrity sha512-lZ1XUkGdVeQWbWJB+BtYcWGrTR15Rs59rHwLJ3f2SNt5NB43LLiv6+h+VxnLbGjcznqMD4moorX8SeIcejOqqg==
   dependencies:
-    "@feathersjs/commons" "^5.0.49"
-    "@feathersjs/feathers" "^5.0.49"
-    "@feathersjs/schema" "^5.0.49"
+    "@feathersjs/commons" "^5.0.50"
+    "@feathersjs/feathers" "^5.0.50"
+    "@feathersjs/schema" "^5.0.50"
     "@types/config" "^3.3.5"
-    config "^4.4.1"
+    config "^5.0.1"
 
 "@feathersjs/errors@^3.3.6":
   version "3.3.6"
@@ -1190,7 +1190,7 @@
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.50.tgz#17a5752a78b06170115b56e9edf621c6da781aa8"
   integrity sha512-sMzZbaRfFio3CgbUDmmxjZqlv+6CgrWpR9eS/t1NYUkx2T29qhnMwvIuBefy9Eu4a/B/UrarIAYJaV09GcvDSg==
 
-"@feathersjs/express@^5.0.49", "@feathersjs/express@^5.0.50":
+"@feathersjs/express@^5.0.50":
   version "5.0.50"
   resolved "https://registry.yarnpkg.com/@feathersjs/express/-/express-5.0.50.tgz#25ebfc036ef3da31d291a8de36f08f67373f8ab0"
   integrity sha512-nhFctY1qHxspufPzVpx/VcOX7vYRD+fVm4NqL5WlML/pjxQSr2dpy45MLJ9RkcCF2wWnwsq+wEtrtA4yYD4Y7w==
@@ -1208,7 +1208,7 @@
     cors "^2.8.6"
     express "^4.21.2"
 
-"@feathersjs/feathers@^5.0.35", "@feathersjs/feathers@^5.0.44", "@feathersjs/feathers@^5.0.49", "@feathersjs/feathers@^5.0.50":
+"@feathersjs/feathers@^5.0.35", "@feathersjs/feathers@^5.0.44", "@feathersjs/feathers@^5.0.50":
   version "5.0.50"
   resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-5.0.50.tgz#4faf14877712dd259cf245d492cf758575cf43a5"
   integrity sha512-rd3swoLKXZ70bcRQovmu1CdIe6NRLnvYmokM/nIyWUo0pHs5sJKZX/slhcNg/Mopcna1tRNZ8+1zzQ7bSKbs3Q==
@@ -1243,7 +1243,7 @@
     koa-qs "^3.0.0"
     koa-static "^5.0.0"
 
-"@feathersjs/schema@^5.0.49", "@feathersjs/schema@^5.0.50":
+"@feathersjs/schema@^5.0.50":
   version "5.0.50"
   resolved "https://registry.yarnpkg.com/@feathersjs/schema/-/schema-5.0.50.tgz#91dd73bd4ddb76e124d74783a5c66b8d7a830e2d"
   integrity sha512-fnUI0F5V7VPzSl6ezBV5PPnfPkwNfIKscbV0wvmxpil6ktFHj1HjHiXkYvRtmfJ3kYdTDyAZ9DMbow+iYJ/SNw==
@@ -3242,10 +3242,10 @@ concat-map@0.0.1:
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
-config@^4.4.1:
-  version "4.4.1"
-  resolved "https://registry.yarnpkg.com/config/-/config-4.4.1.tgz#01e3f6bdd261ccf211a4fdb2f1b319aa5a2928ad"
-  integrity sha512-XfN4Q4+wBKkGtgMyQ+5ayjepdb0MrdiGKfBr0G1PTLx9rnqsX+Xiw03LEUtSALZU0UVfcFp6+xYV0NL8HLF94g==
+config@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/config/-/config-5.0.1.tgz#6117ab8815df7c3f59becdd7c2759c249c7f8384"
+  integrity sha512-vnJGpQA9FjKSTafO9TiNZr1+NiZAIuZXScp034tH+R6VH3Ufe7r+Z730j/f6/KQ2+kNIly6auTYloIaNhpK8lg==
   dependencies:
     json5 "^2.2.3"
 
