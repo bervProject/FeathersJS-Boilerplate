@@ -1258,10 +1258,10 @@
     ajv-formats "^3.0.1"
     json-schema-to-ts "^3.1.1"
 
-"@feathersjs/socketio@^5.0.50":
-  version "5.0.50"
-  resolved "https://registry.yarnpkg.com/@feathersjs/socketio/-/socketio-5.0.50.tgz#ded0129b507e17e174ce57d0d8742f507820100f"
-  integrity sha512-+IHpmrGj/ClG3DY59Le/xl5ETQY8rNRNBgsaCJc8rMRruPZQ8LVSpL03Df4KbvzF96PuCfx9Y6JfuURN36EKHw==
+"@feathersjs/socketio@^5.0.51":
+  version "5.0.51"
+  resolved "https://registry.yarnpkg.com/@feathersjs/socketio/-/socketio-5.0.51.tgz#f6b54b705697f676ad9d3680aabdd0f01c438cb6"
+  integrity sha512-26uVTz1QDtJ8ka3ZsIqY9LhULUR8VMumccho6XOJulDscPuXdN6LJC8rZyZ9XUtqHNu3KIYoR9+32RpHqkFI+A==
   dependencies:
     "@feathersjs/commons" "^5.0.50"
     "@feathersjs/feathers" "^5.0.50"
