@@ -2277,10 +2277,10 @@
   resolved "https://registry.yarnpkg.com/@types/ms/-/ms-2.1.0.tgz#052aa67a48eccc4309d7f0191b7e41434b90bb78"
   integrity sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==
 
-"@types/multer@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@types/multer/-/multer-2.2.0.tgz#f987c770cbe309d1b5e60c251851d6550f121f61"
-  integrity sha512-3U1troeqGV8Ntp7Q3klwf4zr23VEoqYVocYXaswm9+8z3O9UHDYAqLxjJ/h550iRADTjKdOdhhasXw6gD6kYtg==
+"@types/multer@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@types/multer/-/multer-2.3.0.tgz#a9458b01a0ee36a8d2e612795c8b5facfb8f538a"
+  integrity sha512-i7STIm9V4K2MPH4ZYMtrZAwNxs3kglk2LgleaTuB9pUXgADBcQYQuYMd7+6xgTIxfoggIkFA/DkkvycdZpIARA==
   dependencies:
     "@types/express" "*"
 
